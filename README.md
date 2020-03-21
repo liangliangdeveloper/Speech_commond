@@ -1,0 +1,1 @@
+CNN的基础知识以及TensorFlow语音识别案例提供的官方论文《Convolutional Neural Networks for Small-footprint Keyword Spotting》学习笔记

@@ -1,0 +1,2078 @@
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe F:/ʵϰ/Finaltask/code/Speech_command.py
+2019-07-01 21:04:19.848630: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+validation:3643
+testing:4107
+training:31158
+WARNING:tensorflow:From C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From F:/ʵϰ/Finaltask/code/Speech_command.py:126: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\confusion_matrix.py:193: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\confusion_matrix.py:194: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+INFO:tensorflow:Training from step: 1 
+INFO:tensorflow:Step #1: rate 0.001000, accuracy 12.0%, cross entropy 2.666784
+INFO:tensorflow:Step #2: rate 0.001000, accuracy 8.0%, cross entropy 2.477502
+INFO:tensorflow:Step #3: rate 0.001000, accuracy 9.0%, cross entropy 2.430313
+INFO:tensorflow:Step #4: rate 0.001000, accuracy 8.0%, cross entropy 2.508767
+INFO:tensorflow:Step #5: rate 0.001000, accuracy 10.0%, cross entropy 2.359157
+INFO:tensorflow:Step #6: rate 0.001000, accuracy 5.0%, cross entropy 2.441683
+INFO:tensorflow:Step #7: rate 0.001000, accuracy 10.0%, cross entropy 2.516423
+INFO:tensorflow:Step #8: rate 0.001000, accuracy 14.0%, cross entropy 2.480007
+INFO:tensorflow:Step #9: rate 0.001000, accuracy 16.0%, cross entropy 2.337292
+INFO:tensorflow:Step #10: rate 0.001000, accuracy 13.0%, cross entropy 2.442080
+INFO:tensorflow:Step #11: rate 0.001000, accuracy 11.0%, cross entropy 2.369229
+INFO:tensorflow:Step #12: rate 0.001000, accuracy 11.0%, cross entropy 2.438007
+INFO:tensorflow:Step #13: rate 0.001000, accuracy 16.0%, cross entropy 2.351259
+INFO:tensorflow:Step #14: rate 0.001000, accuracy 14.0%, cross entropy 2.366307
+INFO:tensorflow:Step #15: rate 0.001000, accuracy 12.0%, cross entropy 2.399229
+INFO:tensorflow:Step #16: rate 0.001000, accuracy 10.0%, cross entropy 2.418066
+INFO:tensorflow:Step #17: rate 0.001000, accuracy 12.0%, cross entropy 2.377291
+INFO:tensorflow:Step #18: rate 0.001000, accuracy 15.0%, cross entropy 2.338899
+INFO:tensorflow:Step #19: rate 0.001000, accuracy 12.0%, cross entropy 2.309589
+INFO:tensorflow:Step #20: rate 0.001000, accuracy 19.0%, cross entropy 2.325883
+INFO:tensorflow:Step #21: rate 0.001000, accuracy 7.0%, cross entropy 2.372596
+INFO:tensorflow:Step #22: rate 0.001000, accuracy 12.0%, cross entropy 2.331435
+INFO:tensorflow:Step #23: rate 0.001000, accuracy 9.0%, cross entropy 2.327032
+INFO:tensorflow:Step #24: rate 0.001000, accuracy 11.0%, cross entropy 2.378860
+INFO:tensorflow:Step #25: rate 0.001000, accuracy 4.0%, cross entropy 2.387833
+INFO:tensorflow:Step #26: rate 0.001000, accuracy 15.0%, cross entropy 2.321077
+INFO:tensorflow:Step #27: rate 0.001000, accuracy 10.0%, cross entropy 2.348092
+INFO:tensorflow:Step #28: rate 0.001000, accuracy 7.0%, cross entropy 2.336831
+INFO:tensorflow:Step #29: rate 0.001000, accuracy 10.0%, cross entropy 2.335415
+INFO:tensorflow:Step #30: rate 0.001000, accuracy 6.0%, cross entropy 2.436050
+INFO:tensorflow:Step #31: rate 0.001000, accuracy 13.0%, cross entropy 2.346003
+INFO:tensorflow:Step #32: rate 0.001000, accuracy 8.0%, cross entropy 2.344813
+INFO:tensorflow:Step #33: rate 0.001000, accuracy 12.0%, cross entropy 2.309207
+INFO:tensorflow:Step #34: rate 0.001000, accuracy 11.0%, cross entropy 2.368027
+INFO:tensorflow:Step #35: rate 0.001000, accuracy 10.0%, cross entropy 2.334974
+INFO:tensorflow:Step #36: rate 0.001000, accuracy 14.0%, cross entropy 2.295971
+INFO:tensorflow:Step #37: rate 0.001000, accuracy 20.0%, cross entropy 2.257186
+INFO:tensorflow:Step #38: rate 0.001000, accuracy 14.0%, cross entropy 2.317244
+INFO:tensorflow:Step #39: rate 0.001000, accuracy 10.0%, cross entropy 2.340574
+INFO:tensorflow:Step #40: rate 0.001000, accuracy 16.0%, cross entropy 2.282709
+INFO:tensorflow:Step #41: rate 0.001000, accuracy 12.0%, cross entropy 2.304174
+INFO:tensorflow:Step #42: rate 0.001000, accuracy 17.0%, cross entropy 2.328063
+INFO:tensorflow:Step #43: rate 0.001000, accuracy 7.0%, cross entropy 2.364100
+INFO:tensorflow:Step #44: rate 0.001000, accuracy 16.0%, cross entropy 2.289937
+INFO:tensorflow:Step #45: rate 0.001000, accuracy 17.0%, cross entropy 2.282325
+INFO:tensorflow:Step #46: rate 0.001000, accuracy 7.0%, cross entropy 2.354100
+INFO:tensorflow:Step #47: rate 0.001000, accuracy 9.0%, cross entropy 2.375324
+INFO:tensorflow:Step #48: rate 0.001000, accuracy 17.0%, cross entropy 2.291331
+INFO:tensorflow:Step #49: rate 0.001000, accuracy 9.0%, cross entropy 2.375865
+INFO:tensorflow:Step #50: rate 0.001000, accuracy 12.0%, cross entropy 2.291427
+INFO:tensorflow:Step #51: rate 0.001000, accuracy 7.0%, cross entropy 2.346523
+INFO:tensorflow:Step #52: rate 0.001000, accuracy 8.0%, cross entropy 2.397856
+INFO:tensorflow:Step #53: rate 0.001000, accuracy 9.0%, cross entropy 2.354598
+INFO:tensorflow:Step #54: rate 0.001000, accuracy 16.0%, cross entropy 2.313252
+INFO:tensorflow:Step #55: rate 0.001000, accuracy 12.0%, cross entropy 2.307530
+INFO:tensorflow:Step #56: rate 0.001000, accuracy 16.0%, cross entropy 2.318201
+INFO:tensorflow:Step #57: rate 0.001000, accuracy 11.0%, cross entropy 2.315924
+INFO:tensorflow:Step #58: rate 0.001000, accuracy 13.0%, cross entropy 2.323760
+INFO:tensorflow:Step #59: rate 0.001000, accuracy 15.0%, cross entropy 2.301889
+INFO:tensorflow:Step #60: rate 0.001000, accuracy 13.0%, cross entropy 2.347991
+INFO:tensorflow:Step #61: rate 0.001000, accuracy 12.0%, cross entropy 2.331283
+INFO:tensorflow:Step #62: rate 0.001000, accuracy 6.0%, cross entropy 2.354752
+INFO:tensorflow:Step #63: rate 0.001000, accuracy 10.0%, cross entropy 2.334691
+INFO:tensorflow:Step #64: rate 0.001000, accuracy 7.0%, cross entropy 2.331977
+INFO:tensorflow:Step #65: rate 0.001000, accuracy 6.0%, cross entropy 2.350495
+INFO:tensorflow:Step #66: rate 0.001000, accuracy 12.0%, cross entropy 2.284987
+INFO:tensorflow:Step #67: rate 0.001000, accuracy 13.0%, cross entropy 2.277896
+INFO:tensorflow:Step #68: rate 0.001000, accuracy 13.0%, cross entropy 2.287728
+INFO:tensorflow:Step #69: rate 0.001000, accuracy 18.0%, cross entropy 2.293417
+INFO:tensorflow:Step #70: rate 0.001000, accuracy 11.0%, cross entropy 2.314328
+INFO:tensorflow:Step #71: rate 0.001000, accuracy 13.0%, cross entropy 2.287216
+INFO:tensorflow:Step #72: rate 0.001000, accuracy 14.0%, cross entropy 2.278618
+INFO:tensorflow:Step #73: rate 0.001000, accuracy 17.0%, cross entropy 2.290934
+INFO:tensorflow:Step #74: rate 0.001000, accuracy 9.0%, cross entropy 2.335819
+INFO:tensorflow:Step #75: rate 0.001000, accuracy 11.0%, cross entropy 2.304166
+INFO:tensorflow:Step #76: rate 0.001000, accuracy 16.0%, cross entropy 2.303377
+INFO:tensorflow:Step #77: rate 0.001000, accuracy 14.0%, cross entropy 2.277155
+INFO:tensorflow:Step #78: rate 0.001000, accuracy 12.0%, cross entropy 2.279670
+INFO:tensorflow:Step #79: rate 0.001000, accuracy 13.0%, cross entropy 2.294034
+INFO:tensorflow:Step #80: rate 0.001000, accuracy 16.0%, cross entropy 2.284696
+INFO:tensorflow:Step #81: rate 0.001000, accuracy 15.0%, cross entropy 2.274826
+INFO:tensorflow:Step #82: rate 0.001000, accuracy 11.0%, cross entropy 2.271950
+INFO:tensorflow:Step #83: rate 0.001000, accuracy 14.0%, cross entropy 2.252372
+INFO:tensorflow:Step #84: rate 0.001000, accuracy 17.0%, cross entropy 2.267635
+INFO:tensorflow:Step #85: rate 0.001000, accuracy 12.0%, cross entropy 2.253409
+INFO:tensorflow:Step #86: rate 0.001000, accuracy 15.0%, cross entropy 2.336511
+INFO:tensorflow:Step #87: rate 0.001000, accuracy 13.0%, cross entropy 2.312989
+INFO:tensorflow:Step #88: rate 0.001000, accuracy 10.0%, cross entropy 2.304013
+INFO:tensorflow:Step #89: rate 0.001000, accuracy 11.0%, cross entropy 2.267430
+INFO:tensorflow:Step #90: rate 0.001000, accuracy 14.0%, cross entropy 2.238921
+INFO:tensorflow:Step #91: rate 0.001000, accuracy 18.0%, cross entropy 2.271453
+INFO:tensorflow:Step #92: rate 0.001000, accuracy 21.0%, cross entropy 2.255084
+INFO:tensorflow:Step #93: rate 0.001000, accuracy 14.0%, cross entropy 2.336092
+INFO:tensorflow:Step #94: rate 0.001000, accuracy 17.0%, cross entropy 2.256803
+INFO:tensorflow:Step #95: rate 0.001000, accuracy 16.0%, cross entropy 2.302151
+INFO:tensorflow:Step #96: rate 0.001000, accuracy 12.0%, cross entropy 2.296417
+INFO:tensorflow:Step #97: rate 0.001000, accuracy 15.0%, cross entropy 2.251206
+INFO:tensorflow:Step #98: rate 0.001000, accuracy 16.0%, cross entropy 2.279388
+INFO:tensorflow:Step #99: rate 0.001000, accuracy 8.0%, cross entropy 2.288920
+INFO:tensorflow:Step #100: rate 0.001000, accuracy 16.0%, cross entropy 2.319383
+2019-07-01 21:10:31.588565: W tensorflow/core/framework/allocator.cc:124] Allocation of 200704000 exceeds 10% of system memory.
+2019-07-01 21:10:31.941725: W tensorflow/core/framework/allocator.cc:124] Allocation of 200704000 exceeds 10% of system memory.
+2019-07-01 21:10:34.047200: W tensorflow/core/framework/allocator.cc:124] Allocation of 200704000 exceeds 10% of system memory.
+2019-07-01 21:10:34.419179: W tensorflow/core/framework/allocator.cc:124] Allocation of 200704000 exceeds 10% of system memory.
+2019-07-01 21:10:36.463008: W tensorflow/core/framework/allocator.cc:124] Allocation of 200704000 exceeds 10% of system memory.
+INFO:tensorflow:Confusion Matrix:
+ [[152  47  23  12  66   4   0   3  53  24]
+ [ 15 117  12   7 115   3   0   0  35  47]
+ [ 54  60  33   7  75   1   0   0 103  12]
+ [ 54  60  22  37  41   0   0   1 120  21]
+ [ 36  54  12  14 205   2   0   1  27  22]
+ [ 32  50  19   6  74  31   0   2  60  93]
+ [ 24  33   8  17  29   3   2   1 241  20]
+ [ 81  67  22  11  92   4   0   6  73  31]
+ [ 26  48  13  10  14   0   0   2 192  41]
+ [ 53  82   9   5  63   7   0   0  52  85]]
+INFO:tensorflow:Step 100: Validation accuracy = 11.9% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-100"
+INFO:tensorflow:Step #101: rate 0.001000, accuracy 16.0%, cross entropy 2.215308
+INFO:tensorflow:Step #102: rate 0.001000, accuracy 7.0%, cross entropy 2.312459
+INFO:tensorflow:Step #103: rate 0.001000, accuracy 15.0%, cross entropy 2.314515
+INFO:tensorflow:Step #104: rate 0.001000, accuracy 14.0%, cross entropy 2.280467
+INFO:tensorflow:Step #105: rate 0.001000, accuracy 16.0%, cross entropy 2.283154
+INFO:tensorflow:Step #106: rate 0.001000, accuracy 18.0%, cross entropy 2.282052
+INFO:tensorflow:Step #107: rate 0.001000, accuracy 10.0%, cross entropy 2.250640
+INFO:tensorflow:Step #108: rate 0.001000, accuracy 10.0%, cross entropy 2.289123
+INFO:tensorflow:Step #109: rate 0.001000, accuracy 11.0%, cross entropy 2.271393
+INFO:tensorflow:Step #110: rate 0.001000, accuracy 20.0%, cross entropy 2.277570
+INFO:tensorflow:Step #111: rate 0.001000, accuracy 15.0%, cross entropy 2.284835
+INFO:tensorflow:Step #112: rate 0.001000, accuracy 14.0%, cross entropy 2.244736
+INFO:tensorflow:Step #113: rate 0.001000, accuracy 17.0%, cross entropy 2.257759
+INFO:tensorflow:Step #114: rate 0.001000, accuracy 11.0%, cross entropy 2.308657
+INFO:tensorflow:Step #115: rate 0.001000, accuracy 17.0%, cross entropy 2.255656
+INFO:tensorflow:Step #116: rate 0.001000, accuracy 11.0%, cross entropy 2.287828
+INFO:tensorflow:Step #117: rate 0.001000, accuracy 22.0%, cross entropy 2.249193
+INFO:tensorflow:Step #118: rate 0.001000, accuracy 9.0%, cross entropy 2.283283
+INFO:tensorflow:Step #119: rate 0.001000, accuracy 10.0%, cross entropy 2.287235
+INFO:tensorflow:Step #120: rate 0.001000, accuracy 14.0%, cross entropy 2.279641
+INFO:tensorflow:Step #121: rate 0.001000, accuracy 14.0%, cross entropy 2.310864
+INFO:tensorflow:Step #122: rate 0.001000, accuracy 14.0%, cross entropy 2.275759
+INFO:tensorflow:Step #123: rate 0.001000, accuracy 18.0%, cross entropy 2.264912
+INFO:tensorflow:Step #124: rate 0.001000, accuracy 18.0%, cross entropy 2.273773
+INFO:tensorflow:Step #125: rate 0.001000, accuracy 18.0%, cross entropy 2.267182
+INFO:tensorflow:Step #126: rate 0.001000, accuracy 18.0%, cross entropy 2.267310
+INFO:tensorflow:Step #127: rate 0.001000, accuracy 17.0%, cross entropy 2.304718
+INFO:tensorflow:Step #128: rate 0.001000, accuracy 15.0%, cross entropy 2.288459
+INFO:tensorflow:Step #129: rate 0.001000, accuracy 19.0%, cross entropy 2.205224
+INFO:tensorflow:Step #130: rate 0.001000, accuracy 17.0%, cross entropy 2.262621
+INFO:tensorflow:Step #131: rate 0.001000, accuracy 16.0%, cross entropy 2.278499
+INFO:tensorflow:Step #132: rate 0.001000, accuracy 15.0%, cross entropy 2.282281
+INFO:tensorflow:Step #133: rate 0.001000, accuracy 21.0%, cross entropy 2.230620
+INFO:tensorflow:Step #134: rate 0.001000, accuracy 13.0%, cross entropy 2.293966
+INFO:tensorflow:Step #135: rate 0.001000, accuracy 14.0%, cross entropy 2.266970
+INFO:tensorflow:Step #136: rate 0.001000, accuracy 14.0%, cross entropy 2.271579
+INFO:tensorflow:Step #137: rate 0.001000, accuracy 20.0%, cross entropy 2.247315
+INFO:tensorflow:Step #138: rate 0.001000, accuracy 17.0%, cross entropy 2.255387
+INFO:tensorflow:Step #139: rate 0.001000, accuracy 10.0%, cross entropy 2.310504
+INFO:tensorflow:Step #140: rate 0.001000, accuracy 14.0%, cross entropy 2.300048
+INFO:tensorflow:Step #141: rate 0.001000, accuracy 16.0%, cross entropy 2.269801
+INFO:tensorflow:Step #142: rate 0.001000, accuracy 20.0%, cross entropy 2.236469
+INFO:tensorflow:Step #143: rate 0.001000, accuracy 18.0%, cross entropy 2.255598
+INFO:tensorflow:Step #144: rate 0.001000, accuracy 15.0%, cross entropy 2.244755
+INFO:tensorflow:Step #145: rate 0.001000, accuracy 20.0%, cross entropy 2.259017
+INFO:tensorflow:Step #146: rate 0.001000, accuracy 23.0%, cross entropy 2.206619
+INFO:tensorflow:Step #147: rate 0.001000, accuracy 20.0%, cross entropy 2.254218
+INFO:tensorflow:Step #148: rate 0.001000, accuracy 15.0%, cross entropy 2.274928
+INFO:tensorflow:Step #149: rate 0.001000, accuracy 14.0%, cross entropy 2.227437
+INFO:tensorflow:Step #150: rate 0.001000, accuracy 27.0%, cross entropy 2.261482
+INFO:tensorflow:Step #151: rate 0.001000, accuracy 15.0%, cross entropy 2.276009
+INFO:tensorflow:Step #152: rate 0.001000, accuracy 15.0%, cross entropy 2.275450
+INFO:tensorflow:Step #153: rate 0.001000, accuracy 16.0%, cross entropy 2.253576
+INFO:tensorflow:Step #154: rate 0.001000, accuracy 16.0%, cross entropy 2.258599
+INFO:tensorflow:Step #155: rate 0.001000, accuracy 14.0%, cross entropy 2.252128
+INFO:tensorflow:Step #156: rate 0.001000, accuracy 19.0%, cross entropy 2.231060
+INFO:tensorflow:Step #157: rate 0.001000, accuracy 16.0%, cross entropy 2.224739
+INFO:tensorflow:Step #158: rate 0.001000, accuracy 28.0%, cross entropy 2.203987
+INFO:tensorflow:Step #159: rate 0.001000, accuracy 15.0%, cross entropy 2.352975
+INFO:tensorflow:Step #160: rate 0.001000, accuracy 17.0%, cross entropy 2.211198
+INFO:tensorflow:Step #161: rate 0.001000, accuracy 11.0%, cross entropy 2.308691
+INFO:tensorflow:Step #162: rate 0.001000, accuracy 19.0%, cross entropy 2.265164
+INFO:tensorflow:Step #163: rate 0.001000, accuracy 18.0%, cross entropy 2.231694
+INFO:tensorflow:Step #164: rate 0.001000, accuracy 22.0%, cross entropy 2.206808
+INFO:tensorflow:Step #165: rate 0.001000, accuracy 11.0%, cross entropy 2.286752
+INFO:tensorflow:Step #166: rate 0.001000, accuracy 21.0%, cross entropy 2.246700
+INFO:tensorflow:Step #167: rate 0.001000, accuracy 24.0%, cross entropy 2.225840
+INFO:tensorflow:Step #168: rate 0.001000, accuracy 21.0%, cross entropy 2.224167
+INFO:tensorflow:Step #169: rate 0.001000, accuracy 19.0%, cross entropy 2.223951
+INFO:tensorflow:Step #170: rate 0.001000, accuracy 22.0%, cross entropy 2.182770
+INFO:tensorflow:Step #171: rate 0.001000, accuracy 19.0%, cross entropy 2.209234
+INFO:tensorflow:Step #172: rate 0.001000, accuracy 20.0%, cross entropy 2.240336
+INFO:tensorflow:Step #173: rate 0.001000, accuracy 23.0%, cross entropy 2.179241
+INFO:tensorflow:Step #174: rate 0.001000, accuracy 18.0%, cross entropy 2.261205
+INFO:tensorflow:Step #175: rate 0.001000, accuracy 20.0%, cross entropy 2.215599
+INFO:tensorflow:Step #176: rate 0.001000, accuracy 21.0%, cross entropy 2.210791
+INFO:tensorflow:Step #177: rate 0.001000, accuracy 18.0%, cross entropy 2.203583
+INFO:tensorflow:Step #178: rate 0.001000, accuracy 14.0%, cross entropy 2.239853
+INFO:tensorflow:Step #179: rate 0.001000, accuracy 18.0%, cross entropy 2.221958
+INFO:tensorflow:Step #180: rate 0.001000, accuracy 14.0%, cross entropy 2.286732
+INFO:tensorflow:Step #181: rate 0.001000, accuracy 20.0%, cross entropy 2.254432
+INFO:tensorflow:Step #182: rate 0.001000, accuracy 26.0%, cross entropy 2.209354
+INFO:tensorflow:Step #183: rate 0.001000, accuracy 18.0%, cross entropy 2.233826
+INFO:tensorflow:Step #184: rate 0.001000, accuracy 30.0%, cross entropy 2.191258
+INFO:tensorflow:Step #185: rate 0.001000, accuracy 19.0%, cross entropy 2.247916
+INFO:tensorflow:Step #186: rate 0.001000, accuracy 26.0%, cross entropy 2.209654
+INFO:tensorflow:Step #187: rate 0.001000, accuracy 17.0%, cross entropy 2.188681
+INFO:tensorflow:Step #188: rate 0.001000, accuracy 18.0%, cross entropy 2.221873
+INFO:tensorflow:Step #189: rate 0.001000, accuracy 20.0%, cross entropy 2.217667
+INFO:tensorflow:Step #190: rate 0.001000, accuracy 17.0%, cross entropy 2.253271
+INFO:tensorflow:Step #191: rate 0.001000, accuracy 21.0%, cross entropy 2.207978
+INFO:tensorflow:Step #192: rate 0.001000, accuracy 18.0%, cross entropy 2.231137
+INFO:tensorflow:Step #193: rate 0.001000, accuracy 14.0%, cross entropy 2.257595
+INFO:tensorflow:Step #194: rate 0.001000, accuracy 17.0%, cross entropy 2.229442
+INFO:tensorflow:Step #195: rate 0.001000, accuracy 15.0%, cross entropy 2.235144
+INFO:tensorflow:Step #196: rate 0.001000, accuracy 20.0%, cross entropy 2.262749
+INFO:tensorflow:Step #197: rate 0.001000, accuracy 24.0%, cross entropy 2.199313
+INFO:tensorflow:Step #198: rate 0.001000, accuracy 22.0%, cross entropy 2.209768
+INFO:tensorflow:Step #199: rate 0.001000, accuracy 16.0%, cross entropy 2.213678
+INFO:tensorflow:Step #200: rate 0.001000, accuracy 18.0%, cross entropy 2.217047
+INFO:tensorflow:Confusion Matrix:
+ [[184  87  12  10  55   5   5   4   4  18]
+ [ 15 208   5   5  66   5   3   1   1  42]
+ [ 53 145  30  31  55   2   9   5   7   8]
+ [ 45 164  19  60  19   5  13   6   9  16]
+ [ 36  91  11   5 199   2   8   1   1  19]
+ [ 15 104  10   3  51  61  21   5   1  96]
+ [ 11 105   9  17  14  10 164   1  21  26]
+ [ 76 133  17  13  47  10  23  21   4  43]
+ [ 14 150  19  29   9   9  51   1  33  31]
+ [ 24 137   9   4  36   8   5   6   4 123]]
+INFO:tensorflow:Step 200: Validation accuracy = 15.1% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-200"
+INFO:tensorflow:Step #201: rate 0.001000, accuracy 13.0%, cross entropy 2.258000
+INFO:tensorflow:Step #202: rate 0.001000, accuracy 18.0%, cross entropy 2.191354
+INFO:tensorflow:Step #203: rate 0.001000, accuracy 20.0%, cross entropy 2.214541
+INFO:tensorflow:Step #204: rate 0.001000, accuracy 21.0%, cross entropy 2.245812
+INFO:tensorflow:Step #205: rate 0.001000, accuracy 25.0%, cross entropy 2.187564
+INFO:tensorflow:Step #206: rate 0.001000, accuracy 12.0%, cross entropy 2.214427
+INFO:tensorflow:Step #207: rate 0.001000, accuracy 25.0%, cross entropy 2.166559
+INFO:tensorflow:Step #208: rate 0.001000, accuracy 30.0%, cross entropy 2.173028
+INFO:tensorflow:Step #209: rate 0.001000, accuracy 19.0%, cross entropy 2.189576
+INFO:tensorflow:Step #210: rate 0.001000, accuracy 24.0%, cross entropy 2.179204
+INFO:tensorflow:Step #211: rate 0.001000, accuracy 23.0%, cross entropy 2.226295
+INFO:tensorflow:Step #212: rate 0.001000, accuracy 13.0%, cross entropy 2.210112
+INFO:tensorflow:Step #213: rate 0.001000, accuracy 18.0%, cross entropy 2.234209
+INFO:tensorflow:Step #214: rate 0.001000, accuracy 24.0%, cross entropy 2.191136
+INFO:tensorflow:Step #215: rate 0.001000, accuracy 20.0%, cross entropy 2.122427
+INFO:tensorflow:Step #216: rate 0.001000, accuracy 17.0%, cross entropy 2.222393
+INFO:tensorflow:Step #217: rate 0.001000, accuracy 20.0%, cross entropy 2.209650
+INFO:tensorflow:Step #218: rate 0.001000, accuracy 22.0%, cross entropy 2.175379
+INFO:tensorflow:Step #219: rate 0.001000, accuracy 20.0%, cross entropy 2.168309
+INFO:tensorflow:Step #220: rate 0.001000, accuracy 20.0%, cross entropy 2.219372
+INFO:tensorflow:Step #221: rate 0.001000, accuracy 17.0%, cross entropy 2.248090
+INFO:tensorflow:Step #222: rate 0.001000, accuracy 24.0%, cross entropy 2.181758
+INFO:tensorflow:Step #223: rate 0.001000, accuracy 27.0%, cross entropy 2.164598
+INFO:tensorflow:Step #224: rate 0.001000, accuracy 17.0%, cross entropy 2.184689
+INFO:tensorflow:Step #225: rate 0.001000, accuracy 20.0%, cross entropy 2.148759
+INFO:tensorflow:Step #226: rate 0.001000, accuracy 19.0%, cross entropy 2.192252
+INFO:tensorflow:Step #227: rate 0.001000, accuracy 27.0%, cross entropy 2.167518
+INFO:tensorflow:Step #228: rate 0.001000, accuracy 26.0%, cross entropy 2.155892
+INFO:tensorflow:Step #229: rate 0.001000, accuracy 25.0%, cross entropy 2.129856
+INFO:tensorflow:Step #230: rate 0.001000, accuracy 27.0%, cross entropy 2.111794
+INFO:tensorflow:Step #231: rate 0.001000, accuracy 22.0%, cross entropy 2.153809
+INFO:tensorflow:Step #232: rate 0.001000, accuracy 22.0%, cross entropy 2.184740
+INFO:tensorflow:Step #233: rate 0.001000, accuracy 22.0%, cross entropy 2.214452
+INFO:tensorflow:Step #234: rate 0.001000, accuracy 19.0%, cross entropy 2.225764
+INFO:tensorflow:Step #235: rate 0.001000, accuracy 24.0%, cross entropy 2.127427
+INFO:tensorflow:Step #236: rate 0.001000, accuracy 18.0%, cross entropy 2.205921
+INFO:tensorflow:Step #237: rate 0.001000, accuracy 28.0%, cross entropy 2.147321
+INFO:tensorflow:Step #238: rate 0.001000, accuracy 18.0%, cross entropy 2.209395
+INFO:tensorflow:Step #239: rate 0.001000, accuracy 27.0%, cross entropy 2.117398
+INFO:tensorflow:Step #240: rate 0.001000, accuracy 26.0%, cross entropy 2.119169
+INFO:tensorflow:Step #241: rate 0.001000, accuracy 23.0%, cross entropy 2.147801
+INFO:tensorflow:Step #242: rate 0.001000, accuracy 26.0%, cross entropy 2.126089
+INFO:tensorflow:Step #243: rate 0.001000, accuracy 25.0%, cross entropy 2.181034
+INFO:tensorflow:Step #244: rate 0.001000, accuracy 26.0%, cross entropy 2.167365
+INFO:tensorflow:Step #245: rate 0.001000, accuracy 24.0%, cross entropy 2.160065
+INFO:tensorflow:Step #246: rate 0.001000, accuracy 24.0%, cross entropy 2.184612
+INFO:tensorflow:Step #247: rate 0.001000, accuracy 16.0%, cross entropy 2.256520
+INFO:tensorflow:Step #248: rate 0.001000, accuracy 28.0%, cross entropy 2.122867
+INFO:tensorflow:Step #249: rate 0.001000, accuracy 23.0%, cross entropy 2.128538
+INFO:tensorflow:Step #250: rate 0.001000, accuracy 21.0%, cross entropy 2.129409
+INFO:tensorflow:Step #251: rate 0.001000, accuracy 25.0%, cross entropy 2.165439
+INFO:tensorflow:Step #252: rate 0.001000, accuracy 33.0%, cross entropy 2.068810
+INFO:tensorflow:Step #253: rate 0.001000, accuracy 24.0%, cross entropy 2.132085
+INFO:tensorflow:Step #254: rate 0.001000, accuracy 25.0%, cross entropy 2.134414
+INFO:tensorflow:Step #255: rate 0.001000, accuracy 21.0%, cross entropy 2.137420
+INFO:tensorflow:Step #256: rate 0.001000, accuracy 26.0%, cross entropy 2.183552
+INFO:tensorflow:Step #257: rate 0.001000, accuracy 23.0%, cross entropy 2.170821
+INFO:tensorflow:Step #258: rate 0.001000, accuracy 26.0%, cross entropy 2.097441
+INFO:tensorflow:Step #259: rate 0.001000, accuracy 23.0%, cross entropy 2.166828
+INFO:tensorflow:Step #260: rate 0.001000, accuracy 27.0%, cross entropy 2.097165
+INFO:tensorflow:Step #261: rate 0.001000, accuracy 17.0%, cross entropy 2.183985
+INFO:tensorflow:Step #262: rate 0.001000, accuracy 20.0%, cross entropy 2.200715
+INFO:tensorflow:Step #263: rate 0.001000, accuracy 26.0%, cross entropy 2.092432
+INFO:tensorflow:Step #264: rate 0.001000, accuracy 23.0%, cross entropy 2.097168
+INFO:tensorflow:Step #265: rate 0.001000, accuracy 26.0%, cross entropy 2.126445
+INFO:tensorflow:Step #266: rate 0.001000, accuracy 28.0%, cross entropy 2.138915
+INFO:tensorflow:Step #267: rate 0.001000, accuracy 21.0%, cross entropy 2.176392
+INFO:tensorflow:Step #268: rate 0.001000, accuracy 22.0%, cross entropy 2.130700
+INFO:tensorflow:Step #269: rate 0.001000, accuracy 26.0%, cross entropy 2.160397
+INFO:tensorflow:Step #270: rate 0.001000, accuracy 19.0%, cross entropy 2.142333
+INFO:tensorflow:Step #271: rate 0.001000, accuracy 24.0%, cross entropy 2.166751
+INFO:tensorflow:Step #272: rate 0.001000, accuracy 21.0%, cross entropy 2.122591
+INFO:tensorflow:Step #273: rate 0.001000, accuracy 20.0%, cross entropy 2.184734
+INFO:tensorflow:Step #274: rate 0.001000, accuracy 16.0%, cross entropy 2.175619
+INFO:tensorflow:Step #275: rate 0.001000, accuracy 23.0%, cross entropy 2.123760
+INFO:tensorflow:Step #276: rate 0.001000, accuracy 13.0%, cross entropy 2.196515
+INFO:tensorflow:Step #277: rate 0.001000, accuracy 28.0%, cross entropy 2.085628
+INFO:tensorflow:Step #278: rate 0.001000, accuracy 22.0%, cross entropy 2.142879
+INFO:tensorflow:Step #279: rate 0.001000, accuracy 31.0%, cross entropy 2.079054
+INFO:tensorflow:Step #280: rate 0.001000, accuracy 21.0%, cross entropy 2.100310
+INFO:tensorflow:Step #281: rate 0.001000, accuracy 24.0%, cross entropy 2.199742
+INFO:tensorflow:Step #282: rate 0.001000, accuracy 21.0%, cross entropy 2.126381
+INFO:tensorflow:Step #283: rate 0.001000, accuracy 25.0%, cross entropy 2.091979
+INFO:tensorflow:Step #284: rate 0.001000, accuracy 23.0%, cross entropy 2.184500
+INFO:tensorflow:Step #285: rate 0.001000, accuracy 24.0%, cross entropy 2.144078
+INFO:tensorflow:Step #286: rate 0.001000, accuracy 30.0%, cross entropy 2.072382
+INFO:tensorflow:Step #287: rate 0.001000, accuracy 28.0%, cross entropy 2.088848
+INFO:tensorflow:Step #288: rate 0.001000, accuracy 26.0%, cross entropy 2.139037
+INFO:tensorflow:Step #289: rate 0.001000, accuracy 29.0%, cross entropy 2.079245
+INFO:tensorflow:Step #290: rate 0.001000, accuracy 24.0%, cross entropy 2.165962
+INFO:tensorflow:Step #291: rate 0.001000, accuracy 34.0%, cross entropy 2.055438
+INFO:tensorflow:Step #292: rate 0.001000, accuracy 21.0%, cross entropy 2.169367
+INFO:tensorflow:Step #293: rate 0.001000, accuracy 24.0%, cross entropy 2.190477
+INFO:tensorflow:Step #294: rate 0.001000, accuracy 24.0%, cross entropy 2.057653
+INFO:tensorflow:Step #295: rate 0.001000, accuracy 32.0%, cross entropy 2.013052
+INFO:tensorflow:Step #296: rate 0.001000, accuracy 27.0%, cross entropy 2.057511
+INFO:tensorflow:Step #297: rate 0.001000, accuracy 24.0%, cross entropy 2.068702
+INFO:tensorflow:Step #298: rate 0.001000, accuracy 27.0%, cross entropy 2.126303
+INFO:tensorflow:Step #299: rate 0.001000, accuracy 35.0%, cross entropy 2.056709
+INFO:tensorflow:Step #300: rate 0.001000, accuracy 26.0%, cross entropy 2.146750
+INFO:tensorflow:Confusion Matrix:
+ [[256  40   0  14  22  11   4  13  16   8]
+ [ 51 153   1   5  52  11   4   6  16  52]
+ [107  61  15  48  27   3   8  18  52   6]
+ [ 66  50   6 107   6   4  15  22  67  13]
+ [ 80  68   0   6 173  16   7   8   4  11]
+ [ 33  49   0   3  37 110  24  25   6  80]
+ [ 20  23   2  18  11  17 170  12  88  17]
+ [ 97  54   4  16  28  23  20 102  19  24]
+ [ 24  31   3  44   4   6  44  10 157  23]
+ [ 71  75   1  12  14  20   7  17  16 123]]
+INFO:tensorflow:Step 300: Validation accuracy = 19.0% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-300"
+INFO:tensorflow:Step #301: rate 0.001000, accuracy 31.0%, cross entropy 2.079358
+INFO:tensorflow:Step #302: rate 0.001000, accuracy 29.0%, cross entropy 2.050791
+INFO:tensorflow:Step #303: rate 0.001000, accuracy 27.0%, cross entropy 2.069965
+INFO:tensorflow:Step #304: rate 0.001000, accuracy 21.0%, cross entropy 2.122941
+INFO:tensorflow:Step #305: rate 0.001000, accuracy 23.0%, cross entropy 2.091875
+INFO:tensorflow:Step #306: rate 0.001000, accuracy 32.0%, cross entropy 2.080494
+INFO:tensorflow:Step #307: rate 0.001000, accuracy 31.0%, cross entropy 2.034877
+INFO:tensorflow:Step #308: rate 0.001000, accuracy 26.0%, cross entropy 2.118196
+INFO:tensorflow:Step #309: rate 0.001000, accuracy 31.0%, cross entropy 2.090793
+INFO:tensorflow:Step #310: rate 0.001000, accuracy 22.0%, cross entropy 2.103862
+INFO:tensorflow:Step #311: rate 0.001000, accuracy 23.0%, cross entropy 2.084212
+INFO:tensorflow:Step #312: rate 0.001000, accuracy 28.0%, cross entropy 2.081546
+INFO:tensorflow:Step #313: rate 0.001000, accuracy 32.0%, cross entropy 2.039860
+INFO:tensorflow:Step #314: rate 0.001000, accuracy 26.0%, cross entropy 2.104350
+INFO:tensorflow:Step #315: rate 0.001000, accuracy 26.0%, cross entropy 2.142472
+INFO:tensorflow:Step #316: rate 0.001000, accuracy 31.0%, cross entropy 2.024208
+INFO:tensorflow:Step #317: rate 0.001000, accuracy 21.0%, cross entropy 2.126047
+INFO:tensorflow:Step #318: rate 0.001000, accuracy 33.0%, cross entropy 2.047762
+INFO:tensorflow:Step #319: rate 0.001000, accuracy 27.0%, cross entropy 2.136567
+INFO:tensorflow:Step #320: rate 0.001000, accuracy 33.0%, cross entropy 1.965569
+INFO:tensorflow:Step #321: rate 0.001000, accuracy 21.0%, cross entropy 2.071272
+INFO:tensorflow:Step #322: rate 0.001000, accuracy 26.0%, cross entropy 2.064340
+INFO:tensorflow:Step #323: rate 0.001000, accuracy 28.0%, cross entropy 2.100162
+INFO:tensorflow:Step #324: rate 0.001000, accuracy 27.0%, cross entropy 2.055652
+INFO:tensorflow:Step #325: rate 0.001000, accuracy 38.0%, cross entropy 2.017760
+INFO:tensorflow:Step #326: rate 0.001000, accuracy 31.0%, cross entropy 2.066876
+INFO:tensorflow:Step #327: rate 0.001000, accuracy 31.0%, cross entropy 1.969469
+INFO:tensorflow:Step #328: rate 0.001000, accuracy 38.0%, cross entropy 1.974720
+INFO:tensorflow:Step #329: rate 0.001000, accuracy 32.0%, cross entropy 2.118999
+INFO:tensorflow:Step #330: rate 0.001000, accuracy 28.0%, cross entropy 1.960029
+INFO:tensorflow:Step #331: rate 0.001000, accuracy 23.0%, cross entropy 2.078189
+INFO:tensorflow:Step #332: rate 0.001000, accuracy 22.0%, cross entropy 2.039175
+INFO:tensorflow:Step #333: rate 0.001000, accuracy 40.0%, cross entropy 1.983230
+INFO:tensorflow:Step #334: rate 0.001000, accuracy 22.0%, cross entropy 2.054578
+INFO:tensorflow:Step #335: rate 0.001000, accuracy 32.0%, cross entropy 1.929913
+INFO:tensorflow:Step #336: rate 0.001000, accuracy 34.0%, cross entropy 1.957980
+INFO:tensorflow:Step #337: rate 0.001000, accuracy 40.0%, cross entropy 1.926883
+INFO:tensorflow:Step #338: rate 0.001000, accuracy 31.0%, cross entropy 2.050704
+INFO:tensorflow:Step #339: rate 0.001000, accuracy 31.0%, cross entropy 2.040050
+INFO:tensorflow:Step #340: rate 0.001000, accuracy 31.0%, cross entropy 2.029667
+INFO:tensorflow:Step #341: rate 0.001000, accuracy 27.0%, cross entropy 1.996778
+INFO:tensorflow:Step #342: rate 0.001000, accuracy 25.0%, cross entropy 2.052327
+INFO:tensorflow:Step #343: rate 0.001000, accuracy 33.0%, cross entropy 1.988956
+INFO:tensorflow:Step #344: rate 0.001000, accuracy 36.0%, cross entropy 1.976502
+INFO:tensorflow:Step #345: rate 0.001000, accuracy 36.0%, cross entropy 1.978749
+INFO:tensorflow:Step #346: rate 0.001000, accuracy 36.0%, cross entropy 1.913921
+INFO:tensorflow:Step #347: rate 0.001000, accuracy 22.0%, cross entropy 2.043090
+INFO:tensorflow:Step #348: rate 0.001000, accuracy 29.0%, cross entropy 2.032283
+INFO:tensorflow:Step #349: rate 0.001000, accuracy 30.0%, cross entropy 1.994197
+INFO:tensorflow:Step #350: rate 0.001000, accuracy 34.0%, cross entropy 1.947596
+INFO:tensorflow:Step #351: rate 0.001000, accuracy 27.0%, cross entropy 1.939861
+INFO:tensorflow:Step #352: rate 0.001000, accuracy 32.0%, cross entropy 2.021713
+INFO:tensorflow:Step #353: rate 0.001000, accuracy 32.0%, cross entropy 1.968515
+INFO:tensorflow:Step #354: rate 0.001000, accuracy 27.0%, cross entropy 2.005168
+INFO:tensorflow:Step #355: rate 0.001000, accuracy 27.0%, cross entropy 1.988898
+INFO:tensorflow:Step #356: rate 0.001000, accuracy 31.0%, cross entropy 1.945752
+INFO:tensorflow:Step #357: rate 0.001000, accuracy 24.0%, cross entropy 1.966171
+INFO:tensorflow:Step #358: rate 0.001000, accuracy 26.0%, cross entropy 2.055066
+INFO:tensorflow:Step #359: rate 0.001000, accuracy 30.0%, cross entropy 1.947505
+INFO:tensorflow:Step #360: rate 0.001000, accuracy 32.0%, cross entropy 1.954298
+INFO:tensorflow:Step #361: rate 0.001000, accuracy 29.0%, cross entropy 2.044262
+INFO:tensorflow:Step #362: rate 0.001000, accuracy 30.0%, cross entropy 2.034909
+INFO:tensorflow:Step #363: rate 0.001000, accuracy 38.0%, cross entropy 1.898234
+INFO:tensorflow:Step #364: rate 0.001000, accuracy 35.0%, cross entropy 1.965473
+INFO:tensorflow:Step #365: rate 0.001000, accuracy 36.0%, cross entropy 1.911569
+INFO:tensorflow:Step #366: rate 0.001000, accuracy 28.0%, cross entropy 2.005149
+INFO:tensorflow:Step #367: rate 0.001000, accuracy 24.0%, cross entropy 2.056107
+INFO:tensorflow:Step #368: rate 0.001000, accuracy 35.0%, cross entropy 1.939972
+INFO:tensorflow:Step #369: rate 0.001000, accuracy 36.0%, cross entropy 1.904621
+INFO:tensorflow:Step #370: rate 0.001000, accuracy 28.0%, cross entropy 2.019785
+INFO:tensorflow:Step #371: rate 0.001000, accuracy 32.0%, cross entropy 2.003480
+INFO:tensorflow:Step #372: rate 0.001000, accuracy 31.0%, cross entropy 1.933549
+INFO:tensorflow:Step #373: rate 0.001000, accuracy 27.0%, cross entropy 2.052422
+INFO:tensorflow:Step #374: rate 0.001000, accuracy 30.0%, cross entropy 2.003498
+INFO:tensorflow:Step #375: rate 0.001000, accuracy 35.0%, cross entropy 1.948720
+INFO:tensorflow:Step #376: rate 0.001000, accuracy 27.0%, cross entropy 1.961159
+INFO:tensorflow:Step #377: rate 0.001000, accuracy 38.0%, cross entropy 1.810401
+INFO:tensorflow:Step #378: rate 0.001000, accuracy 40.0%, cross entropy 1.925528
+INFO:tensorflow:Step #379: rate 0.001000, accuracy 35.0%, cross entropy 1.996211
+INFO:tensorflow:Step #380: rate 0.001000, accuracy 33.0%, cross entropy 1.927249
+INFO:tensorflow:Step #381: rate 0.001000, accuracy 29.0%, cross entropy 2.046069
+INFO:tensorflow:Step #382: rate 0.001000, accuracy 33.0%, cross entropy 1.900703
+INFO:tensorflow:Step #383: rate 0.001000, accuracy 23.0%, cross entropy 2.037225
+INFO:tensorflow:Step #384: rate 0.001000, accuracy 19.0%, cross entropy 1.989099
+INFO:tensorflow:Step #385: rate 0.001000, accuracy 30.0%, cross entropy 1.956468
+INFO:tensorflow:Step #386: rate 0.001000, accuracy 33.0%, cross entropy 1.976233
+INFO:tensorflow:Step #387: rate 0.001000, accuracy 28.0%, cross entropy 2.029421
+INFO:tensorflow:Step #388: rate 0.001000, accuracy 26.0%, cross entropy 2.025066
+INFO:tensorflow:Step #389: rate 0.001000, accuracy 35.0%, cross entropy 1.881049
+INFO:tensorflow:Step #390: rate 0.001000, accuracy 39.0%, cross entropy 1.909098
+INFO:tensorflow:Step #391: rate 0.001000, accuracy 34.0%, cross entropy 1.987846
+INFO:tensorflow:Step #392: rate 0.001000, accuracy 33.0%, cross entropy 1.886918
+INFO:tensorflow:Step #393: rate 0.001000, accuracy 35.0%, cross entropy 1.927220
+INFO:tensorflow:Step #394: rate 0.001000, accuracy 35.0%, cross entropy 1.867079
+INFO:tensorflow:Step #395: rate 0.001000, accuracy 39.0%, cross entropy 1.913662
+INFO:tensorflow:Step #396: rate 0.001000, accuracy 39.0%, cross entropy 1.963493
+INFO:tensorflow:Step #397: rate 0.001000, accuracy 42.0%, cross entropy 1.873596
+INFO:tensorflow:Step #398: rate 0.001000, accuracy 38.0%, cross entropy 1.896073
+INFO:tensorflow:Step #399: rate 0.001000, accuracy 35.0%, cross entropy 1.938401
+INFO:tensorflow:Step #400: rate 0.001000, accuracy 33.0%, cross entropy 2.007616
+INFO:tensorflow:Confusion Matrix:
+ [[275  22   8  22  19  11   3   6  16   2]
+ [ 38 158  12   3  60  19   2   7  19  33]
+ [101  27  62  46  25   2   6  19  53   4]
+ [ 43  20  16 150   7   6   7  16  87   4]
+ [ 70  43   4   1 208  22   5  10   5   5]
+ [ 20  39   3   3  49 159  16  26   9  43]
+ [ 19   9  10  16  12  17 159   9 119   8]
+ [ 82  29  29  22  33  41  21  93  27  10]
+ [ 21   8  11  48   5   5  18   7 217   6]
+ [ 66  68   5  13  19  54   2  12  32  85]]
+INFO:tensorflow:Step 400: Validation accuracy = 21.8% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-400"
+INFO:tensorflow:Step #401: rate 0.001000, accuracy 30.0%, cross entropy 1.890077
+INFO:tensorflow:Step #402: rate 0.001000, accuracy 38.0%, cross entropy 2.001739
+INFO:tensorflow:Step #403: rate 0.001000, accuracy 43.0%, cross entropy 1.716776
+INFO:tensorflow:Step #404: rate 0.001000, accuracy 43.0%, cross entropy 1.861492
+INFO:tensorflow:Step #405: rate 0.001000, accuracy 33.0%, cross entropy 1.892692
+INFO:tensorflow:Step #406: rate 0.001000, accuracy 39.0%, cross entropy 1.959914
+INFO:tensorflow:Step #407: rate 0.001000, accuracy 33.0%, cross entropy 1.971988
+INFO:tensorflow:Step #408: rate 0.001000, accuracy 36.0%, cross entropy 1.900010
+INFO:tensorflow:Step #409: rate 0.001000, accuracy 28.0%, cross entropy 1.838683
+INFO:tensorflow:Step #410: rate 0.001000, accuracy 40.0%, cross entropy 1.861251
+INFO:tensorflow:Step #411: rate 0.001000, accuracy 29.0%, cross entropy 1.938337
+INFO:tensorflow:Step #412: rate 0.001000, accuracy 31.0%, cross entropy 1.875882
+INFO:tensorflow:Step #413: rate 0.001000, accuracy 35.0%, cross entropy 1.985702
+INFO:tensorflow:Step #414: rate 0.001000, accuracy 35.0%, cross entropy 1.939784
+INFO:tensorflow:Step #415: rate 0.001000, accuracy 33.0%, cross entropy 1.928299
+INFO:tensorflow:Step #416: rate 0.001000, accuracy 34.0%, cross entropy 1.892148
+INFO:tensorflow:Step #417: rate 0.001000, accuracy 39.0%, cross entropy 1.864858
+INFO:tensorflow:Step #418: rate 0.001000, accuracy 35.0%, cross entropy 1.911265
+INFO:tensorflow:Step #419: rate 0.001000, accuracy 37.0%, cross entropy 1.784702
+INFO:tensorflow:Step #420: rate 0.001000, accuracy 34.0%, cross entropy 1.834112
+INFO:tensorflow:Step #421: rate 0.001000, accuracy 35.0%, cross entropy 1.895603
+INFO:tensorflow:Step #422: rate 0.001000, accuracy 39.0%, cross entropy 1.755290
+INFO:tensorflow:Step #423: rate 0.001000, accuracy 35.0%, cross entropy 1.846113
+INFO:tensorflow:Step #424: rate 0.001000, accuracy 33.0%, cross entropy 1.857930
+INFO:tensorflow:Step #425: rate 0.001000, accuracy 44.0%, cross entropy 1.837511
+INFO:tensorflow:Step #426: rate 0.001000, accuracy 34.0%, cross entropy 1.912563
+INFO:tensorflow:Step #427: rate 0.001000, accuracy 37.0%, cross entropy 1.841057
+INFO:tensorflow:Step #428: rate 0.001000, accuracy 36.0%, cross entropy 1.830453
+INFO:tensorflow:Step #429: rate 0.001000, accuracy 30.0%, cross entropy 2.087900
+INFO:tensorflow:Step #430: rate 0.001000, accuracy 40.0%, cross entropy 1.787403
+INFO:tensorflow:Step #431: rate 0.001000, accuracy 34.0%, cross entropy 1.876859
+INFO:tensorflow:Step #432: rate 0.001000, accuracy 33.0%, cross entropy 1.915262
+INFO:tensorflow:Step #433: rate 0.001000, accuracy 40.0%, cross entropy 1.811506
+INFO:tensorflow:Step #434: rate 0.001000, accuracy 31.0%, cross entropy 1.885936
+INFO:tensorflow:Step #435: rate 0.001000, accuracy 32.0%, cross entropy 1.885373
+INFO:tensorflow:Step #436: rate 0.001000, accuracy 33.0%, cross entropy 1.919435
+INFO:tensorflow:Step #437: rate 0.001000, accuracy 40.0%, cross entropy 1.763637
+INFO:tensorflow:Step #438: rate 0.001000, accuracy 40.0%, cross entropy 1.740257
+INFO:tensorflow:Step #439: rate 0.001000, accuracy 31.0%, cross entropy 1.850019
+INFO:tensorflow:Step #440: rate 0.001000, accuracy 41.0%, cross entropy 1.802962
+INFO:tensorflow:Step #441: rate 0.001000, accuracy 38.0%, cross entropy 1.857070
+INFO:tensorflow:Step #442: rate 0.001000, accuracy 43.0%, cross entropy 1.765654
+INFO:tensorflow:Step #443: rate 0.001000, accuracy 33.0%, cross entropy 1.821323
+INFO:tensorflow:Step #444: rate 0.001000, accuracy 37.0%, cross entropy 1.818878
+INFO:tensorflow:Step #445: rate 0.001000, accuracy 41.0%, cross entropy 1.787150
+INFO:tensorflow:Step #446: rate 0.001000, accuracy 40.0%, cross entropy 1.830976
+INFO:tensorflow:Step #447: rate 0.001000, accuracy 39.0%, cross entropy 1.924644
+INFO:tensorflow:Step #448: rate 0.001000, accuracy 37.0%, cross entropy 1.805096
+INFO:tensorflow:Step #449: rate 0.001000, accuracy 40.0%, cross entropy 1.914227
+INFO:tensorflow:Step #450: rate 0.001000, accuracy 35.0%, cross entropy 1.845841
+INFO:tensorflow:Step #451: rate 0.001000, accuracy 33.0%, cross entropy 1.850485
+INFO:tensorflow:Step #452: rate 0.001000, accuracy 44.0%, cross entropy 1.797340
+INFO:tensorflow:Step #453: rate 0.001000, accuracy 41.0%, cross entropy 1.856084
+INFO:tensorflow:Step #454: rate 0.001000, accuracy 36.0%, cross entropy 1.902959
+INFO:tensorflow:Step #455: rate 0.001000, accuracy 38.0%, cross entropy 1.767897
+INFO:tensorflow:Step #456: rate 0.001000, accuracy 46.0%, cross entropy 1.786017
+INFO:tensorflow:Step #457: rate 0.001000, accuracy 32.0%, cross entropy 1.946153
+INFO:tensorflow:Step #458: rate 0.001000, accuracy 42.0%, cross entropy 1.809646
+INFO:tensorflow:Step #459: rate 0.001000, accuracy 33.0%, cross entropy 1.908552
+INFO:tensorflow:Step #460: rate 0.001000, accuracy 31.0%, cross entropy 1.839739
+INFO:tensorflow:Step #461: rate 0.001000, accuracy 35.0%, cross entropy 1.713743
+INFO:tensorflow:Step #462: rate 0.001000, accuracy 42.0%, cross entropy 1.808027
+INFO:tensorflow:Step #463: rate 0.001000, accuracy 36.0%, cross entropy 1.870698
+INFO:tensorflow:Step #464: rate 0.001000, accuracy 34.0%, cross entropy 1.845111
+INFO:tensorflow:Step #465: rate 0.001000, accuracy 37.0%, cross entropy 1.693164
+INFO:tensorflow:Step #466: rate 0.001000, accuracy 38.0%, cross entropy 1.872360
+INFO:tensorflow:Step #467: rate 0.001000, accuracy 44.0%, cross entropy 1.783273
+INFO:tensorflow:Step #468: rate 0.001000, accuracy 52.0%, cross entropy 1.684854
+INFO:tensorflow:Step #469: rate 0.001000, accuracy 42.0%, cross entropy 1.834581
+INFO:tensorflow:Step #470: rate 0.001000, accuracy 47.0%, cross entropy 1.641257
+INFO:tensorflow:Step #471: rate 0.001000, accuracy 38.0%, cross entropy 1.839490
+INFO:tensorflow:Step #472: rate 0.001000, accuracy 40.0%, cross entropy 1.764815
+INFO:tensorflow:Step #473: rate 0.001000, accuracy 42.0%, cross entropy 1.792307
+INFO:tensorflow:Step #474: rate 0.001000, accuracy 35.0%, cross entropy 1.865937
+INFO:tensorflow:Step #475: rate 0.001000, accuracy 41.0%, cross entropy 1.725896
+INFO:tensorflow:Step #476: rate 0.001000, accuracy 41.0%, cross entropy 1.711115
+INFO:tensorflow:Step #477: rate 0.001000, accuracy 39.0%, cross entropy 1.973937
+INFO:tensorflow:Step #478: rate 0.001000, accuracy 42.0%, cross entropy 1.689084
+INFO:tensorflow:Step #479: rate 0.001000, accuracy 35.0%, cross entropy 1.816718
+INFO:tensorflow:Step #480: rate 0.001000, accuracy 34.0%, cross entropy 1.840119
+INFO:tensorflow:Step #481: rate 0.001000, accuracy 35.0%, cross entropy 1.847449
+INFO:tensorflow:Step #482: rate 0.001000, accuracy 33.0%, cross entropy 1.816027
+INFO:tensorflow:Step #483: rate 0.001000, accuracy 42.0%, cross entropy 1.695446
+INFO:tensorflow:Step #484: rate 0.001000, accuracy 37.0%, cross entropy 1.758751
+INFO:tensorflow:Step #485: rate 0.001000, accuracy 44.0%, cross entropy 1.733022
+INFO:tensorflow:Step #486: rate 0.001000, accuracy 46.0%, cross entropy 1.699959
+INFO:tensorflow:Step #487: rate 0.001000, accuracy 41.0%, cross entropy 1.644337
+INFO:tensorflow:Step #488: rate 0.001000, accuracy 43.0%, cross entropy 1.806508
+INFO:tensorflow:Step #489: rate 0.001000, accuracy 47.0%, cross entropy 1.604177
+INFO:tensorflow:Step #490: rate 0.001000, accuracy 47.0%, cross entropy 1.630808
+INFO:tensorflow:Step #491: rate 0.001000, accuracy 47.0%, cross entropy 1.634475
+INFO:tensorflow:Step #492: rate 0.001000, accuracy 32.0%, cross entropy 1.848181
+INFO:tensorflow:Step #493: rate 0.001000, accuracy 36.0%, cross entropy 1.746991
+INFO:tensorflow:Step #494: rate 0.001000, accuracy 39.0%, cross entropy 1.726403
+INFO:tensorflow:Step #495: rate 0.001000, accuracy 40.0%, cross entropy 1.759399
+INFO:tensorflow:Step #496: rate 0.001000, accuracy 45.0%, cross entropy 1.592298
+INFO:tensorflow:Step #497: rate 0.001000, accuracy 36.0%, cross entropy 1.842030
+INFO:tensorflow:Step #498: rate 0.001000, accuracy 42.0%, cross entropy 1.718678
+INFO:tensorflow:Step #499: rate 0.001000, accuracy 45.0%, cross entropy 1.770928
+INFO:tensorflow:Step #500: rate 0.001000, accuracy 38.0%, cross entropy 1.855803
+INFO:tensorflow:Confusion Matrix:
+ [[278  11   9  32  23  12   3   4   7   5]
+ [ 18 184   3   2  70  21   1   3   5  44]
+ [ 89  26  73  71  31   6   8  20  12   9]
+ [ 33  13  10 192   8  10   5   9  65  11]
+ [ 39  54   5   0 237  22   3   4   1   8]
+ [  3  32   1   5  55 183  13  13   2  60]
+ [ 15  11   8  23  13  27 165  15  88  13]
+ [ 40  34  10  24  37  45  21 143   5  28]
+ [ 21   3   8  82   7  10  28   7 172   8]
+ [ 20  64   3  17  19  43   4  11  12 163]]
+INFO:tensorflow:Step 500: Validation accuracy = 24.9% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-500"
+INFO:tensorflow:Step #501: rate 0.001000, accuracy 40.0%, cross entropy 1.718817
+INFO:tensorflow:Step #502: rate 0.001000, accuracy 36.0%, cross entropy 1.861632
+INFO:tensorflow:Step #503: rate 0.001000, accuracy 37.0%, cross entropy 1.762060
+INFO:tensorflow:Step #504: rate 0.001000, accuracy 49.0%, cross entropy 1.656240
+INFO:tensorflow:Step #505: rate 0.001000, accuracy 34.0%, cross entropy 1.840458
+INFO:tensorflow:Step #506: rate 0.001000, accuracy 44.0%, cross entropy 1.719870
+INFO:tensorflow:Step #507: rate 0.001000, accuracy 44.0%, cross entropy 1.941613
+INFO:tensorflow:Step #508: rate 0.001000, accuracy 39.0%, cross entropy 1.742633
+INFO:tensorflow:Step #509: rate 0.001000, accuracy 44.0%, cross entropy 1.583290
+INFO:tensorflow:Step #510: rate 0.001000, accuracy 39.0%, cross entropy 1.738310
+INFO:tensorflow:Step #511: rate 0.001000, accuracy 44.0%, cross entropy 1.735759
+INFO:tensorflow:Step #512: rate 0.001000, accuracy 37.0%, cross entropy 1.739588
+INFO:tensorflow:Step #513: rate 0.001000, accuracy 48.0%, cross entropy 1.742742
+INFO:tensorflow:Step #514: rate 0.001000, accuracy 46.0%, cross entropy 1.752828
+INFO:tensorflow:Step #515: rate 0.001000, accuracy 36.0%, cross entropy 1.848878
+INFO:tensorflow:Step #516: rate 0.001000, accuracy 33.0%, cross entropy 1.768305
+INFO:tensorflow:Step #517: rate 0.001000, accuracy 37.0%, cross entropy 1.794270
+INFO:tensorflow:Step #518: rate 0.001000, accuracy 46.0%, cross entropy 1.693929
+INFO:tensorflow:Step #519: rate 0.001000, accuracy 38.0%, cross entropy 1.800940
+INFO:tensorflow:Step #520: rate 0.001000, accuracy 37.0%, cross entropy 1.721308
+INFO:tensorflow:Step #521: rate 0.001000, accuracy 42.0%, cross entropy 1.789275
+INFO:tensorflow:Step #522: rate 0.001000, accuracy 49.0%, cross entropy 1.649995
+INFO:tensorflow:Step #523: rate 0.001000, accuracy 50.0%, cross entropy 1.579845
+INFO:tensorflow:Step #524: rate 0.001000, accuracy 40.0%, cross entropy 1.732124
+INFO:tensorflow:Step #525: rate 0.001000, accuracy 38.0%, cross entropy 1.744415
+INFO:tensorflow:Step #526: rate 0.001000, accuracy 46.0%, cross entropy 1.624543
+INFO:tensorflow:Step #527: rate 0.001000, accuracy 40.0%, cross entropy 1.709023
+INFO:tensorflow:Step #528: rate 0.001000, accuracy 47.0%, cross entropy 1.637304
+INFO:tensorflow:Step #529: rate 0.001000, accuracy 44.0%, cross entropy 1.594605
+INFO:tensorflow:Step #530: rate 0.001000, accuracy 43.0%, cross entropy 1.631877
+INFO:tensorflow:Step #531: rate 0.001000, accuracy 41.0%, cross entropy 1.702065
+INFO:tensorflow:Step #532: rate 0.001000, accuracy 45.0%, cross entropy 1.660099
+INFO:tensorflow:Step #533: rate 0.001000, accuracy 45.0%, cross entropy 1.608878
+INFO:tensorflow:Step #534: rate 0.001000, accuracy 42.0%, cross entropy 1.796828
+INFO:tensorflow:Step #535: rate 0.001000, accuracy 37.0%, cross entropy 1.802787
+INFO:tensorflow:Step #536: rate 0.001000, accuracy 43.0%, cross entropy 1.663334
+INFO:tensorflow:Step #537: rate 0.001000, accuracy 43.0%, cross entropy 1.634076
+INFO:tensorflow:Step #538: rate 0.001000, accuracy 41.0%, cross entropy 1.613905
+INFO:tensorflow:Step #539: rate 0.001000, accuracy 39.0%, cross entropy 1.759574
+INFO:tensorflow:Step #540: rate 0.001000, accuracy 46.0%, cross entropy 1.641785
+INFO:tensorflow:Step #541: rate 0.001000, accuracy 50.0%, cross entropy 1.660585
+INFO:tensorflow:Step #542: rate 0.001000, accuracy 45.0%, cross entropy 1.635260
+INFO:tensorflow:Step #543: rate 0.001000, accuracy 53.0%, cross entropy 1.553736
+INFO:tensorflow:Step #544: rate 0.001000, accuracy 43.0%, cross entropy 1.803481
+INFO:tensorflow:Step #545: rate 0.001000, accuracy 38.0%, cross entropy 1.734150
+INFO:tensorflow:Step #546: rate 0.001000, accuracy 44.0%, cross entropy 1.662751
+INFO:tensorflow:Step #547: rate 0.001000, accuracy 50.0%, cross entropy 1.615162
+INFO:tensorflow:Step #548: rate 0.001000, accuracy 47.0%, cross entropy 1.650146
+INFO:tensorflow:Step #549: rate 0.001000, accuracy 48.0%, cross entropy 1.621144
+INFO:tensorflow:Step #550: rate 0.001000, accuracy 52.0%, cross entropy 1.606173
+INFO:tensorflow:Step #551: rate 0.001000, accuracy 43.0%, cross entropy 1.628790
+INFO:tensorflow:Step #552: rate 0.001000, accuracy 36.0%, cross entropy 1.818208
+INFO:tensorflow:Step #553: rate 0.001000, accuracy 37.0%, cross entropy 1.822680
+INFO:tensorflow:Step #554: rate 0.001000, accuracy 54.0%, cross entropy 1.526300
+INFO:tensorflow:Step #555: rate 0.001000, accuracy 40.0%, cross entropy 1.692302
+INFO:tensorflow:Step #556: rate 0.001000, accuracy 42.0%, cross entropy 1.728683
+INFO:tensorflow:Step #557: rate 0.001000, accuracy 47.0%, cross entropy 1.757608
+INFO:tensorflow:Step #558: rate 0.001000, accuracy 46.0%, cross entropy 1.661776
+INFO:tensorflow:Step #559: rate 0.001000, accuracy 36.0%, cross entropy 1.824431
+INFO:tensorflow:Step #560: rate 0.001000, accuracy 46.0%, cross entropy 1.670327
+INFO:tensorflow:Step #561: rate 0.001000, accuracy 44.0%, cross entropy 1.722458
+INFO:tensorflow:Step #562: rate 0.001000, accuracy 44.0%, cross entropy 1.761996
+INFO:tensorflow:Step #563: rate 0.001000, accuracy 34.0%, cross entropy 1.732008
+INFO:tensorflow:Step #564: rate 0.001000, accuracy 44.0%, cross entropy 1.673278
+INFO:tensorflow:Step #565: rate 0.001000, accuracy 42.0%, cross entropy 1.729755
+INFO:tensorflow:Step #566: rate 0.001000, accuracy 44.0%, cross entropy 1.759696
+INFO:tensorflow:Step #567: rate 0.001000, accuracy 44.0%, cross entropy 1.705353
+INFO:tensorflow:Step #568: rate 0.001000, accuracy 43.0%, cross entropy 1.706837
+INFO:tensorflow:Step #569: rate 0.001000, accuracy 48.0%, cross entropy 1.552636
+INFO:tensorflow:Step #570: rate 0.001000, accuracy 38.0%, cross entropy 1.799861
+INFO:tensorflow:Step #571: rate 0.001000, accuracy 42.0%, cross entropy 1.813636
+INFO:tensorflow:Step #572: rate 0.001000, accuracy 32.0%, cross entropy 1.836663
+INFO:tensorflow:Step #573: rate 0.001000, accuracy 43.0%, cross entropy 1.645069
+INFO:tensorflow:Step #574: rate 0.001000, accuracy 41.0%, cross entropy 1.648715
+INFO:tensorflow:Step #575: rate 0.001000, accuracy 44.0%, cross entropy 1.661842
+INFO:tensorflow:Step #576: rate 0.001000, accuracy 45.0%, cross entropy 1.726053
+INFO:tensorflow:Step #577: rate 0.001000, accuracy 42.0%, cross entropy 1.683137
+INFO:tensorflow:Step #578: rate 0.001000, accuracy 42.0%, cross entropy 1.571686
+INFO:tensorflow:Step #579: rate 0.001000, accuracy 53.0%, cross entropy 1.486696
+INFO:tensorflow:Step #580: rate 0.001000, accuracy 42.0%, cross entropy 1.718555
+INFO:tensorflow:Step #581: rate 0.001000, accuracy 52.0%, cross entropy 1.708426
+INFO:tensorflow:Step #582: rate 0.001000, accuracy 35.0%, cross entropy 1.746702
+INFO:tensorflow:Step #583: rate 0.001000, accuracy 48.0%, cross entropy 1.510397
+INFO:tensorflow:Step #584: rate 0.001000, accuracy 48.0%, cross entropy 1.648897
+INFO:tensorflow:Step #585: rate 0.001000, accuracy 43.0%, cross entropy 1.632077
+INFO:tensorflow:Step #586: rate 0.001000, accuracy 41.0%, cross entropy 1.574834
+INFO:tensorflow:Step #587: rate 0.001000, accuracy 52.0%, cross entropy 1.568789
+INFO:tensorflow:Step #588: rate 0.001000, accuracy 50.0%, cross entropy 1.578694
+INFO:tensorflow:Step #589: rate 0.001000, accuracy 45.0%, cross entropy 1.720132
+INFO:tensorflow:Step #590: rate 0.001000, accuracy 40.0%, cross entropy 1.639202
+INFO:tensorflow:Step #591: rate 0.001000, accuracy 39.0%, cross entropy 1.660422
+INFO:tensorflow:Step #592: rate 0.001000, accuracy 55.0%, cross entropy 1.488299
+INFO:tensorflow:Step #593: rate 0.001000, accuracy 50.0%, cross entropy 1.603602
+INFO:tensorflow:Step #594: rate 0.001000, accuracy 45.0%, cross entropy 1.648823
+INFO:tensorflow:Step #595: rate 0.001000, accuracy 43.0%, cross entropy 1.673760
+INFO:tensorflow:Step #596: rate 0.001000, accuracy 53.0%, cross entropy 1.557146
+INFO:tensorflow:Step #597: rate 0.001000, accuracy 42.0%, cross entropy 1.647630
+INFO:tensorflow:Step #598: rate 0.001000, accuracy 44.0%, cross entropy 1.714277
+INFO:tensorflow:Step #599: rate 0.001000, accuracy 45.0%, cross entropy 1.664080
+INFO:tensorflow:Step #600: rate 0.001000, accuracy 43.0%, cross entropy 1.578136
+INFO:tensorflow:Confusion Matrix:
+ [[293   5  10  18  15   5   3  23   8   4]
+ [ 21 206   6   3  32  19   1  10   9  44]
+ [ 88  21 106  43  15   1   9  37  17   8]
+ [ 28  11  14 184   3   5   4  22  73  12]
+ [ 58  57   3   0 215  21   3  10   0   6]
+ [  8  30   3   3  36 189   7  44   4  43]
+ [ 15   8  14   9   6  16 180  34  83  13]
+ [ 25  12  25  12  19  32  20 210   6  26]
+ [ 17   4  10  54   1   6  29  11 209   5]
+ [ 16  63   7   9  10  36   5  27  18 165]]
+INFO:tensorflow:Step 600: Validation accuracy = 27.2% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-600"
+WARNING:tensorflow:From C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+INFO:tensorflow:Step #601: rate 0.001000, accuracy 44.0%, cross entropy 1.628713
+INFO:tensorflow:Step #602: rate 0.001000, accuracy 42.0%, cross entropy 1.643779
+INFO:tensorflow:Step #603: rate 0.001000, accuracy 56.0%, cross entropy 1.404338
+INFO:tensorflow:Step #604: rate 0.001000, accuracy 49.0%, cross entropy 1.489462
+INFO:tensorflow:Step #605: rate 0.001000, accuracy 42.0%, cross entropy 1.583096
+INFO:tensorflow:Step #606: rate 0.001000, accuracy 42.0%, cross entropy 1.682351
+INFO:tensorflow:Step #607: rate 0.001000, accuracy 43.0%, cross entropy 1.599780
+INFO:tensorflow:Step #608: rate 0.001000, accuracy 42.0%, cross entropy 1.782082
+INFO:tensorflow:Step #609: rate 0.001000, accuracy 50.0%, cross entropy 1.432207
+INFO:tensorflow:Step #610: rate 0.001000, accuracy 42.0%, cross entropy 1.571798
+INFO:tensorflow:Step #611: rate 0.001000, accuracy 38.0%, cross entropy 1.607243
+INFO:tensorflow:Step #612: rate 0.001000, accuracy 49.0%, cross entropy 1.523404
+INFO:tensorflow:Step #613: rate 0.001000, accuracy 46.0%, cross entropy 1.558592
+INFO:tensorflow:Step #614: rate 0.001000, accuracy 45.0%, cross entropy 1.703664
+INFO:tensorflow:Step #615: rate 0.001000, accuracy 45.0%, cross entropy 1.539863
+INFO:tensorflow:Step #616: rate 0.001000, accuracy 33.0%, cross entropy 1.650711
+INFO:tensorflow:Step #617: rate 0.001000, accuracy 46.0%, cross entropy 1.691103
+INFO:tensorflow:Step #618: rate 0.001000, accuracy 45.0%, cross entropy 1.747837
+INFO:tensorflow:Step #619: rate 0.001000, accuracy 48.0%, cross entropy 1.597697
+INFO:tensorflow:Step #620: rate 0.001000, accuracy 40.0%, cross entropy 1.733636
+INFO:tensorflow:Step #621: rate 0.001000, accuracy 45.0%, cross entropy 1.628642
+INFO:tensorflow:Step #622: rate 0.001000, accuracy 41.0%, cross entropy 1.734442
+INFO:tensorflow:Step #623: rate 0.001000, accuracy 58.0%, cross entropy 1.314722
+INFO:tensorflow:Step #624: rate 0.001000, accuracy 50.0%, cross entropy 1.512144
+INFO:tensorflow:Step #625: rate 0.001000, accuracy 52.0%, cross entropy 1.447849
+INFO:tensorflow:Step #626: rate 0.001000, accuracy 48.0%, cross entropy 1.584083
+INFO:tensorflow:Step #627: rate 0.001000, accuracy 49.0%, cross entropy 1.573195
+INFO:tensorflow:Step #628: rate 0.001000, accuracy 46.0%, cross entropy 1.588132
+INFO:tensorflow:Step #629: rate 0.001000, accuracy 46.0%, cross entropy 1.683175
+INFO:tensorflow:Step #630: rate 0.001000, accuracy 42.0%, cross entropy 1.580504
+INFO:tensorflow:Step #631: rate 0.001000, accuracy 42.0%, cross entropy 1.652017
+INFO:tensorflow:Step #632: rate 0.001000, accuracy 44.0%, cross entropy 1.683198
+INFO:tensorflow:Step #633: rate 0.001000, accuracy 49.0%, cross entropy 1.641387
+INFO:tensorflow:Step #634: rate 0.001000, accuracy 43.0%, cross entropy 1.646857
+INFO:tensorflow:Step #635: rate 0.001000, accuracy 47.0%, cross entropy 1.517512
+INFO:tensorflow:Step #636: rate 0.001000, accuracy 46.0%, cross entropy 1.541020
+INFO:tensorflow:Step #637: rate 0.001000, accuracy 48.0%, cross entropy 1.596986
+INFO:tensorflow:Step #638: rate 0.001000, accuracy 44.0%, cross entropy 1.520918
+INFO:tensorflow:Step #639: rate 0.001000, accuracy 42.0%, cross entropy 1.610682
+INFO:tensorflow:Step #640: rate 0.001000, accuracy 44.0%, cross entropy 1.700887
+INFO:tensorflow:Step #641: rate 0.001000, accuracy 54.0%, cross entropy 1.521970
+INFO:tensorflow:Step #642: rate 0.001000, accuracy 51.0%, cross entropy 1.609541
+INFO:tensorflow:Step #643: rate 0.001000, accuracy 49.0%, cross entropy 1.609809
+INFO:tensorflow:Step #644: rate 0.001000, accuracy 48.0%, cross entropy 1.623730
+INFO:tensorflow:Step #645: rate 0.001000, accuracy 45.0%, cross entropy 1.674796
+INFO:tensorflow:Step #646: rate 0.001000, accuracy 52.0%, cross entropy 1.639997
+INFO:tensorflow:Step #647: rate 0.001000, accuracy 47.0%, cross entropy 1.646466
+INFO:tensorflow:Step #648: rate 0.001000, accuracy 53.0%, cross entropy 1.450930
+INFO:tensorflow:Step #649: rate 0.001000, accuracy 52.0%, cross entropy 1.520952
+INFO:tensorflow:Step #650: rate 0.001000, accuracy 45.0%, cross entropy 1.500193
+INFO:tensorflow:Step #651: rate 0.001000, accuracy 48.0%, cross entropy 1.602775
+INFO:tensorflow:Step #652: rate 0.001000, accuracy 50.0%, cross entropy 1.415851
+INFO:tensorflow:Step #653: rate 0.001000, accuracy 44.0%, cross entropy 1.597582
+INFO:tensorflow:Step #654: rate 0.001000, accuracy 42.0%, cross entropy 1.663243
+INFO:tensorflow:Step #655: rate 0.001000, accuracy 49.0%, cross entropy 1.565374
+INFO:tensorflow:Step #656: rate 0.001000, accuracy 46.0%, cross entropy 1.477257
+INFO:tensorflow:Step #657: rate 0.001000, accuracy 50.0%, cross entropy 1.536413
+INFO:tensorflow:Step #658: rate 0.001000, accuracy 42.0%, cross entropy 1.553249
+INFO:tensorflow:Step #659: rate 0.001000, accuracy 44.0%, cross entropy 1.608136
+INFO:tensorflow:Step #660: rate 0.001000, accuracy 46.0%, cross entropy 1.564204
+INFO:tensorflow:Step #661: rate 0.001000, accuracy 43.0%, cross entropy 1.554968
+INFO:tensorflow:Step #662: rate 0.001000, accuracy 49.0%, cross entropy 1.472870
+INFO:tensorflow:Step #663: rate 0.001000, accuracy 47.0%, cross entropy 1.599011
+INFO:tensorflow:Step #664: rate 0.001000, accuracy 50.0%, cross entropy 1.419936
+INFO:tensorflow:Step #665: rate 0.001000, accuracy 45.0%, cross entropy 1.597927
+INFO:tensorflow:Step #666: rate 0.001000, accuracy 40.0%, cross entropy 1.601573
+INFO:tensorflow:Step #667: rate 0.001000, accuracy 45.0%, cross entropy 1.591813
+INFO:tensorflow:Step #668: rate 0.001000, accuracy 57.0%, cross entropy 1.372628
+INFO:tensorflow:Step #669: rate 0.001000, accuracy 59.0%, cross entropy 1.393593
+INFO:tensorflow:Step #670: rate 0.001000, accuracy 43.0%, cross entropy 1.557112
+INFO:tensorflow:Step #671: rate 0.001000, accuracy 39.0%, cross entropy 1.774844
+INFO:tensorflow:Step #672: rate 0.001000, accuracy 49.0%, cross entropy 1.607373
+INFO:tensorflow:Step #673: rate 0.001000, accuracy 43.0%, cross entropy 1.684478
+INFO:tensorflow:Step #674: rate 0.001000, accuracy 48.0%, cross entropy 1.560044
+INFO:tensorflow:Step #675: rate 0.001000, accuracy 52.0%, cross entropy 1.529026
+INFO:tensorflow:Step #676: rate 0.001000, accuracy 52.0%, cross entropy 1.531621
+INFO:tensorflow:Step #677: rate 0.001000, accuracy 50.0%, cross entropy 1.456694
+INFO:tensorflow:Step #678: rate 0.001000, accuracy 49.0%, cross entropy 1.507704
+INFO:tensorflow:Step #679: rate 0.001000, accuracy 50.0%, cross entropy 1.518905
+INFO:tensorflow:Step #680: rate 0.001000, accuracy 47.0%, cross entropy 1.633418
+INFO:tensorflow:Step #681: rate 0.001000, accuracy 51.0%, cross entropy 1.473065
+INFO:tensorflow:Step #682: rate 0.001000, accuracy 45.0%, cross entropy 1.596800
+INFO:tensorflow:Step #683: rate 0.001000, accuracy 51.0%, cross entropy 1.468815
+INFO:tensorflow:Step #684: rate 0.001000, accuracy 48.0%, cross entropy 1.446842
+INFO:tensorflow:Step #685: rate 0.001000, accuracy 41.0%, cross entropy 1.597512
+INFO:tensorflow:Step #686: rate 0.001000, accuracy 47.0%, cross entropy 1.472240
+INFO:tensorflow:Step #687: rate 0.001000, accuracy 42.0%, cross entropy 1.621802
+INFO:tensorflow:Step #688: rate 0.001000, accuracy 47.0%, cross entropy 1.507506
+INFO:tensorflow:Step #689: rate 0.001000, accuracy 44.0%, cross entropy 1.683085
+INFO:tensorflow:Step #690: rate 0.001000, accuracy 40.0%, cross entropy 1.658189
+INFO:tensorflow:Step #691: rate 0.001000, accuracy 42.0%, cross entropy 1.599883
+INFO:tensorflow:Step #692: rate 0.001000, accuracy 41.0%, cross entropy 1.610764
+INFO:tensorflow:Step #693: rate 0.001000, accuracy 55.0%, cross entropy 1.489717
+INFO:tensorflow:Step #694: rate 0.001000, accuracy 52.0%, cross entropy 1.565459
+INFO:tensorflow:Step #695: rate 0.001000, accuracy 54.0%, cross entropy 1.444381
+INFO:tensorflow:Step #696: rate 0.001000, accuracy 53.0%, cross entropy 1.444726
+INFO:tensorflow:Step #697: rate 0.001000, accuracy 42.0%, cross entropy 1.699600
+INFO:tensorflow:Step #698: rate 0.001000, accuracy 46.0%, cross entropy 1.480677
+INFO:tensorflow:Step #699: rate 0.001000, accuracy 52.0%, cross entropy 1.490629
+INFO:tensorflow:Step #700: rate 0.001000, accuracy 50.0%, cross entropy 1.605155
+INFO:tensorflow:Confusion Matrix:
+ [[291   1  11  17  17   8   4  21   8   6]
+ [ 11 198   7   1  39  25   1   6   4  59]
+ [ 71  13 136  42  17   2  18  29   8   9]
+ [ 24   8  17 198   3   5  13  21  51  16]
+ [ 35  26   5   0 264  22   3   8   0  10]
+ [  4  25   1   2  33 225  11  20   1  45]
+ [ 12   5  16  14   5  22 230  25  36  13]
+ [ 17   9  27  12  19  43  19 203   3  35]
+ [ 13   3  14  69   1   5  46   6 183   6]
+ [  8  47   6   9  10  34   9  16   7 210]]
+INFO:tensorflow:Step 700: Validation accuracy = 29.7% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-700"
+INFO:tensorflow:Step #701: rate 0.001000, accuracy 49.0%, cross entropy 1.512681
+INFO:tensorflow:Step #702: rate 0.001000, accuracy 50.0%, cross entropy 1.705506
+INFO:tensorflow:Step #703: rate 0.001000, accuracy 49.0%, cross entropy 1.588987
+INFO:tensorflow:Step #704: rate 0.001000, accuracy 53.0%, cross entropy 1.539314
+INFO:tensorflow:Step #705: rate 0.001000, accuracy 47.0%, cross entropy 1.626888
+INFO:tensorflow:Step #706: rate 0.001000, accuracy 59.0%, cross entropy 1.353670
+INFO:tensorflow:Step #707: rate 0.001000, accuracy 46.0%, cross entropy 1.486095
+INFO:tensorflow:Step #708: rate 0.001000, accuracy 49.0%, cross entropy 1.647197
+INFO:tensorflow:Step #709: rate 0.001000, accuracy 61.0%, cross entropy 1.449557
+INFO:tensorflow:Step #710: rate 0.001000, accuracy 41.0%, cross entropy 1.597100
+INFO:tensorflow:Step #711: rate 0.001000, accuracy 52.0%, cross entropy 1.481169
+INFO:tensorflow:Step #712: rate 0.001000, accuracy 36.0%, cross entropy 1.618890
+INFO:tensorflow:Step #713: rate 0.001000, accuracy 48.0%, cross entropy 1.368899
+INFO:tensorflow:Step #714: rate 0.001000, accuracy 42.0%, cross entropy 1.589425
+INFO:tensorflow:Step #715: rate 0.001000, accuracy 50.0%, cross entropy 1.565657
+INFO:tensorflow:Step #716: rate 0.001000, accuracy 49.0%, cross entropy 1.477384
+INFO:tensorflow:Step #717: rate 0.001000, accuracy 46.0%, cross entropy 1.519946
+INFO:tensorflow:Step #718: rate 0.001000, accuracy 51.0%, cross entropy 1.464168
+INFO:tensorflow:Step #719: rate 0.001000, accuracy 55.0%, cross entropy 1.444261
+INFO:tensorflow:Step #720: rate 0.001000, accuracy 41.0%, cross entropy 1.592678
+INFO:tensorflow:Step #721: rate 0.001000, accuracy 47.0%, cross entropy 1.599718
+INFO:tensorflow:Step #722: rate 0.001000, accuracy 62.0%, cross entropy 1.331947
+INFO:tensorflow:Step #723: rate 0.001000, accuracy 46.0%, cross entropy 1.587324
+INFO:tensorflow:Step #724: rate 0.001000, accuracy 52.0%, cross entropy 1.400824
+INFO:tensorflow:Step #725: rate 0.001000, accuracy 53.0%, cross entropy 1.403162
+INFO:tensorflow:Step #726: rate 0.001000, accuracy 43.0%, cross entropy 1.578257
+INFO:tensorflow:Step #727: rate 0.001000, accuracy 52.0%, cross entropy 1.508441
+INFO:tensorflow:Step #728: rate 0.001000, accuracy 50.0%, cross entropy 1.406987
+INFO:tensorflow:Step #729: rate 0.001000, accuracy 53.0%, cross entropy 1.505106
+INFO:tensorflow:Step #730: rate 0.001000, accuracy 46.0%, cross entropy 1.463351
+INFO:tensorflow:Step #731: rate 0.001000, accuracy 46.0%, cross entropy 1.549846
+INFO:tensorflow:Step #732: rate 0.001000, accuracy 55.0%, cross entropy 1.451415
+INFO:tensorflow:Step #733: rate 0.001000, accuracy 52.0%, cross entropy 1.441269
+INFO:tensorflow:Step #734: rate 0.001000, accuracy 43.0%, cross entropy 1.586519
+INFO:tensorflow:Step #735: rate 0.001000, accuracy 54.0%, cross entropy 1.417764
+INFO:tensorflow:Step #736: rate 0.001000, accuracy 56.0%, cross entropy 1.281977
+INFO:tensorflow:Step #737: rate 0.001000, accuracy 53.0%, cross entropy 1.448756
+INFO:tensorflow:Step #738: rate 0.001000, accuracy 55.0%, cross entropy 1.371060
+INFO:tensorflow:Step #739: rate 0.001000, accuracy 43.0%, cross entropy 1.477087
+INFO:tensorflow:Step #740: rate 0.001000, accuracy 53.0%, cross entropy 1.367577
+INFO:tensorflow:Step #741: rate 0.001000, accuracy 51.0%, cross entropy 1.414011
+INFO:tensorflow:Step #742: rate 0.001000, accuracy 49.0%, cross entropy 1.439529
+INFO:tensorflow:Step #743: rate 0.001000, accuracy 50.0%, cross entropy 1.460230
+INFO:tensorflow:Step #744: rate 0.001000, accuracy 55.0%, cross entropy 1.432032
+INFO:tensorflow:Step #745: rate 0.001000, accuracy 48.0%, cross entropy 1.451060
+INFO:tensorflow:Step #746: rate 0.001000, accuracy 60.0%, cross entropy 1.349449
+INFO:tensorflow:Step #747: rate 0.001000, accuracy 49.0%, cross entropy 1.662563
+INFO:tensorflow:Step #748: rate 0.001000, accuracy 49.0%, cross entropy 1.404973
+INFO:tensorflow:Step #749: rate 0.001000, accuracy 48.0%, cross entropy 1.501802
+INFO:tensorflow:Step #750: rate 0.001000, accuracy 48.0%, cross entropy 1.476684
+INFO:tensorflow:Step #751: rate 0.001000, accuracy 54.0%, cross entropy 1.340358
+INFO:tensorflow:Step #752: rate 0.001000, accuracy 59.0%, cross entropy 1.343440
+INFO:tensorflow:Step #753: rate 0.001000, accuracy 53.0%, cross entropy 1.345119
+INFO:tensorflow:Step #754: rate 0.001000, accuracy 47.0%, cross entropy 1.619082
+INFO:tensorflow:Step #755: rate 0.001000, accuracy 47.0%, cross entropy 1.480374
+INFO:tensorflow:Step #756: rate 0.001000, accuracy 43.0%, cross entropy 1.750685
+INFO:tensorflow:Step #757: rate 0.001000, accuracy 58.0%, cross entropy 1.343547
+INFO:tensorflow:Step #758: rate 0.001000, accuracy 56.0%, cross entropy 1.446819
+INFO:tensorflow:Step #759: rate 0.001000, accuracy 58.0%, cross entropy 1.267962
+INFO:tensorflow:Step #760: rate 0.001000, accuracy 45.0%, cross entropy 1.518061
+INFO:tensorflow:Step #761: rate 0.001000, accuracy 54.0%, cross entropy 1.486799
+INFO:tensorflow:Step #762: rate 0.001000, accuracy 44.0%, cross entropy 1.498465
+INFO:tensorflow:Step #763: rate 0.001000, accuracy 52.0%, cross entropy 1.487262
+INFO:tensorflow:Step #764: rate 0.001000, accuracy 48.0%, cross entropy 1.478770
+INFO:tensorflow:Step #765: rate 0.001000, accuracy 48.0%, cross entropy 1.442639
+INFO:tensorflow:Step #766: rate 0.001000, accuracy 60.0%, cross entropy 1.423176
+INFO:tensorflow:Step #767: rate 0.001000, accuracy 52.0%, cross entropy 1.596193
+INFO:tensorflow:Step #768: rate 0.001000, accuracy 51.0%, cross entropy 1.432783
+INFO:tensorflow:Step #769: rate 0.001000, accuracy 58.0%, cross entropy 1.350611
+INFO:tensorflow:Step #770: rate 0.001000, accuracy 51.0%, cross entropy 1.446166
+INFO:tensorflow:Step #771: rate 0.001000, accuracy 58.0%, cross entropy 1.278086
+INFO:tensorflow:Step #772: rate 0.001000, accuracy 59.0%, cross entropy 1.292597
+INFO:tensorflow:Step #773: rate 0.001000, accuracy 48.0%, cross entropy 1.576634
+INFO:tensorflow:Step #774: rate 0.001000, accuracy 55.0%, cross entropy 1.497118
+INFO:tensorflow:Step #775: rate 0.001000, accuracy 53.0%, cross entropy 1.369444
+INFO:tensorflow:Step #776: rate 0.001000, accuracy 57.0%, cross entropy 1.322712
+INFO:tensorflow:Step #777: rate 0.001000, accuracy 56.0%, cross entropy 1.318178
+INFO:tensorflow:Step #778: rate 0.001000, accuracy 52.0%, cross entropy 1.484749
+INFO:tensorflow:Step #779: rate 0.001000, accuracy 49.0%, cross entropy 1.386601
+INFO:tensorflow:Step #780: rate 0.001000, accuracy 51.0%, cross entropy 1.453974
+INFO:tensorflow:Step #781: rate 0.001000, accuracy 46.0%, cross entropy 1.498524
+INFO:tensorflow:Step #782: rate 0.001000, accuracy 50.0%, cross entropy 1.483052
+INFO:tensorflow:Step #783: rate 0.001000, accuracy 49.0%, cross entropy 1.506111
+INFO:tensorflow:Step #784: rate 0.001000, accuracy 60.0%, cross entropy 1.347265
+INFO:tensorflow:Step #785: rate 0.001000, accuracy 53.0%, cross entropy 1.462813
+INFO:tensorflow:Step #786: rate 0.001000, accuracy 49.0%, cross entropy 1.463174
+INFO:tensorflow:Step #787: rate 0.001000, accuracy 56.0%, cross entropy 1.421403
+INFO:tensorflow:Step #788: rate 0.001000, accuracy 56.0%, cross entropy 1.427536
+INFO:tensorflow:Step #789: rate 0.001000, accuracy 56.0%, cross entropy 1.399181
+INFO:tensorflow:Step #790: rate 0.001000, accuracy 54.0%, cross entropy 1.288515
+INFO:tensorflow:Step #791: rate 0.001000, accuracy 55.0%, cross entropy 1.446628
+INFO:tensorflow:Step #792: rate 0.001000, accuracy 49.0%, cross entropy 1.608548
+INFO:tensorflow:Step #793: rate 0.001000, accuracy 37.0%, cross entropy 1.647124
+INFO:tensorflow:Step #794: rate 0.001000, accuracy 58.0%, cross entropy 1.286995
+INFO:tensorflow:Step #795: rate 0.001000, accuracy 52.0%, cross entropy 1.497051
+INFO:tensorflow:Step #796: rate 0.001000, accuracy 63.0%, cross entropy 1.258350
+INFO:tensorflow:Step #797: rate 0.001000, accuracy 46.0%, cross entropy 1.417391
+INFO:tensorflow:Step #798: rate 0.001000, accuracy 48.0%, cross entropy 1.541315
+INFO:tensorflow:Step #799: rate 0.001000, accuracy 52.0%, cross entropy 1.301597
+INFO:tensorflow:Step #800: rate 0.001000, accuracy 49.0%, cross entropy 1.503718
+INFO:tensorflow:Confusion Matrix:
+ [[293   2  16  12  12   8   8  16   8   9]
+ [ 11 245   4   1  21  25   1   3   4  36]
+ [ 58  21 153  29  14   2  20  26  15   7]
+ [ 17  12  17 192   2   7  18  15  55  21]
+ [ 33  46   5   0 256  20   3   7   0   3]
+ [  3  36   1   2  19 245  12  14   2  33]
+ [  8   5  14   8   3  24 249  22  33  12]
+ [ 12  15  19  11  16  49  23 209   3  30]
+ [  7   5  13  49   0   7  54   4 201   6]
+ [  5  70   4   5   3  40   8  12   8 201]]
+INFO:tensorflow:Step 800: Validation accuracy = 31.1% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-800"
+INFO:tensorflow:Step #801: rate 0.001000, accuracy 62.0%, cross entropy 1.284857
+INFO:tensorflow:Step #802: rate 0.001000, accuracy 53.0%, cross entropy 1.406708
+INFO:tensorflow:Step #803: rate 0.001000, accuracy 47.0%, cross entropy 1.467358
+INFO:tensorflow:Step #804: rate 0.001000, accuracy 48.0%, cross entropy 1.431531
+INFO:tensorflow:Step #805: rate 0.001000, accuracy 51.0%, cross entropy 1.372868
+INFO:tensorflow:Step #806: rate 0.001000, accuracy 44.0%, cross entropy 1.509211
+INFO:tensorflow:Step #807: rate 0.001000, accuracy 48.0%, cross entropy 1.555725
+INFO:tensorflow:Step #808: rate 0.001000, accuracy 63.0%, cross entropy 1.350942
+INFO:tensorflow:Step #809: rate 0.001000, accuracy 48.0%, cross entropy 1.558340
+INFO:tensorflow:Step #810: rate 0.001000, accuracy 50.0%, cross entropy 1.420818
+INFO:tensorflow:Step #811: rate 0.001000, accuracy 49.0%, cross entropy 1.477743
+INFO:tensorflow:Step #812: rate 0.001000, accuracy 59.0%, cross entropy 1.375448
+INFO:tensorflow:Step #813: rate 0.001000, accuracy 55.0%, cross entropy 1.401594
+INFO:tensorflow:Step #814: rate 0.001000, accuracy 58.0%, cross entropy 1.435912
+INFO:tensorflow:Step #815: rate 0.001000, accuracy 47.0%, cross entropy 1.386543
+INFO:tensorflow:Step #816: rate 0.001000, accuracy 47.0%, cross entropy 1.532361
+INFO:tensorflow:Step #817: rate 0.001000, accuracy 54.0%, cross entropy 1.377658
+INFO:tensorflow:Step #818: rate 0.001000, accuracy 54.0%, cross entropy 1.444465
+INFO:tensorflow:Step #819: rate 0.001000, accuracy 44.0%, cross entropy 1.541010
+INFO:tensorflow:Step #820: rate 0.001000, accuracy 48.0%, cross entropy 1.482783
+INFO:tensorflow:Step #821: rate 0.001000, accuracy 47.0%, cross entropy 1.355476
+INFO:tensorflow:Step #822: rate 0.001000, accuracy 56.0%, cross entropy 1.272910
+INFO:tensorflow:Step #823: rate 0.001000, accuracy 55.0%, cross entropy 1.565746
+INFO:tensorflow:Step #824: rate 0.001000, accuracy 57.0%, cross entropy 1.321688
+INFO:tensorflow:Step #825: rate 0.001000, accuracy 49.0%, cross entropy 1.422103
+INFO:tensorflow:Step #826: rate 0.001000, accuracy 53.0%, cross entropy 1.373451
+INFO:tensorflow:Step #827: rate 0.001000, accuracy 58.0%, cross entropy 1.525421
+INFO:tensorflow:Step #828: rate 0.001000, accuracy 42.0%, cross entropy 1.657366
+INFO:tensorflow:Step #829: rate 0.001000, accuracy 52.0%, cross entropy 1.367419
+INFO:tensorflow:Step #830: rate 0.001000, accuracy 50.0%, cross entropy 1.484839
+INFO:tensorflow:Step #831: rate 0.001000, accuracy 53.0%, cross entropy 1.355162
+INFO:tensorflow:Step #832: rate 0.001000, accuracy 55.0%, cross entropy 1.390289
+INFO:tensorflow:Step #833: rate 0.001000, accuracy 59.0%, cross entropy 1.344259
+INFO:tensorflow:Step #834: rate 0.001000, accuracy 55.0%, cross entropy 1.386647
+INFO:tensorflow:Step #835: rate 0.001000, accuracy 60.0%, cross entropy 1.313243
+INFO:tensorflow:Step #836: rate 0.001000, accuracy 63.0%, cross entropy 1.204831
+INFO:tensorflow:Step #837: rate 0.001000, accuracy 57.0%, cross entropy 1.293846
+INFO:tensorflow:Step #838: rate 0.001000, accuracy 48.0%, cross entropy 1.453807
+INFO:tensorflow:Step #839: rate 0.001000, accuracy 53.0%, cross entropy 1.410359
+INFO:tensorflow:Step #840: rate 0.001000, accuracy 56.0%, cross entropy 1.381659
+INFO:tensorflow:Step #841: rate 0.001000, accuracy 56.0%, cross entropy 1.426404
+INFO:tensorflow:Step #842: rate 0.001000, accuracy 53.0%, cross entropy 1.361738
+INFO:tensorflow:Step #843: rate 0.001000, accuracy 56.0%, cross entropy 1.377748
+INFO:tensorflow:Step #844: rate 0.001000, accuracy 52.0%, cross entropy 1.305048
+INFO:tensorflow:Step #845: rate 0.001000, accuracy 53.0%, cross entropy 1.402004
+INFO:tensorflow:Step #846: rate 0.001000, accuracy 53.0%, cross entropy 1.362672
+INFO:tensorflow:Step #847: rate 0.001000, accuracy 57.0%, cross entropy 1.313253
+INFO:tensorflow:Step #848: rate 0.001000, accuracy 61.0%, cross entropy 1.310317
+INFO:tensorflow:Step #849: rate 0.001000, accuracy 50.0%, cross entropy 1.335620
+INFO:tensorflow:Step #850: rate 0.001000, accuracy 47.0%, cross entropy 1.559745
+INFO:tensorflow:Step #851: rate 0.001000, accuracy 53.0%, cross entropy 1.380535
+INFO:tensorflow:Step #852: rate 0.001000, accuracy 61.0%, cross entropy 1.276328
+INFO:tensorflow:Step #853: rate 0.001000, accuracy 54.0%, cross entropy 1.350200
+INFO:tensorflow:Step #854: rate 0.001000, accuracy 49.0%, cross entropy 1.453487
+INFO:tensorflow:Step #855: rate 0.001000, accuracy 51.0%, cross entropy 1.494254
+INFO:tensorflow:Step #856: rate 0.001000, accuracy 56.0%, cross entropy 1.324872
+INFO:tensorflow:Step #857: rate 0.001000, accuracy 55.0%, cross entropy 1.468822
+INFO:tensorflow:Step #858: rate 0.001000, accuracy 50.0%, cross entropy 1.465261
+INFO:tensorflow:Step #859: rate 0.001000, accuracy 57.0%, cross entropy 1.332594
+INFO:tensorflow:Step #860: rate 0.001000, accuracy 54.0%, cross entropy 1.378089
+INFO:tensorflow:Step #861: rate 0.001000, accuracy 52.0%, cross entropy 1.564792
+INFO:tensorflow:Step #862: rate 0.001000, accuracy 60.0%, cross entropy 1.432054
+INFO:tensorflow:Step #863: rate 0.001000, accuracy 48.0%, cross entropy 1.518837
+INFO:tensorflow:Step #864: rate 0.001000, accuracy 54.0%, cross entropy 1.398177
+INFO:tensorflow:Step #865: rate 0.001000, accuracy 59.0%, cross entropy 1.299735
+INFO:tensorflow:Step #866: rate 0.001000, accuracy 54.0%, cross entropy 1.305703
+INFO:tensorflow:Step #867: rate 0.001000, accuracy 50.0%, cross entropy 1.433771
+INFO:tensorflow:Step #868: rate 0.001000, accuracy 58.0%, cross entropy 1.298475
+INFO:tensorflow:Step #869: rate 0.001000, accuracy 57.0%, cross entropy 1.299914
+INFO:tensorflow:Step #870: rate 0.001000, accuracy 60.0%, cross entropy 1.319689
+INFO:tensorflow:Step #871: rate 0.001000, accuracy 57.0%, cross entropy 1.335935
+INFO:tensorflow:Step #872: rate 0.001000, accuracy 54.0%, cross entropy 1.350535
+INFO:tensorflow:Step #873: rate 0.001000, accuracy 58.0%, cross entropy 1.309105
+INFO:tensorflow:Step #874: rate 0.001000, accuracy 54.0%, cross entropy 1.346172
+INFO:tensorflow:Step #875: rate 0.001000, accuracy 49.0%, cross entropy 1.564885
+INFO:tensorflow:Step #876: rate 0.001000, accuracy 46.0%, cross entropy 1.457477
+INFO:tensorflow:Step #877: rate 0.001000, accuracy 48.0%, cross entropy 1.433882
+INFO:tensorflow:Step #878: rate 0.001000, accuracy 53.0%, cross entropy 1.454530
+INFO:tensorflow:Step #879: rate 0.001000, accuracy 61.0%, cross entropy 1.441242
+INFO:tensorflow:Step #880: rate 0.001000, accuracy 57.0%, cross entropy 1.295723
+INFO:tensorflow:Step #881: rate 0.001000, accuracy 50.0%, cross entropy 1.381809
+INFO:tensorflow:Step #882: rate 0.001000, accuracy 55.0%, cross entropy 1.401215
+INFO:tensorflow:Step #883: rate 0.001000, accuracy 62.0%, cross entropy 1.227136
+INFO:tensorflow:Step #884: rate 0.001000, accuracy 57.0%, cross entropy 1.402036
+INFO:tensorflow:Step #885: rate 0.001000, accuracy 62.0%, cross entropy 1.277154
+INFO:tensorflow:Step #886: rate 0.001000, accuracy 55.0%, cross entropy 1.380117
+INFO:tensorflow:Step #887: rate 0.001000, accuracy 54.0%, cross entropy 1.473642
+INFO:tensorflow:Step #888: rate 0.001000, accuracy 52.0%, cross entropy 1.378524
+INFO:tensorflow:Step #889: rate 0.001000, accuracy 55.0%, cross entropy 1.429857
+INFO:tensorflow:Step #890: rate 0.001000, accuracy 60.0%, cross entropy 1.265314
+INFO:tensorflow:Step #891: rate 0.001000, accuracy 54.0%, cross entropy 1.371991
+INFO:tensorflow:Step #892: rate 0.001000, accuracy 57.0%, cross entropy 1.479781
+INFO:tensorflow:Step #893: rate 0.001000, accuracy 58.0%, cross entropy 1.229921
+INFO:tensorflow:Step #894: rate 0.001000, accuracy 56.0%, cross entropy 1.482384
+INFO:tensorflow:Step #895: rate 0.001000, accuracy 63.0%, cross entropy 1.194235
+INFO:tensorflow:Step #896: rate 0.001000, accuracy 63.0%, cross entropy 1.287661
+INFO:tensorflow:Step #897: rate 0.001000, accuracy 51.0%, cross entropy 1.285160
+INFO:tensorflow:Step #898: rate 0.001000, accuracy 63.0%, cross entropy 1.215326
+INFO:tensorflow:Step #899: rate 0.001000, accuracy 56.0%, cross entropy 1.358499
+INFO:tensorflow:Step #900: rate 0.001000, accuracy 52.0%, cross entropy 1.327236
+INFO:tensorflow:Confusion Matrix:
+ [[290   1  19  10  13   4   4  19  11  13]
+ [  9 241   4   1  22  20   1   4   3  46]
+ [ 49  16 173  23  14   3  16  29  14   8]
+ [ 12   9  19 196   2   7  10  19  56  26]
+ [ 19  29   4   0 290  14   2   8   0   7]
+ [  1  32   2   1  27 219   7  24   1  53]
+ [  9   5  15   7   3  18 231  32  44  14]
+ [  8  11  19   8  16  31  13 238   4  39]
+ [  6   4  13  34   0   4  31   6 235  13]
+ [  6  49   3   1   7  18   7  12   8 245]]
+INFO:tensorflow:Step 900: Validation accuracy = 32.7% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-900"
+INFO:tensorflow:Step #901: rate 0.001000, accuracy 58.0%, cross entropy 1.265944
+INFO:tensorflow:Step #902: rate 0.001000, accuracy 62.0%, cross entropy 1.322189
+INFO:tensorflow:Step #903: rate 0.001000, accuracy 57.0%, cross entropy 1.376132
+INFO:tensorflow:Step #904: rate 0.001000, accuracy 49.0%, cross entropy 1.338384
+INFO:tensorflow:Step #905: rate 0.001000, accuracy 55.0%, cross entropy 1.359821
+INFO:tensorflow:Step #906: rate 0.001000, accuracy 66.0%, cross entropy 1.139967
+INFO:tensorflow:Step #907: rate 0.001000, accuracy 57.0%, cross entropy 1.358614
+INFO:tensorflow:Step #908: rate 0.001000, accuracy 58.0%, cross entropy 1.291948
+INFO:tensorflow:Step #909: rate 0.001000, accuracy 56.0%, cross entropy 1.357800
+INFO:tensorflow:Step #910: rate 0.001000, accuracy 58.0%, cross entropy 1.381865
+INFO:tensorflow:Step #911: rate 0.001000, accuracy 56.0%, cross entropy 1.366986
+INFO:tensorflow:Step #912: rate 0.001000, accuracy 58.0%, cross entropy 1.296656
+INFO:tensorflow:Step #913: rate 0.001000, accuracy 59.0%, cross entropy 1.154347
+INFO:tensorflow:Step #914: rate 0.001000, accuracy 54.0%, cross entropy 1.475603
+INFO:tensorflow:Step #915: rate 0.001000, accuracy 51.0%, cross entropy 1.439233
+INFO:tensorflow:Step #916: rate 0.001000, accuracy 45.0%, cross entropy 1.517074
+INFO:tensorflow:Step #917: rate 0.001000, accuracy 53.0%, cross entropy 1.330382
+INFO:tensorflow:Step #918: rate 0.001000, accuracy 53.0%, cross entropy 1.359142
+INFO:tensorflow:Step #919: rate 0.001000, accuracy 50.0%, cross entropy 1.515926
+INFO:tensorflow:Step #920: rate 0.001000, accuracy 59.0%, cross entropy 1.236854
+INFO:tensorflow:Step #921: rate 0.001000, accuracy 53.0%, cross entropy 1.381591
+INFO:tensorflow:Step #922: rate 0.001000, accuracy 57.0%, cross entropy 1.245910
+INFO:tensorflow:Step #923: rate 0.001000, accuracy 63.0%, cross entropy 1.207241
+INFO:tensorflow:Step #924: rate 0.001000, accuracy 53.0%, cross entropy 1.380927
+INFO:tensorflow:Step #925: rate 0.001000, accuracy 48.0%, cross entropy 1.450352
+INFO:tensorflow:Step #926: rate 0.001000, accuracy 49.0%, cross entropy 1.456506
+INFO:tensorflow:Step #927: rate 0.001000, accuracy 54.0%, cross entropy 1.422156
+INFO:tensorflow:Step #928: rate 0.001000, accuracy 60.0%, cross entropy 1.380224
+INFO:tensorflow:Step #929: rate 0.001000, accuracy 61.0%, cross entropy 1.283412
+INFO:tensorflow:Step #930: rate 0.001000, accuracy 67.0%, cross entropy 1.192060
+INFO:tensorflow:Step #931: rate 0.001000, accuracy 53.0%, cross entropy 1.366356
+INFO:tensorflow:Step #932: rate 0.001000, accuracy 56.0%, cross entropy 1.312662
+INFO:tensorflow:Step #933: rate 0.001000, accuracy 59.0%, cross entropy 1.196088
+INFO:tensorflow:Step #934: rate 0.001000, accuracy 56.0%, cross entropy 1.316595
+INFO:tensorflow:Step #935: rate 0.001000, accuracy 61.0%, cross entropy 1.375016
+INFO:tensorflow:Step #936: rate 0.001000, accuracy 57.0%, cross entropy 1.344255
+INFO:tensorflow:Step #937: rate 0.001000, accuracy 48.0%, cross entropy 1.488548
+INFO:tensorflow:Step #938: rate 0.001000, accuracy 61.0%, cross entropy 1.186279
+INFO:tensorflow:Step #939: rate 0.001000, accuracy 66.0%, cross entropy 1.147533
+INFO:tensorflow:Step #940: rate 0.001000, accuracy 52.0%, cross entropy 1.369090
+INFO:tensorflow:Step #941: rate 0.001000, accuracy 51.0%, cross entropy 1.388981
+INFO:tensorflow:Step #942: rate 0.001000, accuracy 66.0%, cross entropy 1.131976
+INFO:tensorflow:Step #943: rate 0.001000, accuracy 62.0%, cross entropy 1.250327
+INFO:tensorflow:Step #944: rate 0.001000, accuracy 52.0%, cross entropy 1.402993
+INFO:tensorflow:Step #945: rate 0.001000, accuracy 52.0%, cross entropy 1.563416
+INFO:tensorflow:Step #946: rate 0.001000, accuracy 61.0%, cross entropy 1.355327
+INFO:tensorflow:Step #947: rate 0.001000, accuracy 66.0%, cross entropy 1.116273
+INFO:tensorflow:Step #948: rate 0.001000, accuracy 56.0%, cross entropy 1.289009
+INFO:tensorflow:Step #949: rate 0.001000, accuracy 56.0%, cross entropy 1.426100
+INFO:tensorflow:Step #950: rate 0.001000, accuracy 51.0%, cross entropy 1.468616
+INFO:tensorflow:Step #951: rate 0.001000, accuracy 55.0%, cross entropy 1.368184
+INFO:tensorflow:Step #952: rate 0.001000, accuracy 57.0%, cross entropy 1.331949
+INFO:tensorflow:Step #953: rate 0.001000, accuracy 58.0%, cross entropy 1.203037
+INFO:tensorflow:Step #954: rate 0.001000, accuracy 51.0%, cross entropy 1.407402
+INFO:tensorflow:Step #955: rate 0.001000, accuracy 54.0%, cross entropy 1.340809
+INFO:tensorflow:Step #956: rate 0.001000, accuracy 62.0%, cross entropy 1.137273
+INFO:tensorflow:Step #957: rate 0.001000, accuracy 62.0%, cross entropy 1.211091
+INFO:tensorflow:Step #958: rate 0.001000, accuracy 61.0%, cross entropy 1.289061
+INFO:tensorflow:Step #959: rate 0.001000, accuracy 54.0%, cross entropy 1.364674
+INFO:tensorflow:Step #960: rate 0.001000, accuracy 58.0%, cross entropy 1.333271
+INFO:tensorflow:Step #961: rate 0.001000, accuracy 57.0%, cross entropy 1.384814
+INFO:tensorflow:Step #962: rate 0.001000, accuracy 70.0%, cross entropy 1.189019
+INFO:tensorflow:Step #963: rate 0.001000, accuracy 53.0%, cross entropy 1.266642
+INFO:tensorflow:Step #964: rate 0.001000, accuracy 53.0%, cross entropy 1.382444
+INFO:tensorflow:Step #965: rate 0.001000, accuracy 58.0%, cross entropy 1.287404
+INFO:tensorflow:Step #966: rate 0.001000, accuracy 60.0%, cross entropy 1.233707
+INFO:tensorflow:Step #967: rate 0.001000, accuracy 55.0%, cross entropy 1.415442
+INFO:tensorflow:Step #968: rate 0.001000, accuracy 53.0%, cross entropy 1.318620
+INFO:tensorflow:Step #969: rate 0.001000, accuracy 53.0%, cross entropy 1.216241
+INFO:tensorflow:Step #970: rate 0.001000, accuracy 46.0%, cross entropy 1.494261
+INFO:tensorflow:Step #971: rate 0.001000, accuracy 59.0%, cross entropy 1.195533
+INFO:tensorflow:Step #972: rate 0.001000, accuracy 55.0%, cross entropy 1.335841
+INFO:tensorflow:Step #973: rate 0.001000, accuracy 50.0%, cross entropy 1.368554
+INFO:tensorflow:Step #974: rate 0.001000, accuracy 55.0%, cross entropy 1.218501
+INFO:tensorflow:Step #975: rate 0.001000, accuracy 50.0%, cross entropy 1.303996
+INFO:tensorflow:Step #976: rate 0.001000, accuracy 47.0%, cross entropy 1.418591
+INFO:tensorflow:Step #977: rate 0.001000, accuracy 51.0%, cross entropy 1.417239
+INFO:tensorflow:Step #978: rate 0.001000, accuracy 49.0%, cross entropy 1.368928
+INFO:tensorflow:Step #979: rate 0.001000, accuracy 57.0%, cross entropy 1.366658
+INFO:tensorflow:Step #980: rate 0.001000, accuracy 59.0%, cross entropy 1.309269
+INFO:tensorflow:Step #981: rate 0.001000, accuracy 48.0%, cross entropy 1.390700
+INFO:tensorflow:Step #982: rate 0.001000, accuracy 65.0%, cross entropy 1.179921
+INFO:tensorflow:Step #983: rate 0.001000, accuracy 61.0%, cross entropy 1.247641
+INFO:tensorflow:Step #984: rate 0.001000, accuracy 54.0%, cross entropy 1.342454
+INFO:tensorflow:Step #985: rate 0.001000, accuracy 58.0%, cross entropy 1.300349
+INFO:tensorflow:Step #986: rate 0.001000, accuracy 59.0%, cross entropy 1.208620
+INFO:tensorflow:Step #987: rate 0.001000, accuracy 56.0%, cross entropy 1.204236
+INFO:tensorflow:Step #988: rate 0.001000, accuracy 56.0%, cross entropy 1.217213
+INFO:tensorflow:Step #989: rate 0.001000, accuracy 62.0%, cross entropy 1.162506
+INFO:tensorflow:Step #990: rate 0.001000, accuracy 56.0%, cross entropy 1.330680
+INFO:tensorflow:Step #991: rate 0.001000, accuracy 59.0%, cross entropy 1.247998
+INFO:tensorflow:Step #992: rate 0.001000, accuracy 57.0%, cross entropy 1.210749
+INFO:tensorflow:Step #993: rate 0.001000, accuracy 56.0%, cross entropy 1.393263
+INFO:tensorflow:Step #994: rate 0.001000, accuracy 49.0%, cross entropy 1.346771
+INFO:tensorflow:Step #995: rate 0.001000, accuracy 55.0%, cross entropy 1.425581
+INFO:tensorflow:Step #996: rate 0.001000, accuracy 58.0%, cross entropy 1.226336
+INFO:tensorflow:Step #997: rate 0.001000, accuracy 65.0%, cross entropy 1.238508
+INFO:tensorflow:Step #998: rate 0.001000, accuracy 54.0%, cross entropy 1.324098
+INFO:tensorflow:Step #999: rate 0.001000, accuracy 52.0%, cross entropy 1.395037
+INFO:tensorflow:Step #1000: rate 0.001000, accuracy 59.0%, cross entropy 1.336887
+INFO:tensorflow:Confusion Matrix:
+ [[299   2  19  10  13   3   3  14   8  13]
+ [  8 263   3   1  18  19   1   6   3  29]
+ [ 56  18 185  19  12   3  12  20  14   6]
+ [ 14  12  21 196   2   6   8  12  62  23]
+ [ 15  41   2   0 285  17   2   8   0   3]
+ [  0  40   3   1  21 235   3  19   2  43]
+ [  7   5  17   9   3  18 227  35  47  10]
+ [ 13  14  19   5  14  36  10 238   5  33]
+ [  6   6  10  37   0   5  22   4 246  10]
+ [  6  66   4   2   6  28   6  10   8 220]]
+INFO:tensorflow:Step 1000: Validation accuracy = 33.2% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1000"
+INFO:tensorflow:Step #1001: rate 0.001000, accuracy 62.0%, cross entropy 1.195931
+INFO:tensorflow:Step #1002: rate 0.001000, accuracy 48.0%, cross entropy 1.541851
+INFO:tensorflow:Step #1003: rate 0.001000, accuracy 67.0%, cross entropy 1.055581
+INFO:tensorflow:Step #1004: rate 0.001000, accuracy 56.0%, cross entropy 1.227531
+INFO:tensorflow:Step #1005: rate 0.001000, accuracy 58.0%, cross entropy 1.169599
+INFO:tensorflow:Step #1006: rate 0.001000, accuracy 54.0%, cross entropy 1.369251
+INFO:tensorflow:Step #1007: rate 0.001000, accuracy 60.0%, cross entropy 1.272027
+INFO:tensorflow:Step #1008: rate 0.001000, accuracy 62.0%, cross entropy 1.214481
+INFO:tensorflow:Step #1009: rate 0.001000, accuracy 67.0%, cross entropy 1.215315
+INFO:tensorflow:Step #1010: rate 0.001000, accuracy 58.0%, cross entropy 1.324657
+INFO:tensorflow:Step #1011: rate 0.001000, accuracy 54.0%, cross entropy 1.336155
+INFO:tensorflow:Step #1012: rate 0.001000, accuracy 60.0%, cross entropy 1.240127
+INFO:tensorflow:Step #1013: rate 0.001000, accuracy 56.0%, cross entropy 1.341991
+INFO:tensorflow:Step #1014: rate 0.001000, accuracy 68.0%, cross entropy 1.143863
+INFO:tensorflow:Step #1015: rate 0.001000, accuracy 56.0%, cross entropy 1.331148
+INFO:tensorflow:Step #1016: rate 0.001000, accuracy 57.0%, cross entropy 1.227285
+INFO:tensorflow:Step #1017: rate 0.001000, accuracy 53.0%, cross entropy 1.401761
+INFO:tensorflow:Step #1018: rate 0.001000, accuracy 61.0%, cross entropy 1.182575
+INFO:tensorflow:Step #1019: rate 0.001000, accuracy 66.0%, cross entropy 1.076015
+INFO:tensorflow:Step #1020: rate 0.001000, accuracy 61.0%, cross entropy 1.319249
+INFO:tensorflow:Step #1021: rate 0.001000, accuracy 69.0%, cross entropy 1.093052
+INFO:tensorflow:Step #1022: rate 0.001000, accuracy 62.0%, cross entropy 1.193422
+INFO:tensorflow:Step #1023: rate 0.001000, accuracy 53.0%, cross entropy 1.463200
+INFO:tensorflow:Step #1024: rate 0.001000, accuracy 56.0%, cross entropy 1.230325
+INFO:tensorflow:Step #1025: rate 0.001000, accuracy 59.0%, cross entropy 1.291204
+INFO:tensorflow:Step #1026: rate 0.001000, accuracy 61.0%, cross entropy 1.244778
+INFO:tensorflow:Step #1027: rate 0.001000, accuracy 51.0%, cross entropy 1.315848
+INFO:tensorflow:Step #1028: rate 0.001000, accuracy 63.0%, cross entropy 1.165215
+INFO:tensorflow:Step #1029: rate 0.001000, accuracy 57.0%, cross entropy 1.239760
+INFO:tensorflow:Step #1030: rate 0.001000, accuracy 56.0%, cross entropy 1.321071
+INFO:tensorflow:Step #1031: rate 0.001000, accuracy 66.0%, cross entropy 1.119270
+INFO:tensorflow:Step #1032: rate 0.001000, accuracy 63.0%, cross entropy 1.130186
+INFO:tensorflow:Step #1033: rate 0.001000, accuracy 63.0%, cross entropy 1.184218
+INFO:tensorflow:Step #1034: rate 0.001000, accuracy 62.0%, cross entropy 1.163154
+INFO:tensorflow:Step #1035: rate 0.001000, accuracy 63.0%, cross entropy 1.163754
+INFO:tensorflow:Step #1036: rate 0.001000, accuracy 61.0%, cross entropy 1.192818
+INFO:tensorflow:Step #1037: rate 0.001000, accuracy 67.0%, cross entropy 1.103823
+INFO:tensorflow:Step #1038: rate 0.001000, accuracy 64.0%, cross entropy 1.084884
+INFO:tensorflow:Step #1039: rate 0.001000, accuracy 66.0%, cross entropy 1.052768
+INFO:tensorflow:Step #1040: rate 0.001000, accuracy 54.0%, cross entropy 1.308213
+INFO:tensorflow:Step #1041: rate 0.001000, accuracy 57.0%, cross entropy 1.156010
+INFO:tensorflow:Step #1042: rate 0.001000, accuracy 56.0%, cross entropy 1.307489
+INFO:tensorflow:Step #1043: rate 0.001000, accuracy 58.0%, cross entropy 1.271918
+INFO:tensorflow:Step #1044: rate 0.001000, accuracy 56.0%, cross entropy 1.345307
+INFO:tensorflow:Step #1045: rate 0.001000, accuracy 51.0%, cross entropy 1.243256
+INFO:tensorflow:Step #1046: rate 0.001000, accuracy 57.0%, cross entropy 1.440419
+INFO:tensorflow:Step #1047: rate 0.001000, accuracy 59.0%, cross entropy 1.330638
+INFO:tensorflow:Step #1048: rate 0.001000, accuracy 62.0%, cross entropy 1.127708
+INFO:tensorflow:Step #1049: rate 0.001000, accuracy 61.0%, cross entropy 1.265668
+INFO:tensorflow:Step #1050: rate 0.001000, accuracy 69.0%, cross entropy 1.048940
+INFO:tensorflow:Step #1051: rate 0.001000, accuracy 66.0%, cross entropy 1.117831
+INFO:tensorflow:Step #1052: rate 0.001000, accuracy 47.0%, cross entropy 1.393853
+INFO:tensorflow:Step #1053: rate 0.001000, accuracy 61.0%, cross entropy 1.129362
+INFO:tensorflow:Step #1054: rate 0.001000, accuracy 59.0%, cross entropy 1.381779
+INFO:tensorflow:Step #1055: rate 0.001000, accuracy 51.0%, cross entropy 1.349149
+INFO:tensorflow:Step #1056: rate 0.001000, accuracy 63.0%, cross entropy 1.167811
+INFO:tensorflow:Step #1057: rate 0.001000, accuracy 63.0%, cross entropy 1.201813
+INFO:tensorflow:Step #1058: rate 0.001000, accuracy 67.0%, cross entropy 1.012403
+INFO:tensorflow:Step #1059: rate 0.001000, accuracy 46.0%, cross entropy 1.380512
+INFO:tensorflow:Step #1060: rate 0.001000, accuracy 66.0%, cross entropy 1.166540
+INFO:tensorflow:Step #1061: rate 0.001000, accuracy 55.0%, cross entropy 1.411641
+INFO:tensorflow:Step #1062: rate 0.001000, accuracy 65.0%, cross entropy 1.171699
+INFO:tensorflow:Step #1063: rate 0.001000, accuracy 56.0%, cross entropy 1.230921
+INFO:tensorflow:Step #1064: rate 0.001000, accuracy 48.0%, cross entropy 1.479383
+INFO:tensorflow:Step #1065: rate 0.001000, accuracy 62.0%, cross entropy 1.149733
+INFO:tensorflow:Step #1066: rate 0.001000, accuracy 65.0%, cross entropy 1.262003
+INFO:tensorflow:Step #1067: rate 0.001000, accuracy 60.0%, cross entropy 1.261914
+INFO:tensorflow:Step #1068: rate 0.001000, accuracy 54.0%, cross entropy 1.469144
+INFO:tensorflow:Step #1069: rate 0.001000, accuracy 65.0%, cross entropy 1.226461
+INFO:tensorflow:Step #1070: rate 0.001000, accuracy 54.0%, cross entropy 1.373324
+INFO:tensorflow:Step #1071: rate 0.001000, accuracy 61.0%, cross entropy 1.235480
+INFO:tensorflow:Step #1072: rate 0.001000, accuracy 53.0%, cross entropy 1.269874
+INFO:tensorflow:Step #1073: rate 0.001000, accuracy 65.0%, cross entropy 1.108429
+INFO:tensorflow:Step #1074: rate 0.001000, accuracy 59.0%, cross entropy 1.179148
+INFO:tensorflow:Step #1075: rate 0.001000, accuracy 60.0%, cross entropy 1.246793
+INFO:tensorflow:Step #1076: rate 0.001000, accuracy 62.0%, cross entropy 1.227539
+INFO:tensorflow:Step #1077: rate 0.001000, accuracy 56.0%, cross entropy 1.331502
+INFO:tensorflow:Step #1078: rate 0.001000, accuracy 68.0%, cross entropy 1.131750
+INFO:tensorflow:Step #1079: rate 0.001000, accuracy 64.0%, cross entropy 1.156694
+INFO:tensorflow:Step #1080: rate 0.001000, accuracy 56.0%, cross entropy 1.297294
+INFO:tensorflow:Step #1081: rate 0.001000, accuracy 61.0%, cross entropy 1.323396
+INFO:tensorflow:Step #1082: rate 0.001000, accuracy 53.0%, cross entropy 1.284872
+INFO:tensorflow:Step #1083: rate 0.001000, accuracy 52.0%, cross entropy 1.337379
+INFO:tensorflow:Step #1084: rate 0.001000, accuracy 64.0%, cross entropy 1.128445
+INFO:tensorflow:Step #1085: rate 0.001000, accuracy 58.0%, cross entropy 1.373429
+INFO:tensorflow:Step #1086: rate 0.001000, accuracy 58.0%, cross entropy 1.202577
+INFO:tensorflow:Step #1087: rate 0.001000, accuracy 62.0%, cross entropy 1.200971
+INFO:tensorflow:Step #1088: rate 0.001000, accuracy 61.0%, cross entropy 1.150100
+INFO:tensorflow:Step #1089: rate 0.001000, accuracy 59.0%, cross entropy 1.246282
+INFO:tensorflow:Step #1090: rate 0.001000, accuracy 63.0%, cross entropy 1.226583
+INFO:tensorflow:Step #1091: rate 0.001000, accuracy 61.0%, cross entropy 1.372371
+INFO:tensorflow:Step #1092: rate 0.001000, accuracy 64.0%, cross entropy 1.068286
+INFO:tensorflow:Step #1093: rate 0.001000, accuracy 65.0%, cross entropy 1.146796
+INFO:tensorflow:Step #1094: rate 0.001000, accuracy 45.0%, cross entropy 1.438837
+INFO:tensorflow:Step #1095: rate 0.001000, accuracy 64.0%, cross entropy 1.233455
+INFO:tensorflow:Step #1096: rate 0.001000, accuracy 60.0%, cross entropy 1.260018
+INFO:tensorflow:Step #1097: rate 0.001000, accuracy 57.0%, cross entropy 1.315369
+INFO:tensorflow:Step #1098: rate 0.001000, accuracy 63.0%, cross entropy 1.274579
+INFO:tensorflow:Step #1099: rate 0.001000, accuracy 56.0%, cross entropy 1.269274
+INFO:tensorflow:Step #1100: rate 0.001000, accuracy 59.0%, cross entropy 1.291615
+INFO:tensorflow:Confusion Matrix:
+ [[302   1  12   9  13   4   4  17  10  12]
+ [  6 247   3   0  22  21   2   4   2  44]
+ [ 46  12 188  22  13   2  12  28  15   7]
+ [ 12  10  11 217   3   5  10  14  55  19]
+ [  8  27   1   0 304  18   2  11   0   2]
+ [  0  25   2   1  24 259   3  16   2  35]
+ [  6   7  13  13   3  17 233  34  42  10]
+ [ 11   8  12   4  19  33  11 256   5  28]
+ [  5   3   9  37   1   6  21   4 251   9]
+ [  4  50   4   4   6  28   7  12   8 233]]
+INFO:tensorflow:Step 1100: Validation accuracy = 34.6% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1100"
+INFO:tensorflow:Step #1101: rate 0.001000, accuracy 66.0%, cross entropy 1.010131
+INFO:tensorflow:Step #1102: rate 0.001000, accuracy 55.0%, cross entropy 1.273241
+INFO:tensorflow:Step #1103: rate 0.001000, accuracy 65.0%, cross entropy 1.062483
+INFO:tensorflow:Step #1104: rate 0.001000, accuracy 59.0%, cross entropy 1.104658
+INFO:tensorflow:Step #1105: rate 0.001000, accuracy 63.0%, cross entropy 1.101803
+INFO:tensorflow:Step #1106: rate 0.001000, accuracy 67.0%, cross entropy 1.249224
+INFO:tensorflow:Step #1107: rate 0.001000, accuracy 57.0%, cross entropy 1.249044
+INFO:tensorflow:Step #1108: rate 0.001000, accuracy 56.0%, cross entropy 1.269771
+INFO:tensorflow:Step #1109: rate 0.001000, accuracy 66.0%, cross entropy 1.147110
+INFO:tensorflow:Step #1110: rate 0.001000, accuracy 59.0%, cross entropy 1.277326
+INFO:tensorflow:Step #1111: rate 0.001000, accuracy 61.0%, cross entropy 1.179631
+INFO:tensorflow:Step #1112: rate 0.001000, accuracy 62.0%, cross entropy 1.273763
+INFO:tensorflow:Step #1113: rate 0.001000, accuracy 67.0%, cross entropy 1.089526
+INFO:tensorflow:Step #1114: rate 0.001000, accuracy 61.0%, cross entropy 1.121693
+INFO:tensorflow:Step #1115: rate 0.001000, accuracy 56.0%, cross entropy 1.205238
+INFO:tensorflow:Step #1116: rate 0.001000, accuracy 52.0%, cross entropy 1.335925
+INFO:tensorflow:Step #1117: rate 0.001000, accuracy 61.0%, cross entropy 1.236626
+INFO:tensorflow:Step #1118: rate 0.001000, accuracy 64.0%, cross entropy 1.047237
+INFO:tensorflow:Step #1119: rate 0.001000, accuracy 60.0%, cross entropy 1.304779
+INFO:tensorflow:Step #1120: rate 0.001000, accuracy 61.0%, cross entropy 1.101596
+INFO:tensorflow:Step #1121: rate 0.001000, accuracy 56.0%, cross entropy 1.293563
+INFO:tensorflow:Step #1122: rate 0.001000, accuracy 64.0%, cross entropy 1.118094
+INFO:tensorflow:Step #1123: rate 0.001000, accuracy 49.0%, cross entropy 1.378328
+INFO:tensorflow:Step #1124: rate 0.001000, accuracy 62.0%, cross entropy 1.090907
+INFO:tensorflow:Step #1125: rate 0.001000, accuracy 60.0%, cross entropy 1.266056
+INFO:tensorflow:Step #1126: rate 0.001000, accuracy 68.0%, cross entropy 1.039337
+INFO:tensorflow:Step #1127: rate 0.001000, accuracy 66.0%, cross entropy 1.242952
+INFO:tensorflow:Step #1128: rate 0.001000, accuracy 53.0%, cross entropy 1.329069
+INFO:tensorflow:Step #1129: rate 0.001000, accuracy 55.0%, cross entropy 1.201726
+INFO:tensorflow:Step #1130: rate 0.001000, accuracy 62.0%, cross entropy 1.097638
+INFO:tensorflow:Step #1131: rate 0.001000, accuracy 53.0%, cross entropy 1.216861
+INFO:tensorflow:Step #1132: rate 0.001000, accuracy 62.0%, cross entropy 1.268826
+INFO:tensorflow:Step #1133: rate 0.001000, accuracy 62.0%, cross entropy 1.161284
+INFO:tensorflow:Step #1134: rate 0.001000, accuracy 59.0%, cross entropy 1.293375
+INFO:tensorflow:Step #1135: rate 0.001000, accuracy 57.0%, cross entropy 1.141285
+INFO:tensorflow:Step #1136: rate 0.001000, accuracy 59.0%, cross entropy 1.096495
+INFO:tensorflow:Step #1137: rate 0.001000, accuracy 60.0%, cross entropy 1.318719
+INFO:tensorflow:Step #1138: rate 0.001000, accuracy 63.0%, cross entropy 1.149235
+INFO:tensorflow:Step #1139: rate 0.001000, accuracy 59.0%, cross entropy 0.996145
+INFO:tensorflow:Step #1140: rate 0.001000, accuracy 65.0%, cross entropy 1.013296
+INFO:tensorflow:Step #1141: rate 0.001000, accuracy 53.0%, cross entropy 1.398752
+INFO:tensorflow:Step #1142: rate 0.001000, accuracy 66.0%, cross entropy 1.151526
+INFO:tensorflow:Step #1143: rate 0.001000, accuracy 60.0%, cross entropy 1.241278
+INFO:tensorflow:Step #1144: rate 0.001000, accuracy 68.0%, cross entropy 1.073442
+INFO:tensorflow:Step #1145: rate 0.001000, accuracy 61.0%, cross entropy 1.228338
+INFO:tensorflow:Step #1146: rate 0.001000, accuracy 65.0%, cross entropy 1.152363
+INFO:tensorflow:Step #1147: rate 0.001000, accuracy 52.0%, cross entropy 1.337062
+INFO:tensorflow:Step #1148: rate 0.001000, accuracy 58.0%, cross entropy 1.296014
+INFO:tensorflow:Step #1149: rate 0.001000, accuracy 62.0%, cross entropy 1.310057
+INFO:tensorflow:Step #1150: rate 0.001000, accuracy 66.0%, cross entropy 1.110809
+INFO:tensorflow:Step #1151: rate 0.001000, accuracy 60.0%, cross entropy 1.253304
+INFO:tensorflow:Step #1152: rate 0.001000, accuracy 63.0%, cross entropy 1.105074
+INFO:tensorflow:Step #1153: rate 0.001000, accuracy 73.0%, cross entropy 1.005099
+INFO:tensorflow:Step #1154: rate 0.001000, accuracy 62.0%, cross entropy 1.261502
+INFO:tensorflow:Step #1155: rate 0.001000, accuracy 58.0%, cross entropy 1.311199
+INFO:tensorflow:Step #1156: rate 0.001000, accuracy 55.0%, cross entropy 1.264589
+INFO:tensorflow:Step #1157: rate 0.001000, accuracy 66.0%, cross entropy 1.106937
+INFO:tensorflow:Step #1158: rate 0.001000, accuracy 68.0%, cross entropy 1.094818
+INFO:tensorflow:Step #1159: rate 0.001000, accuracy 67.0%, cross entropy 1.087317
+INFO:tensorflow:Step #1160: rate 0.001000, accuracy 54.0%, cross entropy 1.323076
+INFO:tensorflow:Step #1161: rate 0.001000, accuracy 64.0%, cross entropy 1.023214
+INFO:tensorflow:Step #1162: rate 0.001000, accuracy 54.0%, cross entropy 1.323863
+INFO:tensorflow:Step #1163: rate 0.001000, accuracy 66.0%, cross entropy 1.079158
+INFO:tensorflow:Step #1164: rate 0.001000, accuracy 64.0%, cross entropy 1.178545
+INFO:tensorflow:Step #1165: rate 0.001000, accuracy 60.0%, cross entropy 1.357542
+INFO:tensorflow:Step #1166: rate 0.001000, accuracy 58.0%, cross entropy 1.294154
+INFO:tensorflow:Step #1167: rate 0.001000, accuracy 55.0%, cross entropy 1.278816
+INFO:tensorflow:Step #1168: rate 0.001000, accuracy 61.0%, cross entropy 1.112831
+INFO:tensorflow:Step #1169: rate 0.001000, accuracy 69.0%, cross entropy 1.074338
+INFO:tensorflow:Step #1170: rate 0.001000, accuracy 64.0%, cross entropy 1.131098
+INFO:tensorflow:Step #1171: rate 0.001000, accuracy 59.0%, cross entropy 1.188473
+INFO:tensorflow:Step #1172: rate 0.001000, accuracy 56.0%, cross entropy 1.288080
+INFO:tensorflow:Step #1173: rate 0.001000, accuracy 57.0%, cross entropy 1.239032
+INFO:tensorflow:Step #1174: rate 0.001000, accuracy 64.0%, cross entropy 1.060438
+INFO:tensorflow:Step #1175: rate 0.001000, accuracy 56.0%, cross entropy 1.243634
+INFO:tensorflow:Step #1176: rate 0.001000, accuracy 56.0%, cross entropy 1.244713
+INFO:tensorflow:Step #1177: rate 0.001000, accuracy 78.0%, cross entropy 0.836924
+INFO:tensorflow:Step #1178: rate 0.001000, accuracy 64.0%, cross entropy 1.155606
+INFO:tensorflow:Step #1179: rate 0.001000, accuracy 69.0%, cross entropy 1.011533
+INFO:tensorflow:Step #1180: rate 0.001000, accuracy 59.0%, cross entropy 1.269163
+INFO:tensorflow:Step #1181: rate 0.001000, accuracy 65.0%, cross entropy 1.200668
+INFO:tensorflow:Step #1182: rate 0.001000, accuracy 63.0%, cross entropy 1.158710
+INFO:tensorflow:Step #1183: rate 0.001000, accuracy 70.0%, cross entropy 1.057608
+INFO:tensorflow:Step #1184: rate 0.001000, accuracy 60.0%, cross entropy 1.256230
+INFO:tensorflow:Step #1185: rate 0.001000, accuracy 67.0%, cross entropy 1.029910
+INFO:tensorflow:Step #1186: rate 0.001000, accuracy 61.0%, cross entropy 1.308299
+INFO:tensorflow:Step #1187: rate 0.001000, accuracy 63.0%, cross entropy 1.110337
+INFO:tensorflow:Step #1188: rate 0.001000, accuracy 64.0%, cross entropy 1.062112
+INFO:tensorflow:Step #1189: rate 0.001000, accuracy 64.0%, cross entropy 1.118589
+INFO:tensorflow:Step #1190: rate 0.001000, accuracy 58.0%, cross entropy 1.254729
+INFO:tensorflow:Step #1191: rate 0.001000, accuracy 58.0%, cross entropy 1.290431
+INFO:tensorflow:Step #1192: rate 0.001000, accuracy 64.0%, cross entropy 1.250423
+INFO:tensorflow:Step #1193: rate 0.001000, accuracy 58.0%, cross entropy 1.242005
+INFO:tensorflow:Step #1194: rate 0.001000, accuracy 67.0%, cross entropy 1.073569
+INFO:tensorflow:Step #1195: rate 0.001000, accuracy 60.0%, cross entropy 1.192958
+INFO:tensorflow:Step #1196: rate 0.001000, accuracy 55.0%, cross entropy 1.188101
+INFO:tensorflow:Step #1197: rate 0.001000, accuracy 66.0%, cross entropy 1.022483
+INFO:tensorflow:Step #1198: rate 0.001000, accuracy 65.0%, cross entropy 1.161811
+INFO:tensorflow:Step #1199: rate 0.001000, accuracy 63.0%, cross entropy 1.103006
+INFO:tensorflow:Step #1200: rate 0.001000, accuracy 62.0%, cross entropy 1.089265
+INFO:tensorflow:Confusion Matrix:
+ [[310   1  17   8  14   3   3  14   6   8]
+ [  5 274   6   0  16  17   2   3   2  26]
+ [ 48  13 216   9  15   0  15  14   9   6]
+ [ 12   9  17 207   4   7  14  11  50  25]
+ [  6  30   3   0 306  17   2   8   0   1]
+ [  0  26   2   0  22 260   4  17   2  34]
+ [  8   3  13   8   5  14 258  28  34   7]
+ [ 14   8  15   3  21  30  13 254   3  26]
+ [  5   2   8  34   1   5  30   3 248  10]
+ [  4  59   5   1   6  25   8  11   8 229]]
+INFO:tensorflow:Step 1200: Validation accuracy = 35.6% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1200"
+INFO:tensorflow:Step #1201: rate 0.001000, accuracy 65.0%, cross entropy 0.986621
+INFO:tensorflow:Step #1202: rate 0.001000, accuracy 54.0%, cross entropy 1.276070
+INFO:tensorflow:Step #1203: rate 0.001000, accuracy 57.0%, cross entropy 1.212377
+INFO:tensorflow:Step #1204: rate 0.001000, accuracy 64.0%, cross entropy 1.154177
+INFO:tensorflow:Step #1205: rate 0.001000, accuracy 70.0%, cross entropy 0.953168
+INFO:tensorflow:Step #1206: rate 0.001000, accuracy 65.0%, cross entropy 1.043505
+INFO:tensorflow:Step #1207: rate 0.001000, accuracy 63.0%, cross entropy 1.200663
+INFO:tensorflow:Step #1208: rate 0.001000, accuracy 58.0%, cross entropy 1.136775
+INFO:tensorflow:Step #1209: rate 0.001000, accuracy 65.0%, cross entropy 1.144020
+INFO:tensorflow:Step #1210: rate 0.001000, accuracy 63.0%, cross entropy 1.131154
+INFO:tensorflow:Step #1211: rate 0.001000, accuracy 60.0%, cross entropy 1.319185
+INFO:tensorflow:Step #1212: rate 0.001000, accuracy 61.0%, cross entropy 1.175677
+INFO:tensorflow:Step #1213: rate 0.001000, accuracy 60.0%, cross entropy 1.358533
+INFO:tensorflow:Step #1214: rate 0.001000, accuracy 62.0%, cross entropy 1.242283
+INFO:tensorflow:Step #1215: rate 0.001000, accuracy 60.0%, cross entropy 1.113608
+INFO:tensorflow:Step #1216: rate 0.001000, accuracy 53.0%, cross entropy 1.229302
+INFO:tensorflow:Step #1217: rate 0.001000, accuracy 72.0%, cross entropy 1.063507
+INFO:tensorflow:Step #1218: rate 0.001000, accuracy 53.0%, cross entropy 1.379243
+INFO:tensorflow:Step #1219: rate 0.001000, accuracy 63.0%, cross entropy 1.138053
+INFO:tensorflow:Step #1220: rate 0.001000, accuracy 54.0%, cross entropy 1.246310
+INFO:tensorflow:Step #1221: rate 0.001000, accuracy 61.0%, cross entropy 1.149799
+INFO:tensorflow:Step #1222: rate 0.001000, accuracy 70.0%, cross entropy 1.028726
+INFO:tensorflow:Step #1223: rate 0.001000, accuracy 64.0%, cross entropy 1.161632
+INFO:tensorflow:Step #1224: rate 0.001000, accuracy 57.0%, cross entropy 1.248419
+INFO:tensorflow:Step #1225: rate 0.001000, accuracy 61.0%, cross entropy 1.377802
+INFO:tensorflow:Step #1226: rate 0.001000, accuracy 61.0%, cross entropy 1.285519
+INFO:tensorflow:Step #1227: rate 0.001000, accuracy 64.0%, cross entropy 1.105791
+INFO:tensorflow:Step #1228: rate 0.001000, accuracy 60.0%, cross entropy 1.162626
+INFO:tensorflow:Step #1229: rate 0.001000, accuracy 69.0%, cross entropy 1.017355
+INFO:tensorflow:Step #1230: rate 0.001000, accuracy 64.0%, cross entropy 1.266543
+INFO:tensorflow:Step #1231: rate 0.001000, accuracy 68.0%, cross entropy 0.998698
+INFO:tensorflow:Step #1232: rate 0.001000, accuracy 55.0%, cross entropy 1.351441
+INFO:tensorflow:Step #1233: rate 0.001000, accuracy 59.0%, cross entropy 1.151704
+INFO:tensorflow:Step #1234: rate 0.001000, accuracy 72.0%, cross entropy 1.088946
+INFO:tensorflow:Step #1235: rate 0.001000, accuracy 54.0%, cross entropy 1.434993
+INFO:tensorflow:Step #1236: rate 0.001000, accuracy 65.0%, cross entropy 1.147315
+INFO:tensorflow:Step #1237: rate 0.001000, accuracy 53.0%, cross entropy 1.286293
+INFO:tensorflow:Step #1238: rate 0.001000, accuracy 66.0%, cross entropy 1.052604
+INFO:tensorflow:Step #1239: rate 0.001000, accuracy 54.0%, cross entropy 1.268997
+INFO:tensorflow:Step #1240: rate 0.001000, accuracy 68.0%, cross entropy 1.016826
+INFO:tensorflow:Step #1241: rate 0.001000, accuracy 68.0%, cross entropy 1.036674
+INFO:tensorflow:Step #1242: rate 0.001000, accuracy 69.0%, cross entropy 0.918758
+INFO:tensorflow:Step #1243: rate 0.001000, accuracy 66.0%, cross entropy 1.130437
+INFO:tensorflow:Step #1244: rate 0.001000, accuracy 63.0%, cross entropy 1.092985
+INFO:tensorflow:Step #1245: rate 0.001000, accuracy 63.0%, cross entropy 1.112589
+INFO:tensorflow:Step #1246: rate 0.001000, accuracy 66.0%, cross entropy 0.956042
+INFO:tensorflow:Step #1247: rate 0.001000, accuracy 69.0%, cross entropy 1.142343
+INFO:tensorflow:Step #1248: rate 0.001000, accuracy 64.0%, cross entropy 1.129007
+INFO:tensorflow:Step #1249: rate 0.001000, accuracy 61.0%, cross entropy 1.188722
+INFO:tensorflow:Step #1250: rate 0.001000, accuracy 63.0%, cross entropy 1.164852
+INFO:tensorflow:Step #1251: rate 0.001000, accuracy 68.0%, cross entropy 0.939996
+INFO:tensorflow:Step #1252: rate 0.001000, accuracy 59.0%, cross entropy 1.249646
+INFO:tensorflow:Step #1253: rate 0.001000, accuracy 59.0%, cross entropy 1.230582
+INFO:tensorflow:Step #1254: rate 0.001000, accuracy 67.0%, cross entropy 1.139985
+INFO:tensorflow:Step #1255: rate 0.001000, accuracy 72.0%, cross entropy 0.905594
+INFO:tensorflow:Step #1256: rate 0.001000, accuracy 63.0%, cross entropy 1.220419
+INFO:tensorflow:Step #1257: rate 0.001000, accuracy 65.0%, cross entropy 1.088198
+INFO:tensorflow:Step #1258: rate 0.001000, accuracy 68.0%, cross entropy 0.990174
+INFO:tensorflow:Step #1259: rate 0.001000, accuracy 67.0%, cross entropy 1.012618
+INFO:tensorflow:Step #1260: rate 0.001000, accuracy 62.0%, cross entropy 1.079357
+INFO:tensorflow:Step #1261: rate 0.001000, accuracy 59.0%, cross entropy 1.120705
+INFO:tensorflow:Step #1262: rate 0.001000, accuracy 61.0%, cross entropy 1.171435
+INFO:tensorflow:Step #1263: rate 0.001000, accuracy 72.0%, cross entropy 0.972373
+INFO:tensorflow:Step #1264: rate 0.001000, accuracy 67.0%, cross entropy 1.103072
+INFO:tensorflow:Step #1265: rate 0.001000, accuracy 65.0%, cross entropy 1.038833
+INFO:tensorflow:Step #1266: rate 0.001000, accuracy 63.0%, cross entropy 1.146949
+INFO:tensorflow:Step #1267: rate 0.001000, accuracy 55.0%, cross entropy 1.243470
+INFO:tensorflow:Step #1268: rate 0.001000, accuracy 61.0%, cross entropy 1.176108
+INFO:tensorflow:Step #1269: rate 0.001000, accuracy 62.0%, cross entropy 1.206835
+INFO:tensorflow:Step #1270: rate 0.001000, accuracy 64.0%, cross entropy 1.166209
+INFO:tensorflow:Step #1271: rate 0.001000, accuracy 68.0%, cross entropy 1.075378
+INFO:tensorflow:Step #1272: rate 0.001000, accuracy 63.0%, cross entropy 1.057994
+INFO:tensorflow:Step #1273: rate 0.001000, accuracy 64.0%, cross entropy 1.127554
+INFO:tensorflow:Step #1274: rate 0.001000, accuracy 61.0%, cross entropy 1.239758
+INFO:tensorflow:Step #1275: rate 0.001000, accuracy 62.0%, cross entropy 1.052503
+INFO:tensorflow:Step #1276: rate 0.001000, accuracy 56.0%, cross entropy 1.214955
+INFO:tensorflow:Step #1277: rate 0.001000, accuracy 68.0%, cross entropy 1.204930
+INFO:tensorflow:Step #1278: rate 0.001000, accuracy 74.0%, cross entropy 0.936344
+INFO:tensorflow:Step #1279: rate 0.001000, accuracy 55.0%, cross entropy 1.297688
+INFO:tensorflow:Step #1280: rate 0.001000, accuracy 63.0%, cross entropy 1.089042
+INFO:tensorflow:Step #1281: rate 0.001000, accuracy 62.0%, cross entropy 1.076955
+INFO:tensorflow:Step #1282: rate 0.001000, accuracy 58.0%, cross entropy 1.193001
+INFO:tensorflow:Step #1283: rate 0.001000, accuracy 64.0%, cross entropy 1.175804
+INFO:tensorflow:Step #1284: rate 0.001000, accuracy 60.0%, cross entropy 1.030027
+INFO:tensorflow:Step #1285: rate 0.001000, accuracy 57.0%, cross entropy 1.398231
+INFO:tensorflow:Step #1286: rate 0.001000, accuracy 67.0%, cross entropy 1.089472
+INFO:tensorflow:Step #1287: rate 0.001000, accuracy 66.0%, cross entropy 0.947337
+INFO:tensorflow:Step #1288: rate 0.001000, accuracy 61.0%, cross entropy 1.147908
+INFO:tensorflow:Step #1289: rate 0.001000, accuracy 61.0%, cross entropy 1.110351
+INFO:tensorflow:Step #1290: rate 0.001000, accuracy 70.0%, cross entropy 0.914998
+INFO:tensorflow:Step #1291: rate 0.001000, accuracy 55.0%, cross entropy 1.332289
+INFO:tensorflow:Step #1292: rate 0.001000, accuracy 66.0%, cross entropy 1.041943
+INFO:tensorflow:Step #1293: rate 0.001000, accuracy 59.0%, cross entropy 1.308872
+INFO:tensorflow:Step #1294: rate 0.001000, accuracy 59.0%, cross entropy 1.193575
+INFO:tensorflow:Step #1295: rate 0.001000, accuracy 64.0%, cross entropy 1.064873
+INFO:tensorflow:Step #1296: rate 0.001000, accuracy 64.0%, cross entropy 1.103639
+INFO:tensorflow:Step #1297: rate 0.001000, accuracy 66.0%, cross entropy 1.085311
+INFO:tensorflow:Step #1298: rate 0.001000, accuracy 71.0%, cross entropy 1.040941
+INFO:tensorflow:Step #1299: rate 0.001000, accuracy 70.0%, cross entropy 1.072857
+INFO:tensorflow:Step #1300: rate 0.001000, accuracy 62.0%, cross entropy 1.095578
+INFO:tensorflow:Confusion Matrix:
+ [[304   1  24   9  10   3   3  18   6   6]
+ [  4 274   6   1  13  18   2   2   2  29]
+ [ 32   4 241   9  12   0  13  20   8   6]
+ [  5   6  15 238   2   6  13  13  42  16]
+ [  7  27   5   0 304  15   2   9   0   4]
+ [  0  15   2   1  16 277   3  18   2  33]
+ [  6   4  19  10   5  13 242  37  34   8]
+ [ 12   8  14   5  16  30  10 269   3  20]
+ [  2   2   9  39   1   5  24   5 250   9]
+ [  2  44   4   4   8  27   6  12   8 241]]
+INFO:tensorflow:Step 1300: Validation accuracy = 36.7% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1300"
+INFO:tensorflow:Step #1301: rate 0.001000, accuracy 61.0%, cross entropy 1.052299
+INFO:tensorflow:Step #1302: rate 0.001000, accuracy 72.0%, cross entropy 0.958924
+INFO:tensorflow:Step #1303: rate 0.001000, accuracy 65.0%, cross entropy 1.086826
+INFO:tensorflow:Step #1304: rate 0.001000, accuracy 62.0%, cross entropy 1.216954
+INFO:tensorflow:Step #1305: rate 0.001000, accuracy 69.0%, cross entropy 0.989141
+INFO:tensorflow:Step #1306: rate 0.001000, accuracy 58.0%, cross entropy 1.099794
+INFO:tensorflow:Step #1307: rate 0.001000, accuracy 72.0%, cross entropy 0.982531
+INFO:tensorflow:Step #1308: rate 0.001000, accuracy 80.0%, cross entropy 0.867660
+INFO:tensorflow:Step #1309: rate 0.001000, accuracy 61.0%, cross entropy 1.058079
+INFO:tensorflow:Step #1310: rate 0.001000, accuracy 70.0%, cross entropy 0.946466
+INFO:tensorflow:Step #1311: rate 0.001000, accuracy 60.0%, cross entropy 1.142351
+INFO:tensorflow:Step #1312: rate 0.001000, accuracy 64.0%, cross entropy 1.036272
+INFO:tensorflow:Step #1313: rate 0.001000, accuracy 58.0%, cross entropy 1.177164
+INFO:tensorflow:Step #1314: rate 0.001000, accuracy 54.0%, cross entropy 1.237482
+INFO:tensorflow:Step #1315: rate 0.001000, accuracy 59.0%, cross entropy 1.109425
+INFO:tensorflow:Step #1316: rate 0.001000, accuracy 76.0%, cross entropy 0.916842
+INFO:tensorflow:Step #1317: rate 0.001000, accuracy 60.0%, cross entropy 1.052909
+INFO:tensorflow:Step #1318: rate 0.001000, accuracy 73.0%, cross entropy 0.855864
+INFO:tensorflow:Step #1319: rate 0.001000, accuracy 67.0%, cross entropy 0.966194
+INFO:tensorflow:Step #1320: rate 0.001000, accuracy 60.0%, cross entropy 1.099079
+INFO:tensorflow:Step #1321: rate 0.001000, accuracy 68.0%, cross entropy 1.108217
+INFO:tensorflow:Step #1322: rate 0.001000, accuracy 66.0%, cross entropy 1.092516
+INFO:tensorflow:Step #1323: rate 0.001000, accuracy 70.0%, cross entropy 0.914114
+INFO:tensorflow:Step #1324: rate 0.001000, accuracy 65.0%, cross entropy 1.099756
+INFO:tensorflow:Step #1325: rate 0.001000, accuracy 52.0%, cross entropy 1.250771
+INFO:tensorflow:Step #1326: rate 0.001000, accuracy 58.0%, cross entropy 1.167006
+INFO:tensorflow:Step #1327: rate 0.001000, accuracy 63.0%, cross entropy 1.120746
+INFO:tensorflow:Step #1328: rate 0.001000, accuracy 70.0%, cross entropy 1.042546
+INFO:tensorflow:Step #1329: rate 0.001000, accuracy 60.0%, cross entropy 1.350284
+INFO:tensorflow:Step #1330: rate 0.001000, accuracy 63.0%, cross entropy 1.086279
+INFO:tensorflow:Step #1331: rate 0.001000, accuracy 62.0%, cross entropy 1.026882
+INFO:tensorflow:Step #1332: rate 0.001000, accuracy 69.0%, cross entropy 0.939093
+INFO:tensorflow:Step #1333: rate 0.001000, accuracy 57.0%, cross entropy 1.180144
+INFO:tensorflow:Step #1334: rate 0.001000, accuracy 60.0%, cross entropy 1.218104
+INFO:tensorflow:Step #1335: rate 0.001000, accuracy 65.0%, cross entropy 1.118050
+INFO:tensorflow:Step #1336: rate 0.001000, accuracy 66.0%, cross entropy 1.125449
+INFO:tensorflow:Step #1337: rate 0.001000, accuracy 65.0%, cross entropy 1.057401
+INFO:tensorflow:Step #1338: rate 0.001000, accuracy 74.0%, cross entropy 0.905320
+INFO:tensorflow:Step #1339: rate 0.001000, accuracy 63.0%, cross entropy 1.125187
+INFO:tensorflow:Step #1340: rate 0.001000, accuracy 60.0%, cross entropy 1.173789
+INFO:tensorflow:Step #1341: rate 0.001000, accuracy 71.0%, cross entropy 0.929250
+INFO:tensorflow:Step #1342: rate 0.001000, accuracy 56.0%, cross entropy 1.262600
+INFO:tensorflow:Step #1343: rate 0.001000, accuracy 65.0%, cross entropy 1.170816
+INFO:tensorflow:Step #1344: rate 0.001000, accuracy 65.0%, cross entropy 1.151476
+INFO:tensorflow:Step #1345: rate 0.001000, accuracy 68.0%, cross entropy 1.042757
+INFO:tensorflow:Step #1346: rate 0.001000, accuracy 63.0%, cross entropy 1.182429
+INFO:tensorflow:Step #1347: rate 0.001000, accuracy 57.0%, cross entropy 1.233289
+INFO:tensorflow:Step #1348: rate 0.001000, accuracy 63.0%, cross entropy 1.147230
+INFO:tensorflow:Step #1349: rate 0.001000, accuracy 65.0%, cross entropy 1.213357
+INFO:tensorflow:Step #1350: rate 0.001000, accuracy 69.0%, cross entropy 0.995258
+INFO:tensorflow:Step #1351: rate 0.001000, accuracy 55.0%, cross entropy 1.168776
+INFO:tensorflow:Step #1352: rate 0.001000, accuracy 63.0%, cross entropy 0.952642
+INFO:tensorflow:Step #1353: rate 0.001000, accuracy 69.0%, cross entropy 1.127445
+INFO:tensorflow:Step #1354: rate 0.001000, accuracy 68.0%, cross entropy 1.056594
+INFO:tensorflow:Step #1355: rate 0.001000, accuracy 66.0%, cross entropy 1.017628
+INFO:tensorflow:Step #1356: rate 0.001000, accuracy 65.0%, cross entropy 1.030000
+INFO:tensorflow:Step #1357: rate 0.001000, accuracy 62.0%, cross entropy 1.028433
+INFO:tensorflow:Step #1358: rate 0.001000, accuracy 65.0%, cross entropy 1.045599
+INFO:tensorflow:Step #1359: rate 0.001000, accuracy 65.0%, cross entropy 1.002097
+INFO:tensorflow:Step #1360: rate 0.001000, accuracy 61.0%, cross entropy 1.046253
+INFO:tensorflow:Step #1361: rate 0.001000, accuracy 66.0%, cross entropy 1.070137
+INFO:tensorflow:Step #1362: rate 0.001000, accuracy 63.0%, cross entropy 1.053014
+INFO:tensorflow:Step #1363: rate 0.001000, accuracy 60.0%, cross entropy 1.128379
+INFO:tensorflow:Step #1364: rate 0.001000, accuracy 66.0%, cross entropy 1.012968
+INFO:tensorflow:Step #1365: rate 0.001000, accuracy 69.0%, cross entropy 0.907431
+INFO:tensorflow:Step #1366: rate 0.001000, accuracy 71.0%, cross entropy 0.906285
+INFO:tensorflow:Step #1367: rate 0.001000, accuracy 72.0%, cross entropy 1.006723
+INFO:tensorflow:Step #1368: rate 0.001000, accuracy 61.0%, cross entropy 1.099468
+INFO:tensorflow:Step #1369: rate 0.001000, accuracy 63.0%, cross entropy 1.106256
+INFO:tensorflow:Step #1370: rate 0.001000, accuracy 59.0%, cross entropy 1.274225
+INFO:tensorflow:Step #1371: rate 0.001000, accuracy 59.0%, cross entropy 1.043684
+INFO:tensorflow:Step #1372: rate 0.001000, accuracy 60.0%, cross entropy 1.066105
+INFO:tensorflow:Step #1373: rate 0.001000, accuracy 69.0%, cross entropy 1.067495
+INFO:tensorflow:Step #1374: rate 0.001000, accuracy 65.0%, cross entropy 1.128117
+INFO:tensorflow:Step #1375: rate 0.001000, accuracy 57.0%, cross entropy 1.380541
+INFO:tensorflow:Step #1376: rate 0.001000, accuracy 65.0%, cross entropy 1.078228
+INFO:tensorflow:Step #1377: rate 0.001000, accuracy 63.0%, cross entropy 1.102340
+INFO:tensorflow:Step #1378: rate 0.001000, accuracy 61.0%, cross entropy 1.236301
+INFO:tensorflow:Step #1379: rate 0.001000, accuracy 66.0%, cross entropy 1.112871
+INFO:tensorflow:Step #1380: rate 0.001000, accuracy 67.0%, cross entropy 0.973061
+INFO:tensorflow:Step #1381: rate 0.001000, accuracy 71.0%, cross entropy 0.886484
+INFO:tensorflow:Step #1382: rate 0.001000, accuracy 67.0%, cross entropy 1.224261
+INFO:tensorflow:Step #1383: rate 0.001000, accuracy 61.0%, cross entropy 1.170274
+INFO:tensorflow:Step #1384: rate 0.001000, accuracy 53.0%, cross entropy 1.395772
+INFO:tensorflow:Step #1385: rate 0.001000, accuracy 63.0%, cross entropy 1.050527
+INFO:tensorflow:Step #1386: rate 0.001000, accuracy 58.0%, cross entropy 1.177577
+INFO:tensorflow:Step #1387: rate 0.001000, accuracy 64.0%, cross entropy 1.093297
+INFO:tensorflow:Step #1388: rate 0.001000, accuracy 67.0%, cross entropy 1.097363
+INFO:tensorflow:Step #1389: rate 0.001000, accuracy 66.0%, cross entropy 1.010532
+INFO:tensorflow:Step #1390: rate 0.001000, accuracy 63.0%, cross entropy 1.142366
+INFO:tensorflow:Step #1391: rate 0.001000, accuracy 63.0%, cross entropy 1.110552
+INFO:tensorflow:Step #1392: rate 0.001000, accuracy 63.0%, cross entropy 1.091524
+INFO:tensorflow:Step #1393: rate 0.001000, accuracy 56.0%, cross entropy 1.252159
+INFO:tensorflow:Step #1394: rate 0.001000, accuracy 66.0%, cross entropy 1.106590
+INFO:tensorflow:Step #1395: rate 0.001000, accuracy 55.0%, cross entropy 1.222818
+INFO:tensorflow:Step #1396: rate 0.001000, accuracy 67.0%, cross entropy 0.981733
+INFO:tensorflow:Step #1397: rate 0.001000, accuracy 60.0%, cross entropy 1.067162
+INFO:tensorflow:Step #1398: rate 0.001000, accuracy 68.0%, cross entropy 1.020720
+INFO:tensorflow:Step #1399: rate 0.001000, accuracy 68.0%, cross entropy 1.064726
+INFO:tensorflow:Step #1400: rate 0.001000, accuracy 63.0%, cross entropy 1.082225
+INFO:tensorflow:Confusion Matrix:
+ [[302   1  32   7   9   2   5  16   6   4]
+ [  3 289   6   0   8  16   2   2   2  23]
+ [ 26   6 258   8   9   1   9  15   9   4]
+ [  5   4  22 243   2   6  11  10  38  15]
+ [  4  30   6   0 307  14   2   9   0   1]
+ [  0  17   3   1  14 278   1  20   2  31]
+ [  8   4  22   8   4  11 247  36  31   7]
+ [  9   5  16   6  13  27  11 281   3  16]
+ [  1   1  13  36   1   5  18   7 255   9]
+ [  2  50   3   4   6  28   5   8   7 243]]
+INFO:tensorflow:Step 1400: Validation accuracy = 37.5% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1400"
+INFO:tensorflow:Step #1401: rate 0.001000, accuracy 59.0%, cross entropy 1.054402
+INFO:tensorflow:Step #1402: rate 0.001000, accuracy 67.0%, cross entropy 1.001238
+INFO:tensorflow:Step #1403: rate 0.001000, accuracy 69.0%, cross entropy 0.981620
+INFO:tensorflow:Step #1404: rate 0.001000, accuracy 56.0%, cross entropy 1.350675
+INFO:tensorflow:Step #1405: rate 0.001000, accuracy 70.0%, cross entropy 0.995759
+INFO:tensorflow:Step #1406: rate 0.001000, accuracy 65.0%, cross entropy 1.078247
+INFO:tensorflow:Step #1407: rate 0.001000, accuracy 59.0%, cross entropy 1.295035
+INFO:tensorflow:Step #1408: rate 0.001000, accuracy 68.0%, cross entropy 1.010702
+INFO:tensorflow:Step #1409: rate 0.001000, accuracy 64.0%, cross entropy 1.172837
+INFO:tensorflow:Step #1410: rate 0.001000, accuracy 68.0%, cross entropy 0.994790
+INFO:tensorflow:Step #1411: rate 0.001000, accuracy 66.0%, cross entropy 1.030748
+INFO:tensorflow:Step #1412: rate 0.001000, accuracy 64.0%, cross entropy 1.068041
+INFO:tensorflow:Step #1413: rate 0.001000, accuracy 65.0%, cross entropy 0.982092
+INFO:tensorflow:Step #1414: rate 0.001000, accuracy 69.0%, cross entropy 1.059311
+INFO:tensorflow:Step #1415: rate 0.001000, accuracy 69.0%, cross entropy 0.938020
+INFO:tensorflow:Step #1416: rate 0.001000, accuracy 64.0%, cross entropy 1.062402
+INFO:tensorflow:Step #1417: rate 0.001000, accuracy 63.0%, cross entropy 1.052266
+INFO:tensorflow:Step #1418: rate 0.001000, accuracy 59.0%, cross entropy 1.110138
+INFO:tensorflow:Step #1419: rate 0.001000, accuracy 68.0%, cross entropy 0.892835
+INFO:tensorflow:Step #1420: rate 0.001000, accuracy 71.0%, cross entropy 0.928861
+INFO:tensorflow:Step #1421: rate 0.001000, accuracy 59.0%, cross entropy 1.106357
+INFO:tensorflow:Step #1422: rate 0.001000, accuracy 64.0%, cross entropy 1.109462
+INFO:tensorflow:Step #1423: rate 0.001000, accuracy 61.0%, cross entropy 1.227765
+INFO:tensorflow:Step #1424: rate 0.001000, accuracy 71.0%, cross entropy 0.969680
+INFO:tensorflow:Step #1425: rate 0.001000, accuracy 67.0%, cross entropy 0.942816
+INFO:tensorflow:Step #1426: rate 0.001000, accuracy 63.0%, cross entropy 1.055467
+INFO:tensorflow:Step #1427: rate 0.001000, accuracy 70.0%, cross entropy 0.881691
+INFO:tensorflow:Step #1428: rate 0.001000, accuracy 69.0%, cross entropy 1.056828
+INFO:tensorflow:Step #1429: rate 0.001000, accuracy 65.0%, cross entropy 1.056442
+INFO:tensorflow:Step #1430: rate 0.001000, accuracy 75.0%, cross entropy 0.911415
+INFO:tensorflow:Step #1431: rate 0.001000, accuracy 55.0%, cross entropy 1.137982
+INFO:tensorflow:Step #1432: rate 0.001000, accuracy 63.0%, cross entropy 1.055701
+INFO:tensorflow:Step #1433: rate 0.001000, accuracy 71.0%, cross entropy 1.014779
+INFO:tensorflow:Step #1434: rate 0.001000, accuracy 71.0%, cross entropy 0.954877
+INFO:tensorflow:Step #1435: rate 0.001000, accuracy 65.0%, cross entropy 1.190302
+INFO:tensorflow:Step #1436: rate 0.001000, accuracy 60.0%, cross entropy 1.160846
+INFO:tensorflow:Step #1437: rate 0.001000, accuracy 67.0%, cross entropy 0.971437
+INFO:tensorflow:Step #1438: rate 0.001000, accuracy 68.0%, cross entropy 1.075106
+INFO:tensorflow:Step #1439: rate 0.001000, accuracy 65.0%, cross entropy 1.083977
+INFO:tensorflow:Step #1440: rate 0.001000, accuracy 70.0%, cross entropy 0.998719
+INFO:tensorflow:Step #1441: rate 0.001000, accuracy 66.0%, cross entropy 1.013212
+INFO:tensorflow:Step #1442: rate 0.001000, accuracy 60.0%, cross entropy 1.127598
+INFO:tensorflow:Step #1443: rate 0.001000, accuracy 61.0%, cross entropy 1.037563
+INFO:tensorflow:Step #1444: rate 0.001000, accuracy 60.0%, cross entropy 1.121066
+INFO:tensorflow:Step #1445: rate 0.001000, accuracy 63.0%, cross entropy 1.091069
+INFO:tensorflow:Step #1446: rate 0.001000, accuracy 63.0%, cross entropy 1.176804
+INFO:tensorflow:Step #1447: rate 0.001000, accuracy 62.0%, cross entropy 1.211840
+INFO:tensorflow:Step #1448: rate 0.001000, accuracy 66.0%, cross entropy 1.153174
+INFO:tensorflow:Step #1449: rate 0.001000, accuracy 64.0%, cross entropy 1.035497
+INFO:tensorflow:Step #1450: rate 0.001000, accuracy 79.0%, cross entropy 0.820719
+INFO:tensorflow:Step #1451: rate 0.001000, accuracy 66.0%, cross entropy 1.009965
+INFO:tensorflow:Step #1452: rate 0.001000, accuracy 68.0%, cross entropy 1.060474
+INFO:tensorflow:Step #1453: rate 0.001000, accuracy 65.0%, cross entropy 1.051937
+INFO:tensorflow:Step #1454: rate 0.001000, accuracy 70.0%, cross entropy 0.925460
+INFO:tensorflow:Step #1455: rate 0.001000, accuracy 65.0%, cross entropy 0.958782
+INFO:tensorflow:Step #1456: rate 0.001000, accuracy 76.0%, cross entropy 0.766846
+INFO:tensorflow:Step #1457: rate 0.001000, accuracy 53.0%, cross entropy 1.190600
+INFO:tensorflow:Step #1458: rate 0.001000, accuracy 75.0%, cross entropy 0.861127
+INFO:tensorflow:Step #1459: rate 0.001000, accuracy 66.0%, cross entropy 1.009080
+INFO:tensorflow:Step #1460: rate 0.001000, accuracy 70.0%, cross entropy 0.925921
+INFO:tensorflow:Step #1461: rate 0.001000, accuracy 62.0%, cross entropy 1.180961
+INFO:tensorflow:Step #1462: rate 0.001000, accuracy 66.0%, cross entropy 1.074015
+INFO:tensorflow:Step #1463: rate 0.001000, accuracy 68.0%, cross entropy 0.907517
+INFO:tensorflow:Step #1464: rate 0.001000, accuracy 64.0%, cross entropy 1.133914
+INFO:tensorflow:Step #1465: rate 0.001000, accuracy 60.0%, cross entropy 1.108937
+INFO:tensorflow:Step #1466: rate 0.001000, accuracy 69.0%, cross entropy 0.904212
+INFO:tensorflow:Step #1467: rate 0.001000, accuracy 63.0%, cross entropy 1.071762
+INFO:tensorflow:Step #1468: rate 0.001000, accuracy 72.0%, cross entropy 0.945244
+INFO:tensorflow:Step #1469: rate 0.001000, accuracy 62.0%, cross entropy 1.119319
+INFO:tensorflow:Step #1470: rate 0.001000, accuracy 60.0%, cross entropy 1.110810
+INFO:tensorflow:Step #1471: rate 0.001000, accuracy 70.0%, cross entropy 0.978171
+INFO:tensorflow:Step #1472: rate 0.001000, accuracy 65.0%, cross entropy 0.988634
+INFO:tensorflow:Step #1473: rate 0.001000, accuracy 59.0%, cross entropy 0.975276
+INFO:tensorflow:Step #1474: rate 0.001000, accuracy 67.0%, cross entropy 1.126486
+INFO:tensorflow:Step #1475: rate 0.001000, accuracy 57.0%, cross entropy 1.221933
+INFO:tensorflow:Step #1476: rate 0.001000, accuracy 66.0%, cross entropy 0.975885
+INFO:tensorflow:Step #1477: rate 0.001000, accuracy 68.0%, cross entropy 0.978594
+INFO:tensorflow:Step #1478: rate 0.001000, accuracy 69.0%, cross entropy 0.960147
+INFO:tensorflow:Step #1479: rate 0.001000, accuracy 74.0%, cross entropy 0.904821
+INFO:tensorflow:Step #1480: rate 0.001000, accuracy 75.0%, cross entropy 0.885334
+INFO:tensorflow:Step #1481: rate 0.001000, accuracy 68.0%, cross entropy 0.990604
+INFO:tensorflow:Step #1482: rate 0.001000, accuracy 63.0%, cross entropy 1.305703
+INFO:tensorflow:Step #1483: rate 0.001000, accuracy 69.0%, cross entropy 0.926790
+INFO:tensorflow:Step #1484: rate 0.001000, accuracy 66.0%, cross entropy 1.021377
+INFO:tensorflow:Step #1485: rate 0.001000, accuracy 69.0%, cross entropy 1.023653
+INFO:tensorflow:Step #1486: rate 0.001000, accuracy 65.0%, cross entropy 0.982322
+INFO:tensorflow:Step #1487: rate 0.001000, accuracy 64.0%, cross entropy 1.061527
+INFO:tensorflow:Step #1488: rate 0.001000, accuracy 65.0%, cross entropy 0.992896
+INFO:tensorflow:Step #1489: rate 0.001000, accuracy 65.0%, cross entropy 0.988349
+INFO:tensorflow:Step #1490: rate 0.001000, accuracy 63.0%, cross entropy 1.065962
+INFO:tensorflow:Step #1491: rate 0.001000, accuracy 64.0%, cross entropy 1.019378
+INFO:tensorflow:Step #1492: rate 0.001000, accuracy 65.0%, cross entropy 1.104399
+INFO:tensorflow:Step #1493: rate 0.001000, accuracy 61.0%, cross entropy 1.121509
+INFO:tensorflow:Step #1494: rate 0.001000, accuracy 70.0%, cross entropy 0.855053
+INFO:tensorflow:Step #1495: rate 0.001000, accuracy 62.0%, cross entropy 1.137378
+INFO:tensorflow:Step #1496: rate 0.001000, accuracy 62.0%, cross entropy 1.161355
+INFO:tensorflow:Step #1497: rate 0.001000, accuracy 66.0%, cross entropy 1.072939
+INFO:tensorflow:Step #1498: rate 0.001000, accuracy 62.0%, cross entropy 1.153295
+INFO:tensorflow:Step #1499: rate 0.001000, accuracy 72.0%, cross entropy 0.918890
+INFO:tensorflow:Step #1500: rate 0.001000, accuracy 70.0%, cross entropy 0.962147
+INFO:tensorflow:Confusion Matrix:
+ [[322   0  15   6  12   2   4  12   6   5]
+ [  4 270   2   0  17  16   2   1   1  38]
+ [ 36   4 244   7  14   1   9  13  11   6]
+ [  7   2   9 249   5   5  12  13  36  18]
+ [  7  25   1   0 312  14   2   8   0   4]
+ [  0  10   1   0  17 282   3  15   2  37]
+ [  9   1  15   8   9  11 262  28  27   8]
+ [ 17   2  10   4  17  29  13 270   3  22]
+ [  2   1   8  31   1   4  25   5 260   9]
+ [  3  37   2   2   7  26   4   6   6 263]]
+INFO:tensorflow:Step 1500: Validation accuracy = 38.0% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1500"
+INFO:tensorflow:Step #1501: rate 0.000100, accuracy 60.0%, cross entropy 0.978037
+INFO:tensorflow:Step #1502: rate 0.000100, accuracy 65.0%, cross entropy 1.044145
+INFO:tensorflow:Step #1503: rate 0.000100, accuracy 59.0%, cross entropy 1.121115
+INFO:tensorflow:Step #1504: rate 0.000100, accuracy 74.0%, cross entropy 0.960266
+INFO:tensorflow:Step #1505: rate 0.000100, accuracy 72.0%, cross entropy 0.940781
+INFO:tensorflow:Step #1506: rate 0.000100, accuracy 69.0%, cross entropy 1.102364
+INFO:tensorflow:Step #1507: rate 0.000100, accuracy 70.0%, cross entropy 1.053408
+INFO:tensorflow:Step #1508: rate 0.000100, accuracy 68.0%, cross entropy 1.154469
+INFO:tensorflow:Step #1509: rate 0.000100, accuracy 58.0%, cross entropy 1.138951
+INFO:tensorflow:Step #1510: rate 0.000100, accuracy 72.0%, cross entropy 0.934290
+INFO:tensorflow:Step #1511: rate 0.000100, accuracy 62.0%, cross entropy 1.014990
+INFO:tensorflow:Step #1512: rate 0.000100, accuracy 61.0%, cross entropy 1.252945
+INFO:tensorflow:Step #1513: rate 0.000100, accuracy 64.0%, cross entropy 1.080125
+INFO:tensorflow:Step #1514: rate 0.000100, accuracy 63.0%, cross entropy 1.183991
+INFO:tensorflow:Step #1515: rate 0.000100, accuracy 57.0%, cross entropy 1.186491
+INFO:tensorflow:Step #1516: rate 0.000100, accuracy 69.0%, cross entropy 1.007115
+INFO:tensorflow:Step #1517: rate 0.000100, accuracy 64.0%, cross entropy 1.122947
+INFO:tensorflow:Step #1518: rate 0.000100, accuracy 60.0%, cross entropy 1.032741
+INFO:tensorflow:Step #1519: rate 0.000100, accuracy 62.0%, cross entropy 1.164154
+INFO:tensorflow:Step #1520: rate 0.000100, accuracy 69.0%, cross entropy 0.920950
+INFO:tensorflow:Step #1521: rate 0.000100, accuracy 68.0%, cross entropy 0.949826
+INFO:tensorflow:Step #1522: rate 0.000100, accuracy 65.0%, cross entropy 0.919029
+INFO:tensorflow:Step #1523: rate 0.000100, accuracy 69.0%, cross entropy 1.019658
+INFO:tensorflow:Step #1524: rate 0.000100, accuracy 72.0%, cross entropy 0.958421
+INFO:tensorflow:Step #1525: rate 0.000100, accuracy 58.0%, cross entropy 1.168984
+INFO:tensorflow:Step #1526: rate 0.000100, accuracy 63.0%, cross entropy 1.004856
+INFO:tensorflow:Step #1527: rate 0.000100, accuracy 67.0%, cross entropy 1.054820
+INFO:tensorflow:Step #1528: rate 0.000100, accuracy 71.0%, cross entropy 0.887980
+INFO:tensorflow:Step #1529: rate 0.000100, accuracy 76.0%, cross entropy 0.874551
+INFO:tensorflow:Step #1530: rate 0.000100, accuracy 66.0%, cross entropy 0.984777
+INFO:tensorflow:Step #1531: rate 0.000100, accuracy 70.0%, cross entropy 0.923370
+INFO:tensorflow:Step #1532: rate 0.000100, accuracy 76.0%, cross entropy 0.887425
+INFO:tensorflow:Step #1533: rate 0.000100, accuracy 67.0%, cross entropy 0.938169
+INFO:tensorflow:Step #1534: rate 0.000100, accuracy 66.0%, cross entropy 1.065562
+INFO:tensorflow:Step #1535: rate 0.000100, accuracy 59.0%, cross entropy 1.188010
+INFO:tensorflow:Step #1536: rate 0.000100, accuracy 72.0%, cross entropy 0.908085
+INFO:tensorflow:Step #1537: rate 0.000100, accuracy 67.0%, cross entropy 1.150267
+INFO:tensorflow:Step #1538: rate 0.000100, accuracy 71.0%, cross entropy 0.918702
+INFO:tensorflow:Step #1539: rate 0.000100, accuracy 68.0%, cross entropy 1.008088
+INFO:tensorflow:Step #1540: rate 0.000100, accuracy 65.0%, cross entropy 1.019261
+INFO:tensorflow:Step #1541: rate 0.000100, accuracy 67.0%, cross entropy 1.086082
+INFO:tensorflow:Step #1542: rate 0.000100, accuracy 72.0%, cross entropy 0.912036
+INFO:tensorflow:Step #1543: rate 0.000100, accuracy 72.0%, cross entropy 0.992883
+INFO:tensorflow:Step #1544: rate 0.000100, accuracy 65.0%, cross entropy 1.077565
+INFO:tensorflow:Step #1545: rate 0.000100, accuracy 69.0%, cross entropy 0.994485
+INFO:tensorflow:Step #1546: rate 0.000100, accuracy 67.0%, cross entropy 1.016501
+INFO:tensorflow:Step #1547: rate 0.000100, accuracy 68.0%, cross entropy 1.036940
+INFO:tensorflow:Step #1548: rate 0.000100, accuracy 72.0%, cross entropy 0.938626
+INFO:tensorflow:Step #1549: rate 0.000100, accuracy 74.0%, cross entropy 0.847133
+INFO:tensorflow:Step #1550: rate 0.000100, accuracy 63.0%, cross entropy 0.969413
+INFO:tensorflow:Step #1551: rate 0.000100, accuracy 64.0%, cross entropy 1.052274
+INFO:tensorflow:Step #1552: rate 0.000100, accuracy 72.0%, cross entropy 0.976552
+INFO:tensorflow:Step #1553: rate 0.000100, accuracy 71.0%, cross entropy 0.954523
+INFO:tensorflow:Step #1554: rate 0.000100, accuracy 57.0%, cross entropy 1.215685
+INFO:tensorflow:Step #1555: rate 0.000100, accuracy 69.0%, cross entropy 1.109396
+INFO:tensorflow:Step #1556: rate 0.000100, accuracy 66.0%, cross entropy 1.108470
+INFO:tensorflow:Step #1557: rate 0.000100, accuracy 67.0%, cross entropy 0.968934
+INFO:tensorflow:Step #1558: rate 0.000100, accuracy 66.0%, cross entropy 0.987403
+INFO:tensorflow:Step #1559: rate 0.000100, accuracy 68.0%, cross entropy 0.911892
+INFO:tensorflow:Step #1560: rate 0.000100, accuracy 65.0%, cross entropy 0.903133
+INFO:tensorflow:Step #1561: rate 0.000100, accuracy 69.0%, cross entropy 0.870713
+INFO:tensorflow:Step #1562: rate 0.000100, accuracy 65.0%, cross entropy 0.981901
+INFO:tensorflow:Step #1563: rate 0.000100, accuracy 70.0%, cross entropy 1.034705
+INFO:tensorflow:Step #1564: rate 0.000100, accuracy 72.0%, cross entropy 0.883882
+INFO:tensorflow:Step #1565: rate 0.000100, accuracy 66.0%, cross entropy 1.001572
+INFO:tensorflow:Step #1566: rate 0.000100, accuracy 66.0%, cross entropy 0.993596
+INFO:tensorflow:Step #1567: rate 0.000100, accuracy 70.0%, cross entropy 1.021858
+INFO:tensorflow:Step #1568: rate 0.000100, accuracy 61.0%, cross entropy 1.221749
+INFO:tensorflow:Step #1569: rate 0.000100, accuracy 66.0%, cross entropy 1.008694
+INFO:tensorflow:Step #1570: rate 0.000100, accuracy 65.0%, cross entropy 1.115542
+INFO:tensorflow:Step #1571: rate 0.000100, accuracy 67.0%, cross entropy 0.939425
+INFO:tensorflow:Step #1572: rate 0.000100, accuracy 66.0%, cross entropy 1.079783
+INFO:tensorflow:Step #1573: rate 0.000100, accuracy 61.0%, cross entropy 1.251798
+INFO:tensorflow:Step #1574: rate 0.000100, accuracy 69.0%, cross entropy 0.997119
+INFO:tensorflow:Step #1575: rate 0.000100, accuracy 65.0%, cross entropy 0.980951
+INFO:tensorflow:Step #1576: rate 0.000100, accuracy 69.0%, cross entropy 1.031626
+INFO:tensorflow:Step #1577: rate 0.000100, accuracy 58.0%, cross entropy 1.167479
+INFO:tensorflow:Step #1578: rate 0.000100, accuracy 67.0%, cross entropy 1.014118
+INFO:tensorflow:Step #1579: rate 0.000100, accuracy 67.0%, cross entropy 1.072707
+INFO:tensorflow:Step #1580: rate 0.000100, accuracy 64.0%, cross entropy 1.155141
+INFO:tensorflow:Step #1581: rate 0.000100, accuracy 69.0%, cross entropy 0.929848
+INFO:tensorflow:Step #1582: rate 0.000100, accuracy 70.0%, cross entropy 0.963331
+INFO:tensorflow:Step #1583: rate 0.000100, accuracy 70.0%, cross entropy 0.913620
+INFO:tensorflow:Step #1584: rate 0.000100, accuracy 65.0%, cross entropy 1.004743
+INFO:tensorflow:Step #1585: rate 0.000100, accuracy 70.0%, cross entropy 1.177137
+INFO:tensorflow:Step #1586: rate 0.000100, accuracy 64.0%, cross entropy 0.970426
+INFO:tensorflow:Step #1587: rate 0.000100, accuracy 58.0%, cross entropy 1.210847
+INFO:tensorflow:Step #1588: rate 0.000100, accuracy 69.0%, cross entropy 1.067429
+INFO:tensorflow:Step #1589: rate 0.000100, accuracy 71.0%, cross entropy 0.955779
+INFO:tensorflow:Step #1590: rate 0.000100, accuracy 76.0%, cross entropy 0.915907
+INFO:tensorflow:Step #1591: rate 0.000100, accuracy 73.0%, cross entropy 0.990455
+INFO:tensorflow:Step #1592: rate 0.000100, accuracy 69.0%, cross entropy 0.979186
+INFO:tensorflow:Step #1593: rate 0.000100, accuracy 70.0%, cross entropy 0.895361
+INFO:tensorflow:Step #1594: rate 0.000100, accuracy 64.0%, cross entropy 1.078688
+INFO:tensorflow:Step #1595: rate 0.000100, accuracy 69.0%, cross entropy 1.072358
+INFO:tensorflow:Step #1596: rate 0.000100, accuracy 72.0%, cross entropy 0.855095
+INFO:tensorflow:Step #1597: rate 0.000100, accuracy 62.0%, cross entropy 1.071817
+INFO:tensorflow:Step #1598: rate 0.000100, accuracy 67.0%, cross entropy 1.042283
+INFO:tensorflow:Step #1599: rate 0.000100, accuracy 66.0%, cross entropy 1.006640
+INFO:tensorflow:Step #1600: rate 0.000100, accuracy 80.0%, cross entropy 0.780454
+INFO:tensorflow:Confusion Matrix:
+ [[315   0  16   6   9   3   4  16   6   9]
+ [  3 273   5   0   8  16   2   2   2  40]
+ [ 33   1 247   6   7   1  11  22  10   7]
+ [  4   3  11 251   2   5  13  16  36  15]
+ [ 10  25   1   0 306  15   2  11   0   3]
+ [  0  11   1   0  14 284   3  18   2  34]
+ [  8   1  16   8   5  12 270  28  23   7]
+ [ 11   3  11   4   9  26  15 285   3  20]
+ [  1   0   9  32   1   4  26   6 258   9]
+ [  1  35   2   3   7  23   5  10   7 263]]
+INFO:tensorflow:Step 1600: Validation accuracy = 38.2% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1600"
+INFO:tensorflow:Step #1601: rate 0.000100, accuracy 64.0%, cross entropy 1.138467
+INFO:tensorflow:Step #1602: rate 0.000100, accuracy 64.0%, cross entropy 1.145256
+INFO:tensorflow:Step #1603: rate 0.000100, accuracy 66.0%, cross entropy 1.031494
+INFO:tensorflow:Step #1604: rate 0.000100, accuracy 66.0%, cross entropy 1.117337
+INFO:tensorflow:Step #1605: rate 0.000100, accuracy 66.0%, cross entropy 0.972837
+INFO:tensorflow:Step #1606: rate 0.000100, accuracy 69.0%, cross entropy 0.982150
+INFO:tensorflow:Step #1607: rate 0.000100, accuracy 65.0%, cross entropy 1.138811
+INFO:tensorflow:Step #1608: rate 0.000100, accuracy 69.0%, cross entropy 1.007867
+INFO:tensorflow:Step #1609: rate 0.000100, accuracy 62.0%, cross entropy 1.061361
+INFO:tensorflow:Step #1610: rate 0.000100, accuracy 67.0%, cross entropy 0.999229
+INFO:tensorflow:Step #1611: rate 0.000100, accuracy 62.0%, cross entropy 1.080090
+INFO:tensorflow:Step #1612: rate 0.000100, accuracy 73.0%, cross entropy 1.003406
+INFO:tensorflow:Step #1613: rate 0.000100, accuracy 67.0%, cross entropy 0.954700
+INFO:tensorflow:Step #1614: rate 0.000100, accuracy 64.0%, cross entropy 1.049514
+INFO:tensorflow:Step #1615: rate 0.000100, accuracy 57.0%, cross entropy 1.228348
+INFO:tensorflow:Step #1616: rate 0.000100, accuracy 70.0%, cross entropy 0.906574
+INFO:tensorflow:Step #1617: rate 0.000100, accuracy 71.0%, cross entropy 0.953783
+INFO:tensorflow:Step #1618: rate 0.000100, accuracy 60.0%, cross entropy 1.274912
+INFO:tensorflow:Step #1619: rate 0.000100, accuracy 64.0%, cross entropy 1.043791
+INFO:tensorflow:Step #1620: rate 0.000100, accuracy 68.0%, cross entropy 1.003513
+INFO:tensorflow:Step #1621: rate 0.000100, accuracy 70.0%, cross entropy 0.946898
+INFO:tensorflow:Step #1622: rate 0.000100, accuracy 67.0%, cross entropy 1.055063
+INFO:tensorflow:Step #1623: rate 0.000100, accuracy 70.0%, cross entropy 0.994113
+INFO:tensorflow:Step #1624: rate 0.000100, accuracy 71.0%, cross entropy 0.849861
+INFO:tensorflow:Step #1625: rate 0.000100, accuracy 75.0%, cross entropy 0.892229
+INFO:tensorflow:Step #1626: rate 0.000100, accuracy 60.0%, cross entropy 1.160444
+INFO:tensorflow:Step #1627: rate 0.000100, accuracy 68.0%, cross entropy 1.053528
+INFO:tensorflow:Step #1628: rate 0.000100, accuracy 68.0%, cross entropy 0.991345
+INFO:tensorflow:Step #1629: rate 0.000100, accuracy 76.0%, cross entropy 0.859906
+INFO:tensorflow:Step #1630: rate 0.000100, accuracy 61.0%, cross entropy 1.061218
+INFO:tensorflow:Step #1631: rate 0.000100, accuracy 64.0%, cross entropy 1.101560
+INFO:tensorflow:Step #1632: rate 0.000100, accuracy 70.0%, cross entropy 1.026402
+INFO:tensorflow:Step #1633: rate 0.000100, accuracy 65.0%, cross entropy 1.021507
+INFO:tensorflow:Step #1634: rate 0.000100, accuracy 62.0%, cross entropy 1.114854
+INFO:tensorflow:Step #1635: rate 0.000100, accuracy 62.0%, cross entropy 0.998900
+INFO:tensorflow:Step #1636: rate 0.000100, accuracy 71.0%, cross entropy 0.871647
+INFO:tensorflow:Step #1637: rate 0.000100, accuracy 67.0%, cross entropy 1.042438
+INFO:tensorflow:Step #1638: rate 0.000100, accuracy 67.0%, cross entropy 0.969202
+INFO:tensorflow:Step #1639: rate 0.000100, accuracy 68.0%, cross entropy 0.887552
+INFO:tensorflow:Step #1640: rate 0.000100, accuracy 66.0%, cross entropy 0.949149
+INFO:tensorflow:Step #1641: rate 0.000100, accuracy 68.0%, cross entropy 0.946331
+INFO:tensorflow:Step #1642: rate 0.000100, accuracy 71.0%, cross entropy 1.095296
+INFO:tensorflow:Step #1643: rate 0.000100, accuracy 75.0%, cross entropy 0.813096
+INFO:tensorflow:Step #1644: rate 0.000100, accuracy 66.0%, cross entropy 1.113295
+INFO:tensorflow:Step #1645: rate 0.000100, accuracy 67.0%, cross entropy 1.029886
+INFO:tensorflow:Step #1646: rate 0.000100, accuracy 68.0%, cross entropy 1.020124
+INFO:tensorflow:Step #1647: rate 0.000100, accuracy 69.0%, cross entropy 1.028397
+INFO:tensorflow:Step #1648: rate 0.000100, accuracy 66.0%, cross entropy 0.957560
+INFO:tensorflow:Step #1649: rate 0.000100, accuracy 71.0%, cross entropy 0.949532
+INFO:tensorflow:Step #1650: rate 0.000100, accuracy 64.0%, cross entropy 1.059858
+INFO:tensorflow:Step #1651: rate 0.000100, accuracy 67.0%, cross entropy 1.043038
+INFO:tensorflow:Step #1652: rate 0.000100, accuracy 63.0%, cross entropy 1.125930
+INFO:tensorflow:Step #1653: rate 0.000100, accuracy 63.0%, cross entropy 1.044425
+INFO:tensorflow:Step #1654: rate 0.000100, accuracy 71.0%, cross entropy 0.999482
+INFO:tensorflow:Step #1655: rate 0.000100, accuracy 66.0%, cross entropy 1.200741
+INFO:tensorflow:Step #1656: rate 0.000100, accuracy 69.0%, cross entropy 0.934774
+INFO:tensorflow:Step #1657: rate 0.000100, accuracy 70.0%, cross entropy 1.051256
+INFO:tensorflow:Step #1658: rate 0.000100, accuracy 75.0%, cross entropy 0.911554
+INFO:tensorflow:Step #1659: rate 0.000100, accuracy 71.0%, cross entropy 0.944144
+INFO:tensorflow:Step #1660: rate 0.000100, accuracy 56.0%, cross entropy 1.256016
+INFO:tensorflow:Step #1661: rate 0.000100, accuracy 64.0%, cross entropy 1.067917
+INFO:tensorflow:Step #1662: rate 0.000100, accuracy 70.0%, cross entropy 0.932023
+INFO:tensorflow:Step #1663: rate 0.000100, accuracy 74.0%, cross entropy 0.830906
+INFO:tensorflow:Step #1664: rate 0.000100, accuracy 71.0%, cross entropy 0.889530
+INFO:tensorflow:Step #1665: rate 0.000100, accuracy 61.0%, cross entropy 1.107334
+INFO:tensorflow:Step #1666: rate 0.000100, accuracy 71.0%, cross entropy 0.859130
+INFO:tensorflow:Step #1667: rate 0.000100, accuracy 70.0%, cross entropy 0.898925
+INFO:tensorflow:Step #1668: rate 0.000100, accuracy 71.0%, cross entropy 0.944009
+INFO:tensorflow:Step #1669: rate 0.000100, accuracy 68.0%, cross entropy 0.991217
+INFO:tensorflow:Step #1670: rate 0.000100, accuracy 77.0%, cross entropy 0.799736
+INFO:tensorflow:Step #1671: rate 0.000100, accuracy 66.0%, cross entropy 1.037335
+INFO:tensorflow:Step #1672: rate 0.000100, accuracy 66.0%, cross entropy 1.057726
+INFO:tensorflow:Step #1673: rate 0.000100, accuracy 68.0%, cross entropy 1.061424
+INFO:tensorflow:Step #1674: rate 0.000100, accuracy 67.0%, cross entropy 0.939827
+INFO:tensorflow:Step #1675: rate 0.000100, accuracy 63.0%, cross entropy 1.046959
+INFO:tensorflow:Step #1676: rate 0.000100, accuracy 66.0%, cross entropy 0.896049
+INFO:tensorflow:Step #1677: rate 0.000100, accuracy 77.0%, cross entropy 0.838446
+INFO:tensorflow:Step #1678: rate 0.000100, accuracy 71.0%, cross entropy 0.880989
+INFO:tensorflow:Step #1679: rate 0.000100, accuracy 72.0%, cross entropy 0.921226
+INFO:tensorflow:Step #1680: rate 0.000100, accuracy 71.0%, cross entropy 0.899979
+INFO:tensorflow:Step #1681: rate 0.000100, accuracy 62.0%, cross entropy 1.085727
+INFO:tensorflow:Step #1682: rate 0.000100, accuracy 61.0%, cross entropy 1.082242
+INFO:tensorflow:Step #1683: rate 0.000100, accuracy 64.0%, cross entropy 0.954154
+INFO:tensorflow:Step #1684: rate 0.000100, accuracy 65.0%, cross entropy 0.983445
+INFO:tensorflow:Step #1685: rate 0.000100, accuracy 60.0%, cross entropy 1.206497
+INFO:tensorflow:Step #1686: rate 0.000100, accuracy 60.0%, cross entropy 1.157308
+INFO:tensorflow:Step #1687: rate 0.000100, accuracy 62.0%, cross entropy 0.971231
+INFO:tensorflow:Step #1688: rate 0.000100, accuracy 66.0%, cross entropy 1.138281
+INFO:tensorflow:Step #1689: rate 0.000100, accuracy 57.0%, cross entropy 1.179823
+INFO:tensorflow:Step #1690: rate 0.000100, accuracy 67.0%, cross entropy 0.955718
+INFO:tensorflow:Step #1691: rate 0.000100, accuracy 75.0%, cross entropy 0.871632
+INFO:tensorflow:Step #1692: rate 0.000100, accuracy 66.0%, cross entropy 1.022403
+INFO:tensorflow:Step #1693: rate 0.000100, accuracy 70.0%, cross entropy 0.927157
+INFO:tensorflow:Step #1694: rate 0.000100, accuracy 61.0%, cross entropy 1.005893
+INFO:tensorflow:Step #1695: rate 0.000100, accuracy 56.0%, cross entropy 1.145763
+INFO:tensorflow:Step #1696: rate 0.000100, accuracy 69.0%, cross entropy 0.986453
+INFO:tensorflow:Step #1697: rate 0.000100, accuracy 78.0%, cross entropy 0.729884
+INFO:tensorflow:Step #1698: rate 0.000100, accuracy 69.0%, cross entropy 0.854798
+INFO:tensorflow:Step #1699: rate 0.000100, accuracy 62.0%, cross entropy 1.114174
+INFO:tensorflow:Step #1700: rate 0.000100, accuracy 55.0%, cross entropy 1.133836
+INFO:tensorflow:Confusion Matrix:
+ [[317   0  16   5   9   3   5  15   6   8]
+ [  3 276   5   0   8  18   2   2   2  35]
+ [ 35   1 245   5   7   1  10  23  11   7]
+ [  5   3  11 248   3   5  14  15  37  15]
+ [ 10  25   1   0 307  15   2  10   0   3]
+ [  0  11   1   0  15 287   3  19   2  29]
+ [  8   1  15   8   5  12 272  28  22   7]
+ [ 13   3  10   4  11  30  14 282   3  17]
+ [  1   0   9  30   1   4  26   6 260   9]
+ [  1  36   2   3   7  26   5  10   7 259]]
+INFO:tensorflow:Step 1700: Validation accuracy = 38.2% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1700"
+INFO:tensorflow:Step #1701: rate 0.000100, accuracy 68.0%, cross entropy 1.068202
+INFO:tensorflow:Step #1702: rate 0.000100, accuracy 70.0%, cross entropy 1.111364
+INFO:tensorflow:Step #1703: rate 0.000100, accuracy 71.0%, cross entropy 0.887789
+INFO:tensorflow:Step #1704: rate 0.000100, accuracy 60.0%, cross entropy 1.183955
+INFO:tensorflow:Step #1705: rate 0.000100, accuracy 68.0%, cross entropy 0.999466
+INFO:tensorflow:Step #1706: rate 0.000100, accuracy 69.0%, cross entropy 0.916483
+INFO:tensorflow:Step #1707: rate 0.000100, accuracy 68.0%, cross entropy 0.987137
+INFO:tensorflow:Step #1708: rate 0.000100, accuracy 61.0%, cross entropy 1.264686
+INFO:tensorflow:Step #1709: rate 0.000100, accuracy 67.0%, cross entropy 0.892516
+INFO:tensorflow:Step #1710: rate 0.000100, accuracy 70.0%, cross entropy 0.898921
+INFO:tensorflow:Step #1711: rate 0.000100, accuracy 65.0%, cross entropy 1.017116
+INFO:tensorflow:Step #1712: rate 0.000100, accuracy 74.0%, cross entropy 0.854198
+INFO:tensorflow:Step #1713: rate 0.000100, accuracy 70.0%, cross entropy 0.869377
+INFO:tensorflow:Step #1714: rate 0.000100, accuracy 76.0%, cross entropy 0.885399
+INFO:tensorflow:Step #1715: rate 0.000100, accuracy 74.0%, cross entropy 1.004029
+INFO:tensorflow:Step #1716: rate 0.000100, accuracy 64.0%, cross entropy 1.097742
+INFO:tensorflow:Step #1717: rate 0.000100, accuracy 60.0%, cross entropy 1.062436
+INFO:tensorflow:Step #1718: rate 0.000100, accuracy 67.0%, cross entropy 0.940462
+INFO:tensorflow:Step #1719: rate 0.000100, accuracy 72.0%, cross entropy 0.910320
+INFO:tensorflow:Step #1720: rate 0.000100, accuracy 72.0%, cross entropy 0.889660
+INFO:tensorflow:Step #1721: rate 0.000100, accuracy 61.0%, cross entropy 1.131224
+INFO:tensorflow:Step #1722: rate 0.000100, accuracy 66.0%, cross entropy 0.934432
+INFO:tensorflow:Step #1723: rate 0.000100, accuracy 64.0%, cross entropy 0.973347
+INFO:tensorflow:Step #1724: rate 0.000100, accuracy 73.0%, cross entropy 0.829166
+INFO:tensorflow:Step #1725: rate 0.000100, accuracy 67.0%, cross entropy 1.095426
+INFO:tensorflow:Step #1726: rate 0.000100, accuracy 65.0%, cross entropy 0.955189
+INFO:tensorflow:Step #1727: rate 0.000100, accuracy 68.0%, cross entropy 0.980841
+INFO:tensorflow:Step #1728: rate 0.000100, accuracy 70.0%, cross entropy 0.944999
+INFO:tensorflow:Step #1729: rate 0.000100, accuracy 70.0%, cross entropy 0.990037
+INFO:tensorflow:Step #1730: rate 0.000100, accuracy 65.0%, cross entropy 1.173626
+INFO:tensorflow:Step #1731: rate 0.000100, accuracy 63.0%, cross entropy 1.051330
+INFO:tensorflow:Step #1732: rate 0.000100, accuracy 70.0%, cross entropy 0.961831
+INFO:tensorflow:Step #1733: rate 0.000100, accuracy 69.0%, cross entropy 0.860967
+INFO:tensorflow:Step #1734: rate 0.000100, accuracy 78.0%, cross entropy 0.869955
+INFO:tensorflow:Step #1735: rate 0.000100, accuracy 65.0%, cross entropy 1.035878
+INFO:tensorflow:Step #1736: rate 0.000100, accuracy 68.0%, cross entropy 0.879235
+INFO:tensorflow:Step #1737: rate 0.000100, accuracy 72.0%, cross entropy 0.927099
+INFO:tensorflow:Step #1738: rate 0.000100, accuracy 70.0%, cross entropy 0.883706
+INFO:tensorflow:Step #1739: rate 0.000100, accuracy 67.0%, cross entropy 1.101271
+INFO:tensorflow:Step #1740: rate 0.000100, accuracy 59.0%, cross entropy 1.103271
+INFO:tensorflow:Step #1741: rate 0.000100, accuracy 70.0%, cross entropy 0.863644
+INFO:tensorflow:Step #1742: rate 0.000100, accuracy 68.0%, cross entropy 1.161280
+INFO:tensorflow:Step #1743: rate 0.000100, accuracy 67.0%, cross entropy 1.000294
+INFO:tensorflow:Step #1744: rate 0.000100, accuracy 60.0%, cross entropy 1.168900
+INFO:tensorflow:Step #1745: rate 0.000100, accuracy 73.0%, cross entropy 0.899378
+INFO:tensorflow:Step #1746: rate 0.000100, accuracy 63.0%, cross entropy 1.048698
+INFO:tensorflow:Step #1747: rate 0.000100, accuracy 64.0%, cross entropy 1.006683
+INFO:tensorflow:Step #1748: rate 0.000100, accuracy 73.0%, cross entropy 1.021613
+INFO:tensorflow:Step #1749: rate 0.000100, accuracy 73.0%, cross entropy 0.883354
+INFO:tensorflow:Step #1750: rate 0.000100, accuracy 64.0%, cross entropy 1.114942
+INFO:tensorflow:Step #1751: rate 0.000100, accuracy 70.0%, cross entropy 0.896805
+INFO:tensorflow:Step #1752: rate 0.000100, accuracy 68.0%, cross entropy 1.005853
+INFO:tensorflow:Step #1753: rate 0.000100, accuracy 66.0%, cross entropy 1.008893
+INFO:tensorflow:Step #1754: rate 0.000100, accuracy 72.0%, cross entropy 0.875816
+INFO:tensorflow:Step #1755: rate 0.000100, accuracy 78.0%, cross entropy 0.834632
+INFO:tensorflow:Step #1756: rate 0.000100, accuracy 69.0%, cross entropy 0.825371
+INFO:tensorflow:Step #1757: rate 0.000100, accuracy 71.0%, cross entropy 0.861470
+INFO:tensorflow:Step #1758: rate 0.000100, accuracy 69.0%, cross entropy 0.943472
+INFO:tensorflow:Step #1759: rate 0.000100, accuracy 68.0%, cross entropy 0.937665
+INFO:tensorflow:Step #1760: rate 0.000100, accuracy 65.0%, cross entropy 1.072904
+INFO:tensorflow:Step #1761: rate 0.000100, accuracy 73.0%, cross entropy 1.006091
+INFO:tensorflow:Step #1762: rate 0.000100, accuracy 61.0%, cross entropy 1.153890
+INFO:tensorflow:Step #1763: rate 0.000100, accuracy 65.0%, cross entropy 1.198031
+INFO:tensorflow:Step #1764: rate 0.000100, accuracy 63.0%, cross entropy 1.103737
+INFO:tensorflow:Step #1765: rate 0.000100, accuracy 63.0%, cross entropy 0.986111
+INFO:tensorflow:Step #1766: rate 0.000100, accuracy 67.0%, cross entropy 1.027568
+INFO:tensorflow:Step #1767: rate 0.000100, accuracy 68.0%, cross entropy 1.052429
+INFO:tensorflow:Step #1768: rate 0.000100, accuracy 59.0%, cross entropy 1.155328
+INFO:tensorflow:Step #1769: rate 0.000100, accuracy 63.0%, cross entropy 1.074512
+INFO:tensorflow:Step #1770: rate 0.000100, accuracy 73.0%, cross entropy 0.855876
+INFO:tensorflow:Step #1771: rate 0.000100, accuracy 72.0%, cross entropy 0.967253
+INFO:tensorflow:Step #1772: rate 0.000100, accuracy 54.0%, cross entropy 1.343634
+INFO:tensorflow:Step #1773: rate 0.000100, accuracy 64.0%, cross entropy 1.013473
+INFO:tensorflow:Step #1774: rate 0.000100, accuracy 60.0%, cross entropy 1.150102
+INFO:tensorflow:Step #1775: rate 0.000100, accuracy 72.0%, cross entropy 0.923892
+INFO:tensorflow:Step #1776: rate 0.000100, accuracy 70.0%, cross entropy 0.970354
+INFO:tensorflow:Step #1777: rate 0.000100, accuracy 69.0%, cross entropy 0.862715
+INFO:tensorflow:Step #1778: rate 0.000100, accuracy 70.0%, cross entropy 1.001981
+INFO:tensorflow:Step #1779: rate 0.000100, accuracy 66.0%, cross entropy 1.094361
+INFO:tensorflow:Step #1780: rate 0.000100, accuracy 66.0%, cross entropy 0.960262
+INFO:tensorflow:Step #1781: rate 0.000100, accuracy 66.0%, cross entropy 1.013903
+INFO:tensorflow:Step #1782: rate 0.000100, accuracy 68.0%, cross entropy 0.986774
+INFO:tensorflow:Step #1783: rate 0.000100, accuracy 74.0%, cross entropy 0.909931
+INFO:tensorflow:Step #1784: rate 0.000100, accuracy 62.0%, cross entropy 1.233398
+INFO:tensorflow:Step #1785: rate 0.000100, accuracy 71.0%, cross entropy 1.045337
+INFO:tensorflow:Step #1786: rate 0.000100, accuracy 65.0%, cross entropy 1.126360
+INFO:tensorflow:Step #1787: rate 0.000100, accuracy 71.0%, cross entropy 0.874756
+INFO:tensorflow:Step #1788: rate 0.000100, accuracy 71.0%, cross entropy 0.901177
+INFO:tensorflow:Step #1789: rate 0.000100, accuracy 65.0%, cross entropy 1.031360
+INFO:tensorflow:Step #1790: rate 0.000100, accuracy 57.0%, cross entropy 1.200913
+INFO:tensorflow:Step #1791: rate 0.000100, accuracy 59.0%, cross entropy 1.226074
+INFO:tensorflow:Step #1792: rate 0.000100, accuracy 74.0%, cross entropy 0.956254
+INFO:tensorflow:Step #1793: rate 0.000100, accuracy 68.0%, cross entropy 1.012082
+INFO:tensorflow:Step #1794: rate 0.000100, accuracy 73.0%, cross entropy 0.829324
+INFO:tensorflow:Step #1795: rate 0.000100, accuracy 61.0%, cross entropy 1.124490
+INFO:tensorflow:Step #1796: rate 0.000100, accuracy 69.0%, cross entropy 0.962794
+INFO:tensorflow:Step #1797: rate 0.000100, accuracy 69.0%, cross entropy 1.053481
+INFO:tensorflow:Step #1798: rate 0.000100, accuracy 67.0%, cross entropy 1.028978
+INFO:tensorflow:Step #1799: rate 0.000100, accuracy 67.0%, cross entropy 1.052006
+INFO:tensorflow:Step #1800: rate 0.000100, accuracy 66.0%, cross entropy 0.936455
+INFO:tensorflow:Confusion Matrix:
+ [[319   0  16   5  10   3   6  11   6   8]
+ [  3 280   3   0   8  16   2   1   3  35]
+ [ 34   1 245   8   7   1  11  20  11   7]
+ [  5   3   8 252   2   5  13  13  41  14]
+ [ 10  26   1   0 306  16   2   8   1   3]
+ [  0  12   1   1  15 282   2  19   2  33]
+ [  8   2  13   8   5  10 271  25  28   8]
+ [ 12   4  11   5  13  25  16 281   5  15]
+ [  1   1   7  31   1   4  23   6 264   8]
+ [  2  37   2   3   6  23   5   8   8 262]]
+INFO:tensorflow:Step 1800: Validation accuracy = 38.4% (N=3643)
+INFO:tensorflow:Saving to "F:\ʵϰ\Finaltask\code\tmp\speech_commands_train\conv.ckpt-1800"
+INFO:tensorflow:set_size=4107
+INFO:tensorflow:Confusion Matrix:
+ [[348   1  28   4   5   3   5  14   6   4]
+ [  3 304   1   0  20  10   3   5   4  49]
+ [ 40   1 282  14  14   4  17  27  18   7]
+ [  1   0  13 268   0   5  21  23  58  16]
+ [  4  21  14   2 317  19   3  13   1   6]
+ [  4  29   1   7  16 300  12  34   2  40]
+ [  3   0   4   9   0  13 295  26  40   4]
+ [  9   4  24   3   4  17  17 307   4  17]
+ [  5   2   7  30   1   7  32   8 306  10]
+ [ 10  43   3   9   0  37   8  16   7 275]]
+INFO:tensorflow:Final test accuracy = 73.1% (N=4107)
+
+Process finished with exit code 0
